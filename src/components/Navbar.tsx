@@ -29,8 +29,8 @@ const Navbar = () => {
         <div className="flex items-center">
           <a href="/" className="flex items-center">
             <img 
-              src="/lovable-uploads/bb5fb8ee-8685-43b1-b9f3-310851d74ab8.png" 
-              alt="CatolicosOnline Partners" 
+              src="/lovable-uploads/039af10c-9b6b-4e01-b580-71b4fb75de71.png" 
+              alt="CatólicosOnline Partners" 
               className="h-10" 
             />
           </a>
