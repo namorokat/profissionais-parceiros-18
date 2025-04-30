@@ -1,9 +1,10 @@
 
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import FeaturedProducts from "@/components/FeaturedProducts";
+import FeaturesSection from "@/components/FeaturesSection"; 
+import VideoSection from "@/components/VideoSection";
+import PartnerPreview from "@/components/PartnerPreview";
 import AboutSection from "@/components/AboutSection";
-import Testimonials from "@/components/Testimonials";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
@@ -13,9 +14,10 @@ const Index = () => {
       <Navbar />
       <main className="flex-grow">
         <Hero />
-        <FeaturedProducts />
+        <FeaturesSection />
+        <VideoSection />
+        <PartnerPreview />
         <AboutSection />
-        <Testimonials />
         <ContactSection />
       </main>
       <Footer />

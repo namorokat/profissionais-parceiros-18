@@ -1,5 +1,5 @@
 
-import { Heart } from "lucide-react";
+import { Church, Heart } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -8,10 +8,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-1">
             <div className="mb-4">
-              <h3 className="text-xl font-bold text-white font-playfair">Divino</h3>
+              <h3 className="text-xl font-bold text-white font-playfair">Communio</h3>
             </div>
             <p className="text-gray-300 mb-4">
-              Artigos religiosos católicos de qualidade para sua jornada de fé.
+              The first social network dedicated to connecting Catholic communities worldwide.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white transition-colors">
@@ -42,23 +42,23 @@ const Footer = () => {
           </div>
           
           <div className="col-span-1">
-            <h4 className="text-lg font-semibold text-white mb-4">Produtos</h4>
+            <h4 className="text-lg font-semibold text-white mb-4">Partners</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Terços</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Imagens</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Bíblias</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Crucifixos</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Medalhas</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Parishes</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Ministries</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Catholic Schools</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Religious Orders</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Catholic Businesses</a></li>
             </ul>
           </div>
           
           <div className="col-span-1">
-            <h4 className="text-lg font-semibold text-white mb-4">Informações</h4>
+            <h4 className="text-lg font-semibold text-white mb-4">Resources</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Sobre Nós</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Contato</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Política de Privacidade</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Termos de Serviço</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">About Us</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Partner Guide</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Privacy Policy</a></li>
+              <li><a href="#" className="text-gray-300 hover:text-white transition-colors">Terms of Service</a></li>
               <li><a href="#" className="text-gray-300 hover:text-white transition-colors">FAQ</a></li>
             </ul>
           </div>
@@ -66,16 +66,16 @@ const Footer = () => {
           <div className="col-span-1">
             <h4 className="text-lg font-semibold text-white mb-4">Newsletter</h4>
             <p className="text-gray-300 mb-4">
-              Inscreva-se para receber nossas novidades e promoções.
+              Sign up for updates on our growing community and partnership opportunities.
             </p>
             <div className="flex">
               <input 
                 type="email" 
-                placeholder="Seu e-mail" 
+                placeholder="Your email" 
                 className="flex-1 px-4 py-2 rounded-l-md text-gray-800" 
               />
               <button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-4 py-2 rounded-r-md">
-                Enviar
+                Subscribe
               </button>
             </div>
           </div>
@@ -83,10 +83,10 @@ const Footer = () => {
         
         <div className="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            &copy; 2025 Divino. Todos os direitos reservados.
+            &copy; 2025 Communio. All rights reserved.
           </p>
           <p className="text-gray-400 text-sm flex items-center mt-2 md:mt-0">
-            Feito com <Heart className="mx-1 h-4 w-4 text-divino-purple" /> por Lovable
+            Built with <Heart className="mx-1 h-4 w-4 text-divino-purple" /> by Lovable
           </p>
         </div>
       </div>

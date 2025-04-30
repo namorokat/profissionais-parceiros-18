@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between">
         <div className="flex items-center">
           <a href="/" className="flex items-center">
-            <span className="text-2xl font-bold text-divino-purple font-playfair">Divino</span>
+            <span className="text-2xl font-bold text-divino-purple font-playfair">Communio</span>
           </a>
         </div>
 
@@ -20,17 +20,20 @@ const Navbar = () => {
           <a href="#" className="text-gray-600 hover:text-divino-purple transition-colors">
             Home
           </a>
-          <a href="#products" className="text-gray-600 hover:text-divino-purple transition-colors">
-            Produtos
+          <a href="#features" className="text-gray-600 hover:text-divino-purple transition-colors">
+            Features
+          </a>
+          <a href="#video" className="text-gray-600 hover:text-divino-purple transition-colors">
+            Demo
+          </a>
+          <a href="#partner-preview" className="text-gray-600 hover:text-divino-purple transition-colors">
+            Partner Pages
           </a>
           <a href="#about" className="text-gray-600 hover:text-divino-purple transition-colors">
-            Sobre
-          </a>
-          <a href="#testimonials" className="text-gray-600 hover:text-divino-purple transition-colors">
-            Depoimentos
+            About Us
           </a>
           <a href="#contact" className="text-gray-600 hover:text-divino-purple transition-colors">
-            Contato
+            Contact
           </a>
         </nav>
 
@@ -57,7 +60,7 @@ const Navbar = () => {
         {/* Contact Button */}
         <div className="hidden md:block">
           <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white">
-            Loja Online
+            Become a Partner
           </Button>
         </div>
       </div>
@@ -74,35 +77,42 @@ const Navbar = () => {
               Home
             </a>
             <a
-              href="#products"
+              href="#features"
               className="text-gray-600 hover:text-divino-purple py-2 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Produtos
+              Features
+            </a>
+            <a
+              href="#video"
+              className="text-gray-600 hover:text-divino-purple py-2 transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Demo
+            </a>
+            <a
+              href="#partner-preview"
+              className="text-gray-600 hover:text-divino-purple py-2 transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Partner Pages
             </a>
             <a
               href="#about"
               className="text-gray-600 hover:text-divino-purple py-2 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Sobre
-            </a>
-            <a
-              href="#testimonials"
-              className="text-gray-600 hover:text-divino-purple py-2 transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Depoimentos
+              About Us
             </a>
             <a
               href="#contact"
               className="text-gray-600 hover:text-divino-purple py-2 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Contato
+              Contact
             </a>
             <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white w-full mt-2">
-              Loja Online
+              Become a Partner
             </Button>
           </div>
         </div>

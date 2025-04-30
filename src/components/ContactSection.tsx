@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Book, Heart, Star } from "lucide-react";
+import { Book, Church, Handshake, MessageSquare } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -16,36 +16,37 @@ const ContactSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="space-y-6">
             <div className="flex items-center space-x-2 bg-divino-purple/10 text-divino-purple rounded-full px-4 py-1 text-sm font-medium mb-4 w-fit">
-              <span>Contato</span>
+              <Handshake size={14} />
+              <span>Partnership Inquiries</span>
             </div>
             
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 font-playfair">
-              Entre em <span className="text-divino-purple">Contato</span> Conosco
+              Ready to <span className="text-divino-purple">Partner</span> With Us?
             </h2>
             
             <p className="text-lg text-gray-600">
-              Estamos sempre disponíveis para ajudar em sua jornada de fé. Envie-nos uma mensagem e responderemos o mais breve possível.
+              Join our growing network of Catholic organizations. Fill out the form and our partnership team will contact you to discuss how we can help you connect with the Catholic community.
             </p>
             
             <div className="space-y-6 pt-4">
               <div className="flex gap-4 items-start">
                 <div className="rounded-full bg-divino-purple/10 p-3">
-                  <Star className="h-6 w-6 text-divino-purple" />
+                  <Church className="h-6 w-6 text-divino-purple" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800 text-lg">Visite Nossa Loja</h3>
-                  <p className="text-gray-600">Av. Nossa Senhora da Conceição, 123, Centro, São Paulo - SP</p>
+                  <h3 className="font-semibold text-gray-800 text-lg">Partner Types</h3>
+                  <p className="text-gray-600">Parishes, Ministries, Catholic Schools, Religious Orders, Catholic Businesses</p>
                 </div>
               </div>
               
               <div className="flex gap-4 items-start">
                 <div className="rounded-full bg-divino-purple/10 p-3">
-                  <Heart className="h-6 w-6 text-divino-purple" />
+                  <MessageSquare className="h-6 w-6 text-divino-purple" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800 text-lg">Entre em Contato</h3>
-                  <p className="text-gray-600">contato@divino.com.br</p>
-                  <p className="text-gray-600">(11) 99999-9999</p>
+                  <h3 className="font-semibold text-gray-800 text-lg">Direct Contact</h3>
+                  <p className="text-gray-600">partners@communio.network</p>
+                  <p className="text-gray-600">(555) 123-4567</p>
                 </div>
               </div>
               
@@ -54,37 +55,52 @@ const ContactSection = () => {
                   <Book className="h-6 w-6 text-divino-purple" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800 text-lg">Horário de Funcionamento</h3>
-                  <p className="text-gray-600">Segunda a Sexta: 09h às 18h</p>
-                  <p className="text-gray-600">Sábado: 09h às 14h</p>
+                  <h3 className="font-semibold text-gray-800 text-lg">Partnership Resources</h3>
+                  <p className="text-gray-600">Download our partner guide to learn more about the benefits of joining Communio.</p>
                 </div>
               </div>
             </div>
           </div>
           
           <div className="bg-white rounded-2xl shadow-lg p-8">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-6 font-playfair">Envie sua Mensagem</h3>
+            <h3 className="text-2xl font-semibold text-gray-800 mb-6 font-playfair">Partner Application</h3>
             <form className="space-y-6">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="space-y-2">
-                  <label htmlFor="name" className="text-sm font-medium text-gray-700">Nome</label>
-                  <Input id="name" placeholder="Seu nome" className="border-gray-300" />
+                  <label htmlFor="name" className="text-sm font-medium text-gray-700">Contact Name</label>
+                  <Input id="name" placeholder="Your name" className="border-gray-300" />
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="email" className="text-sm font-medium text-gray-700">Email</label>
-                  <Input id="email" type="email" placeholder="seu.email@exemplo.com" className="border-gray-300" />
+                  <Input id="email" type="email" placeholder="you@organization.org" className="border-gray-300" />
                 </div>
               </div>
+              
               <div className="space-y-2">
-                <label htmlFor="subject" className="text-sm font-medium text-gray-700">Assunto</label>
-                <Input id="subject" placeholder="Do que se trata?" className="border-gray-300" />
+                <label htmlFor="organization" className="text-sm font-medium text-gray-700">Organization Name</label>
+                <Input id="organization" placeholder="Parish, Ministry or Business Name" className="border-gray-300" />
               </div>
+              
               <div className="space-y-2">
-                <label htmlFor="message" className="text-sm font-medium text-gray-700">Mensagem</label>
-                <Textarea id="message" placeholder="Sua mensagem" className="border-gray-300 h-32" />
+                <label htmlFor="type" className="text-sm font-medium text-gray-700">Organization Type</label>
+                <select id="type" className="w-full rounded-md border border-gray-300 py-2 px-3">
+                  <option value="">Please select...</option>
+                  <option value="parish">Parish</option>
+                  <option value="ministry">Ministry</option>
+                  <option value="school">Catholic School</option>
+                  <option value="religious">Religious Order</option>
+                  <option value="business">Catholic Business</option>
+                  <option value="other">Other</option>
+                </select>
               </div>
+              
+              <div className="space-y-2">
+                <label htmlFor="message" className="text-sm font-medium text-gray-700">How can Communio help you?</label>
+                <Textarea id="message" placeholder="Tell us about your goals and needs" className="border-gray-300 h-32" />
+              </div>
+              
               <Button className="w-full bg-divino-purple hover:bg-divino-purple/90 text-white">
-                Enviar Mensagem
+                Submit Application
               </Button>
             </form>
           </div>
