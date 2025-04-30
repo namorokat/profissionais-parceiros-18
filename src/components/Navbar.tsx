@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between">
         <div className="flex items-center">
           <a href="/" className="flex items-center">
-            <span className="text-2xl font-bold text-divino-purple font-playfair">Communio</span>
+            <span className="text-2xl font-bold text-[#1A1F2C] font-playfair">Communio</span>
           </a>
         </div>
 
@@ -59,7 +59,7 @@ const Navbar = () => {
 
         {/* Contact Button */}
         <div className="hidden md:block">
-          <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white">
+          <Button className="bg-[#1A1F2C] hover:bg-[#1A1F2C]/90 text-white">
             Become a Partner
           </Button>
         </div>
@@ -111,7 +111,7 @@ const Navbar = () => {
             >
               Contact
             </a>
-            <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white w-full mt-2">
+            <Button className="bg-[#1A1F2C] hover:bg-[#1A1F2C]/90 text-white w-full mt-2">
               Become a Partner
             </Button>
           </div>
