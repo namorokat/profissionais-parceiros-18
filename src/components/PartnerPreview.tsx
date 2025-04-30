@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { FileImage, Heart, MessageSquare, Users } from "lucide-react";
+import { FileImage, Heart, MessageSquare, Users, Church } from "lucide-react";
 
 const PartnerPreview = () => {
   return (
