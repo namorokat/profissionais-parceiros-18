@@ -29,17 +29,19 @@ const PartnerPreview = () => {
           <div className="absolute inset-0 bg-divino-purple/5 rounded-3xl transform rotate-1 scale-105"></div>
           
           <div className="relative bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
-            {/* Partner Page Header */}
-            <div className="h-40 bg-gradient-to-r from-divino-purple to-divino-burgundy relative">
+            {/* Partner Page Header - Updated with the provided image */}
+            <div className="h-40 bg-gradient-to-r from-[#213e5e] to-[#2c506f] relative">
               <div className="absolute bottom-0 left-0 w-full flex items-end p-4 pb-0">
                 <div className="bg-white rounded-t-xl p-2 px-6 flex items-center space-x-3">
-                  <img 
-                    src="https://images.unsplash.com/photo-1572082415155-e3e3624a6b41?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80" 
-                    alt="St. Mary's Parish" 
-                    className="h-12 w-12 rounded-full border-2 border-white"
-                  />
+                  <div className="h-12 w-12 rounded-full border-2 border-white flex items-center justify-center bg-white">
+                    <img 
+                      src="/lovable-uploads/45677d1b-0049-4474-a9ea-5ceb9cda243d.png" 
+                      alt="Espaço Católico Divino Amor"
+                      className="h-10 w-10 object-cover"
+                    />
+                  </div>
                   <div>
-                    <h3 className="font-semibold text-gray-800 text-lg">St. Mary's Parish</h3>
+                    <h3 className="font-semibold text-gray-800 text-lg">Espaço Católico Divino Amor</h3>
                     <div className="flex items-center text-sm text-gray-500">
                       <Church className="h-3 w-3 mr-1" />
                       <span>Verified Partner</span>
@@ -69,26 +71,26 @@ const PartnerPreview = () => {
               
               <div className="space-y-4 mb-8">
                 <div className="prose max-w-none">
-                  <h4 className="text-xl font-semibold text-gray-800 mb-2">About Our Parish</h4>
+                  <h4 className="text-xl font-semibold text-gray-800 mb-2">About Our Store</h4>
                   <p className="text-gray-600">
-                    St. Mary's is a vibrant Catholic community dedicated to serving God through worship, education, and outreach. 
-                    Join us for Mass, events, and volunteer opportunities.
+                    Espaço Católico Divino Amor is dedicated to providing beautiful Catholic items for your spiritual journey.
+                    Visit our store for religious artifacts, books, and more.
                   </p>
                 </div>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="bg-gray-50 rounded-lg p-4">
-                    <h5 className="font-medium text-gray-800 mb-2">Upcoming Event</h5>
-                    <p className="text-gray-600 text-sm mb-2">Advent Retreat: Preparing Hearts</p>
+                    <h5 className="font-medium text-gray-800 mb-2">Featured Products</h5>
+                    <p className="text-gray-600 text-sm mb-2">Religious Items and Sacramentals</p>
                     <div className="flex items-center text-divino-purple text-sm">
-                      <span className="font-medium">Dec 5 at 9:00 AM</span>
-                      <Button variant="link" size="sm" className="text-divino-gold">RSVP</Button>
+                      <span className="font-medium">Visit Our Store</span>
+                      <Button variant="link" size="sm" className="text-divino-gold">Shop Now</Button>
                     </div>
                   </div>
                   
                   <div className="bg-gray-50 rounded-lg p-4">
                     <h5 className="font-medium text-gray-800 mb-2">Latest Post</h5>
-                    <p className="text-gray-600 text-sm mb-2">Reflections on Today's Gospel Reading</p>
+                    <p className="text-gray-600 text-sm mb-2">New Marian Collection Just Arrived</p>
                     <div className="flex items-center text-divino-purple text-sm">
                       <span>32 comments</span>
                       <Button variant="link" size="sm" className="text-divino-gold">Read More</Button>
