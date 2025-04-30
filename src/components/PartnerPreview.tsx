@@ -29,74 +29,41 @@ const PartnerPreview = () => {
           <div className="absolute inset-0 bg-divino-purple/5 rounded-3xl transform rotate-1 scale-105"></div>
           
           <div className="relative bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
-            {/* Partner Page Header - Updated with the provided image */}
-            <div className="h-40 bg-gradient-to-r from-[#213e5e] to-[#2c506f] relative">
-              <div className="absolute bottom-0 left-0 w-full flex items-end p-4 pb-0">
-                <div className="bg-white rounded-t-xl p-2 px-6 flex items-center space-x-3">
-                  <div className="h-12 w-12 rounded-full border-2 border-white flex items-center justify-center bg-white">
-                    <img 
-                      src="/lovable-uploads/45677d1b-0049-4474-a9ea-5ceb9cda243d.png" 
-                      alt="Espaço Católico Divino Amor"
-                      className="h-10 w-10 object-cover"
-                    />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-800 text-lg">Espaço Católico Divino Amor</h3>
-                    <div className="flex items-center text-sm text-gray-500">
-                      <Church className="h-3 w-3 mr-1" />
-                      <span>Verified Partner</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            {/* Partner Page Header - Full mockup image */}
+            <img 
+              src="/lovable-uploads/f040c28a-be06-490b-beb9-dd8a5e2a89c9.png" 
+              alt="Espaço Católico Divino Amor Partner Page"
+              className="w-full h-auto object-contain"
+            />
             
-            {/* Partner Page Content */}
-            <div className="p-6 pt-12">
-              <div className="flex justify-between items-center mb-6">
-                <div className="flex space-x-4">
-                  <div className="flex items-center space-x-1 text-gray-600">
-                    <Users className="h-4 w-4" />
-                    <span>2.4K Followers</span>
-                  </div>
-                  <div className="flex items-center space-x-1 text-gray-600">
-                    <MessageSquare className="h-4 w-4" />
-                    <span>124 Posts</span>
-                  </div>
-                </div>
-                <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white">
-                  <Heart className="h-4 w-4 mr-1" /> Follow
-                </Button>
+            {/* Additional context about the page preview */}
+            <div className="p-6">
+              <div className="bg-gray-50 rounded-lg p-4 mb-4">
+                <h5 className="font-medium text-gray-800 mb-2">Features Available on Your Page</h5>
+                <ul className="space-y-2 text-sm text-gray-600">
+                  <li className="flex items-center">
+                    <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
+                      <MessageSquare size={12} />
+                    </div>
+                    Post updates and religious content
+                  </li>
+                  <li className="flex items-center">
+                    <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
+                      <Users size={12} />
+                    </div>
+                    Build your Catholic community following
+                  </li>
+                  <li className="flex items-center">
+                    <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
+                      <FileImage size={12} />
+                    </div>
+                    Share products, resources and services
+                  </li>
+                </ul>
               </div>
               
-              <div className="space-y-4 mb-8">
-                <div className="prose max-w-none">
-                  <h4 className="text-xl font-semibold text-gray-800 mb-2">About Our Store</h4>
-                  <p className="text-gray-600">
-                    Espaço Católico Divino Amor is dedicated to providing beautiful Catholic items for your spiritual journey.
-                    Visit our store for religious artifacts, books, and more.
-                  </p>
-                </div>
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="bg-gray-50 rounded-lg p-4">
-                    <h5 className="font-medium text-gray-800 mb-2">Featured Products</h5>
-                    <p className="text-gray-600 text-sm mb-2">Religious Items and Sacramentals</p>
-                    <div className="flex items-center text-divino-purple text-sm">
-                      <span className="font-medium">Visit Our Store</span>
-                      <Button variant="link" size="sm" className="text-divino-gold">Shop Now</Button>
-                    </div>
-                  </div>
-                  
-                  <div className="bg-gray-50 rounded-lg p-4">
-                    <h5 className="font-medium text-gray-800 mb-2">Latest Post</h5>
-                    <p className="text-gray-600 text-sm mb-2">New Marian Collection Just Arrived</p>
-                    <div className="flex items-center text-divino-purple text-sm">
-                      <span>32 comments</span>
-                      <Button variant="link" size="sm" className="text-divino-gold">Read More</Button>
-                    </div>
-                  </div>
-                </div>
+              <div className="text-sm text-gray-500 italic">
+                <p>This is how your page will appear to Catholics using the Católicos Online platform. Your complete profile includes timeline, photos, videos, and more.</p>
               </div>
             </div>
           </div>
