@@ -23,13 +23,13 @@ const Navbar = () => {
 
   return (
     <header className={`fixed top-0 left-0 right-0 w-full py-4 z-50 transition-all duration-300 ${
-      scrolled ? "bg-[#1A1F2C]/90 backdrop-blur-md shadow-md" : "bg-[#1A1F2C]/80"
+      scrolled ? "bg-[#362B51]/90 backdrop-blur-md shadow-md" : "bg-[#362B51]/80"
     }`}>
       <div className="container flex items-center justify-between">
         <div className="flex items-center">
           <a href="/" className="flex items-center">
             <img 
-              src="/lovable-uploads/aab5084b-90e9-4d1e-ba5f-bde41485cc35.png" 
+              src="/lovable-uploads/f040c28a-be06-490b-beb9-dd8a5e2a89c9.png" 
               alt="Communio" 
               className="h-8" 
             />
@@ -80,7 +80,7 @@ const Navbar = () => {
 
         {/* Contact Button */}
         <div className="hidden md:block">
-          <Button className="bg-[#1A1F2C] hover:bg-[#1A1F2C]/90 text-white border border-white/20">
+          <Button className="bg-[#362B51] hover:bg-[#473B61] text-white border border-white/20">
             Become a Partner
           </Button>
         </div>
@@ -88,7 +88,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="absolute top-full left-0 right-0 bg-[#1A1F2C]/95 backdrop-blur-md shadow-lg p-4 md:hidden z-50">
+        <div className="absolute top-full left-0 right-0 bg-[#362B51]/95 backdrop-blur-md shadow-lg p-4 md:hidden z-50">
           <div className="flex flex-col space-y-3">
             <a
               href="#"
@@ -132,7 +132,7 @@ const Navbar = () => {
             >
               Contact
             </a>
-            <Button className="bg-[#1A1F2C] hover:bg-[#1A1F2C]/90 text-white border border-white/20 w-full mt-2">
+            <Button className="bg-[#362B51] hover:bg-[#473B61] text-white border border-white/20 w-full mt-2">
               Become a Partner
             </Button>
           </div>
