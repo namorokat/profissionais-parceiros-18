@@ -1,35 +1,11 @@
 
 import { Button } from "@/components/ui/button";
-import { Church, Users, Smartphone, ArrowLeft, ArrowRight } from "lucide-react";
-import { useEffect, useState } from "react";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-import { useIsMobile } from "@/hooks/use-mobile";
+import { Church, Users, Smartphone } from "lucide-react";
+import { useState } from "react";
 
 const Hero = () => {
-  const isMobile = useIsMobile();
+  // We don't need carousel and auto-slide functionality anymore since we're showing a single image
   const [currentSlide, setCurrentSlide] = useState(0);
-  const totalSlides = 3;
-
-  // Auto-slide functionality
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % totalSlides);
-    }, 3000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  const phoneScreens = [
-    "/lovable-uploads/9f9de93f-86cd-4ce1-99b3-fb4fc710abcf.png",
-    "/lovable-uploads/7ea68811-8a2b-4853-9808-720f0a292728.png",
-    "/lovable-uploads/8938df0c-6439-42c3-8d0e-3e2326b61ea8.png"
-  ];
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-br from-divino-cream to-white py-16 md:py-24">
@@ -78,45 +54,14 @@ const Hero = () => {
                     </div>
                   </div>
                   
-                  {/* Phone screen with carousel */}
+                  {/* Phone screen with the new image */}
                   <div className="relative overflow-hidden rounded-b-3xl bg-white">
                     <div className="relative w-full" style={{ aspectRatio: "9/19" }}>
-                      <Carousel 
-                        className="w-full h-full"
-                        setApi={(api) => {
-                          api?.on('select', () => {
-                            // Update the current slide when the carousel changes
-                            const selectedIndex = api.selectedScrollSnap();
-                            setCurrentSlide(selectedIndex);
-                          });
-                        }}
-                        opts={{
-                          align: 'start',
-                          loop: true,
-                        }}
-                      >
-                        <CarouselContent>
-                          {phoneScreens.map((screen, index) => (
-                            <CarouselItem key={index} className="w-full h-full">
-                              <img 
-                                src={screen}
-                                alt={`App screen ${index + 1}`}
-                                className="w-full h-full object-cover"
-                              />
-                            </CarouselItem>
-                          ))}
-                        </CarouselContent>
-                        <div className="absolute left-1/2 transform -translate-x-1/2 bottom-4 flex space-x-2 z-30">
-                          {phoneScreens.map((_, index) => (
-                            <div
-                              key={index}
-                              className={`h-1.5 rounded-full transition-all duration-300 ${
-                                currentSlide === index ? "w-4 bg-divino-purple" : "w-1.5 bg-gray-300"
-                              }`}
-                            />
-                          ))}
-                        </div>
-                      </Carousel>
+                      <img 
+                        src="/lovable-uploads/59588c71-07a3-4924-82d6-4cb79580099c.png"
+                        alt="Católicos Online app interface"
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                   </div>
                   
