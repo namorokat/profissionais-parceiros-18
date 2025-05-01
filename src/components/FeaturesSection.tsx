@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BookOpen, Heart, Handshake, Users, RefreshCw } from "lucide-react";
@@ -53,7 +52,7 @@ const FeaturesSection = () => {
             Powerful <span className="text-divino-purple">Features</span> for Partners
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            A sua loja se beneficiará da recorrência de visitas dos membros e a presença da sua loja e seus produtos irão nutrindo-os para futuras compras. Mais visitas, mais fidelização, mais vendas.
+            A sua loja se beneficiará da recorrência de visitas dos membros e a presença da sua loja e de seus produtos irão nutrindo-os para futuras compras. Mais visitas, mais fidelização, mais vendas. 🤩
           </p>
         </div>
         
