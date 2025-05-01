@@ -37,9 +37,9 @@ const VideoSection = () => {
             </div>
             <div className="w-full h-full flex items-center justify-center">
               <img 
-                src="/public/lovable-uploads/cdc65ffa-131f-49b8-ae10-8291f62f2b5a.png"
+                src="/public/lovable-uploads/88ac475a-b2b7-4861-95ee-a2503c86cb2c.png"
                 alt="Sagrada Família - Jesus, Maria e José" 
-                className="w-[85%] h-[85%] object-contain opacity-70"
+                className="w-[85%] h-[85%] object-contain opacity-80"
               />
             </div>
           </div>
