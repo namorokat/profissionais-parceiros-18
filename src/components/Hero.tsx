@@ -20,7 +20,7 @@ const Hero = () => {
               </div>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight font-playfair">
-              Connect Your <span className="text-divino-purple">Catholic</span> Community
+              Conecte a <span className="text-divino-purple">Divino Amor</span> a um fluxo católico e constante.
             </h1>
             <p className="text-lg md:text-xl text-gray-600 max-w-lg">
               Join our growing network of parishes, ministries, and Catholic businesses to engage with an active faith community on our trusted platform.
