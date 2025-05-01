@@ -23,7 +23,7 @@ const VideoSection = () => {
             
             <div className="pt-4">
               <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-2">
-                Garanta um dos 30 lugares
+                Aceite o Convite Dentro do Prazo
               </Button>
             </div>
           </div>
