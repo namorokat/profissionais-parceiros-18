@@ -81,6 +81,18 @@ const Hero = () => {
                   {/* Glow effect under the phone */}
                   <div className="absolute inset-0 -m-6 rounded-full bg-divino-gold/20 blur-xl -z-10"></div>
                 </div>
+
+                {/* Stats box - moved to the left corner of the first phone */}
+                <div className="absolute -bottom-5 -left-5 bg-white rounded-lg shadow-lg p-4 z-30">
+                  <div className="flex items-center space-x-2">
+                    <div className="flex items-center gap-1">
+                      <Users size={16} className="text-divino-purple" />
+                      <span className="text-divino-purple font-medium">30K+</span>
+                    </div>
+                    <span className="font-medium text-gray-800">Membros</span>
+                  </div>
+                  <p className="text-sm text-gray-600 mt-1">Expectativa p/ 12 meses</p>
+                </div>
               </div>
               
               {/* Second phone mockup (original) */}
@@ -115,18 +127,6 @@ const Hero = () => {
                   
                   {/* Glow effect under the phone */}
                   <div className="absolute inset-0 -m-6 rounded-full bg-divino-purple/20 blur-xl -z-10"></div>
-                </div>
-                
-                {/* Stats box */}
-                <div className="absolute -bottom-5 -right-5 md:-right-10 bg-white rounded-lg shadow-lg p-4 z-30">
-                  <div className="flex items-center space-x-2">
-                    <div className="flex items-center gap-1">
-                      <Users size={16} className="text-divino-purple" />
-                      <span className="text-divino-purple font-medium">50K+</span>
-                    </div>
-                    <span className="font-medium text-gray-800">Active Members</span>
-                  </div>
-                  <p className="text-sm text-gray-600 mt-1">Growing faith community</p>
                 </div>
               </div>
             </div>
