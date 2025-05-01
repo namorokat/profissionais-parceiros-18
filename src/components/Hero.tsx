@@ -40,49 +40,87 @@ const Hero = () => {
           </div>
           
           <div className="md:w-1/2 flex justify-center md:justify-end">
-            <div className="relative">
-              {/* Phone frame container */}
-              <div className="relative mx-auto" style={{ maxWidth: "280px" }}>
-                {/* Phone frame */}
-                <div className="relative z-20 bg-gray-900 rounded-[40px] p-2 shadow-xl border-4 border-gray-800">
-                  {/* Status bar */}
-                  <div className="bg-gray-800 rounded-t-3xl pt-2 pb-1 px-4 flex justify-between items-center">
-                    <div className="text-white text-xs">21:25</div>
-                    <div className="flex items-center space-x-1">
-                      <div className="text-white text-xs">42%</div>
-                      <Smartphone size={12} className="text-white" />
+            <div className="relative flex items-center space-x-6">
+              {/* First phone mockup (new) */}
+              <div className="relative hidden md:block" style={{ transform: "rotate(-5deg)" }}>
+                {/* Phone frame container */}
+                <div className="relative mx-auto" style={{ maxWidth: "220px" }}>
+                  {/* Phone frame */}
+                  <div className="relative z-20 bg-gray-900 rounded-[40px] p-2 shadow-xl border-4 border-gray-800">
+                    {/* Status bar */}
+                    <div className="bg-gray-800 rounded-t-3xl pt-2 pb-1 px-4 flex justify-between items-center">
+                      <div className="text-white text-xs">21:25</div>
+                      <div className="flex items-center space-x-1">
+                        <div className="text-white text-xs">42%</div>
+                        <Smartphone size={12} className="text-white" />
+                      </div>
                     </div>
+                    
+                    {/* Phone screen with the new image */}
+                    <div className="relative overflow-hidden rounded-b-3xl bg-white">
+                      <div className="relative w-full" style={{ aspectRatio: "9/19" }}>
+                        <img 
+                          src="/lovable-uploads/d497ca5b-220e-4ce1-964d-4c2539bd2a1b.png"
+                          alt="Católicos Online app profile"
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                    </div>
+                    
+                    {/* Home button */}
+                    <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-10 h-1 bg-gray-500 rounded-full" />
                   </div>
                   
-                  {/* Phone screen with the new image */}
-                  <div className="relative overflow-hidden rounded-b-3xl bg-white">
-                    <div className="relative w-full" style={{ aspectRatio: "9/19" }}>
-                      <img 
-                        src="/lovable-uploads/59588c71-07a3-4924-82d6-4cb79580099c.png"
-                        alt="Católicos Online app interface"
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
-                  </div>
-                  
-                  {/* Home button */}
-                  <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-10 h-1 bg-gray-500 rounded-full" />
+                  {/* Glow effect under the phone */}
+                  <div className="absolute inset-0 -m-6 rounded-full bg-divino-gold/20 blur-xl -z-10"></div>
                 </div>
-                
-                {/* Glow effect under the phone */}
-                <div className="absolute inset-0 -m-6 rounded-full bg-divino-purple/20 blur-xl -z-10"></div>
               </div>
               
-              {/* Stats box */}
-              <div className="absolute -bottom-5 -right-5 md:-right-10 bg-white rounded-lg shadow-lg p-4 z-30">
-                <div className="flex items-center space-x-2">
-                  <div className="flex items-center gap-1">
-                    <Users size={16} className="text-divino-purple" />
-                    <span className="text-divino-purple font-medium">50K+</span>
+              {/* Second phone mockup (original) */}
+              <div className="relative">
+                {/* Phone frame container */}
+                <div className="relative mx-auto" style={{ maxWidth: "280px" }}>
+                  {/* Phone frame */}
+                  <div className="relative z-20 bg-gray-900 rounded-[40px] p-2 shadow-xl border-4 border-gray-800">
+                    {/* Status bar */}
+                    <div className="bg-gray-800 rounded-t-3xl pt-2 pb-1 px-4 flex justify-between items-center">
+                      <div className="text-white text-xs">21:25</div>
+                      <div className="flex items-center space-x-1">
+                        <div className="text-white text-xs">42%</div>
+                        <Smartphone size={12} className="text-white" />
+                      </div>
+                    </div>
+                    
+                    {/* Phone screen with the new image */}
+                    <div className="relative overflow-hidden rounded-b-3xl bg-white">
+                      <div className="relative w-full" style={{ aspectRatio: "9/19" }}>
+                        <img 
+                          src="/lovable-uploads/59588c71-07a3-4924-82d6-4cb79580099c.png"
+                          alt="Católicos Online app interface"
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                    </div>
+                    
+                    {/* Home button */}
+                    <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-10 h-1 bg-gray-500 rounded-full" />
                   </div>
-                  <span className="font-medium text-gray-800">Active Members</span>
+                  
+                  {/* Glow effect under the phone */}
+                  <div className="absolute inset-0 -m-6 rounded-full bg-divino-purple/20 blur-xl -z-10"></div>
                 </div>
-                <p className="text-sm text-gray-600 mt-1">Growing faith community</p>
+                
+                {/* Stats box */}
+                <div className="absolute -bottom-5 -right-5 md:-right-10 bg-white rounded-lg shadow-lg p-4 z-30">
+                  <div className="flex items-center space-x-2">
+                    <div className="flex items-center gap-1">
+                      <Users size={16} className="text-divino-purple" />
+                      <span className="text-divino-purple font-medium">50K+</span>
+                    </div>
+                    <span className="font-medium text-gray-800">Active Members</span>
+                  </div>
+                  <p className="text-sm text-gray-600 mt-1">Growing faith community</p>
+                </div>
               </div>
             </div>
           </div>
