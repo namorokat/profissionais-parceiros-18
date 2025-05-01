@@ -10,7 +10,7 @@ const VideoSection = () => {
           <div className="space-y-6">
             <div className="flex items-center space-x-2 bg-divino-purple/10 text-divino-purple rounded-full px-4 py-1 text-sm font-medium mb-4 w-fit">
               <Video size={14} />
-              <span>See Communio in Action</span>
+              <span>Posicionamento no Google</span>
             </div>
             
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 font-playfair">
@@ -23,7 +23,7 @@ const VideoSection = () => {
             
             <div className="pt-4">
               <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-2">
-                Schedule a Personalized Demo
+                Garanta um dos 30 lugares
               </Button>
             </div>
           </div>
