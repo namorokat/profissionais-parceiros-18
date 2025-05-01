@@ -14,7 +14,7 @@ const VideoSection = () => {
             </div>
             
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 font-playfair">
-              Watch How <span className="text-divino-purple">Communio</span> Transforms Catholic Community Building
+              Você sabe quantas pessoas buscam por <span className="text-divino-purple">Imagem da Sagrada Família</span> no Google todos os meses?
             </h2>
             
             <p className="text-lg text-gray-600">
