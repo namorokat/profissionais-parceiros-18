@@ -1,58 +1,71 @@
 
-import { Rocket } from "lucide-react";
-import { Sparkles } from "lucide-react";
-import { ShieldCheck } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { BookOpen, Handshake, Users, RefreshCw, Crown, Rocket } from "lucide-react";
 
-const Feature = ({ title, description, icon: Icon }: { title: string; description: string; icon: React.ComponentType }) => (
-  <div className="flex flex-col items-center text-center">
-    <div className="p-4 rounded-full bg-divino-purple/10 text-divino-purple">
-      <Icon size={28} />
-    </div>
-    <h3 className="mt-4 font-semibold text-xl">{title}</h3>
-    <p className="mt-2 text-gray-600">{description}</p>
-  </div>
-);
+const features = [
+  {
+    id: 1,
+    name: "Seu Público Está Aqui",
+    description: "Alcançar a público desejado é a parte mais difícil de qualquer negócio e geralmente custa caro. Aqui você terá novos membros católicos entrando todos os dias por um custo muito mais acessível.",
+    icon: <Users className="h-10 w-10 text-white" />
+  },
+  {
+    id: 2,
+    name: "Construa Fidelidade",
+    description: "A sua loja se beneficiará da recorrência de visitas dos membros e a presença da sua loja e de seus produtos irão nutrindo-os para futuras compras. Mais visitas, mais fidelização, mais vendas. 🤩",
+    icon: <RefreshCw className="h-10 w-10 text-white" />
+  },
+  {
+    id: 3,
+    name: "Exclusividade",
+    description: "A Católicos Online contará com um número limitado de parceiros selecionados. A opção de vender pela rede será privilégio de poucos e só aceitaremos novos parceiros de acordo com a demanda x oferta.",
+    icon: <Crown className="h-10 w-10 text-white" />
+  },
+  {
+    id: 4,
+    name: "A Hora é Agora",
+    description: "Quem tem visão aproveita o começo de uma oportunidade, pois as condições mudam de acordo com o crescimento. Se você está vendo que a oportunidade bateu a porta, aproveite.",
+    icon: <Rocket className="h-10 w-10 text-white" />
+  }
+];
+
+const FeatureCard = ({ feature }: { feature: typeof features[0] }) => {
+  return (
+    <Card className="overflow-hidden border border-gray-200 transition-all hover:shadow-md group h-full">
+      <CardContent className="p-6">
+        <div className="bg-gradient-to-br from-divino-purple to-divino-burgundy rounded-full w-16 h-16 flex items-center justify-center mb-4">
+          {feature.icon}
+        </div>
+        <h3 className="text-xl font-medium text-gray-800 mb-3">{feature.name}</h3>
+        <p className="text-gray-600">{feature.description}</p>
+      </CardContent>
+    </Card>
+  );
+};
 
 const FeaturesSection = () => {
   return (
-    <section id="features" className="py-16 md:py-24 bg-cream">
+    <section id="features" className="py-16 bg-gray-50">
       <div className="container">
         <div className="text-center mb-12">
-          <div className="flex items-center space-x-2 bg-divino-purple/10 text-divino-purple rounded-full px-4 py-1 text-sm font-medium mb-4 w-fit mx-auto">
-            <Sparkles size={14} />
-            <span>Nossa Plataforma</span>
-          </div>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 font-playfair">
-            Tudo que você precisa em um só lugar
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 font-playfair">
+            Um Conceito <span className="text-divino-purple">Único</span> para Parceiros <span className="text-divino-purple">Seletos</span>
           </h2>
-          <p className="text-lg text-gray-600 mt-4">
-            Simplifique sua jornada de evangelização com ferramentas poderosas e
-            conteúdo inspirador.
+          <p className="text-gray-600 max-w-2xl mx-auto">
+            Sabe por que teremos poucos parceiros? Porque só assim podemos acompanhar cada um de perto para obter resultados. Nossa missão é qualidade, não quantidade.
           </p>
         </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <Feature
-            title="Conteúdo Exclusivo"
-            description="Acesso a materiais de estudo, reflexões e sermões inspiradores."
-            icon={Rocket}
-          />
-          <Feature
-            title="Comunidade Engajada"
-            description="Conecte-se com outros membros, compartilhe experiências e fortaleça sua fé."
-            icon={Sparkles}
-          />
-          <Feature
-            title="Segurança e Privacidade"
-            description="Ambiente seguro para você e sua comunidade."
-            icon={ShieldCheck}
-          />
+        
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {features.map((feature) => (
+            <FeatureCard key={feature.id} feature={feature} />
+          ))}
         </div>
         
-        <div className="flex justify-center mt-12">
+        <div className="mt-12 text-center">
           <Button className="bg-divino-gold hover:bg-divino-gold/90 text-white px-6 py-6 text-lg">
-            Aceite o convite dentro do Prazo
+            Explore All Features
           </Button>
         </div>
       </div>
