@@ -24,7 +24,7 @@ const features = [
   },
   {
     id: 4,
-    name: "Faith-Based Community",
+    name: "A Hora é Agora",
     description: "Participate in discussions, prayer groups, and faith formation opportunities that align with Catholic teachings and values.",
     icon: <Heart className="h-10 w-10 text-white" />
   }
