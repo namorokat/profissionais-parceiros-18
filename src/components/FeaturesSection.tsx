@@ -1,7 +1,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { BookOpen, Heart, Handshake, Church, Users } from "lucide-react";
+import { BookOpen, Heart, Handshake, Users, RefreshCw } from "lucide-react";
 
 const features = [
   {
@@ -14,7 +14,7 @@ const features = [
     id: 2,
     name: "Customized Partner Pages",
     description: "Create a beautiful, branded page for your parish, ministry or business with tools designed specifically for Catholic organizations.",
-    icon: <Church className="h-10 w-10 text-white" />
+    icon: <RefreshCw className="h-10 w-10 text-white" />
   },
   {
     id: 3,
