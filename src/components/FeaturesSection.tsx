@@ -13,7 +13,7 @@ const features = [
   {
     id: 2,
     name: "Customized Partner Pages",
-    description: "Create a beautiful, branded page for your parish, ministry or business with tools designed specifically for Catholic organizations.",
+    description: "Como site de membros, a sua loja se beneficiará da recorrência de visitas dos membros. Eles saberão que aqui encontram o que buscam, e a presença da sua loja e produtos irá nutrindo-os para futuras compras. Mais visitas, mais vendas, mais fidelização.",
     icon: <RefreshCw className="h-10 w-10 text-white" />
   },
   {
