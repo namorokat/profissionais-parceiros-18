@@ -4,10 +4,10 @@ import { Sparkles } from "lucide-react";
 import { ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const Feature = ({ title, description, icon: Icon }: { title: string; description: string; icon: React.ElementType }) => (
+const Feature = ({ title, description, icon: Icon }: { title: string; description: string; icon: React.ComponentType }) => (
   <div className="flex flex-col items-center text-center">
     <div className="p-4 rounded-full bg-divino-purple/10 text-divino-purple">
-      <Icon className="w-7 h-7" />
+      <Icon size={28} />
     </div>
     <h3 className="mt-4 font-semibold text-xl">{title}</h3>
     <p className="mt-2 text-gray-600">{description}</p>
