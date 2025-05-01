@@ -74,7 +74,7 @@ const Hero = () => {
                 </div>
 
                 {/* Stats box - moved to the left corner of the first phone and adjusted position */}
-                <div className="absolute -bottom-18 -left-5 bg-white rounded-lg shadow-lg p-4 z-30">
+                <div className="absolute -bottom-12 -left-5 bg-white rounded-lg shadow-lg p-4 z-30">
                   <div className="flex items-center space-x-2">
                     <div className="flex items-center gap-1">
                       <Users size={16} className="text-divino-purple" />
