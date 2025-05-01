@@ -1,5 +1,7 @@
+
 import { Button } from "@/components/ui/button";
 import { Video } from "lucide-react";
+
 const VideoSection = () => {
   return <section id="video" className="py-16 md:py-24 bg-white">
       <div className="container">
@@ -26,16 +28,21 @@ const VideoSection = () => {
           </div>
           
           <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-video">
-            {/* This would typically be a real embedded video */}
+            {/* Using the new Holy Family image */}
             <div className="absolute inset-0 flex items-center justify-center bg-[#332004]">
               <Button className="rounded-full h-16 w-16 flex items-center justify-center bg-white/20 backdrop-blur-sm hover:bg-white/30 border-2 border-white">
                 <Video className="h-8 w-8 text-white" />
               </Button>
             </div>
-            <img src="https://images.unsplash.com/photo-1473177104440-ffee2f376098?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2020&q=80" alt="Sagrada Família - Jesus, Maria e José" className="w-full h-full object-cover opacity-60" />
+            <img 
+              src="/lovable-uploads/50115187-37c8-4f37-bfeb-9b86362a926d.png" 
+              alt="Sagrada Família - Jesus, Maria e José" 
+              className="w-full h-full object-contain opacity-80" 
+            />
           </div>
         </div>
       </div>
     </section>;
 };
+
 export default VideoSection;
