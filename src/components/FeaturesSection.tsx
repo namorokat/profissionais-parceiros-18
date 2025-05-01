@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BookOpen, Heart, Handshake, Church, Users } from "lucide-react";
@@ -7,7 +6,7 @@ const features = [
   {
     id: 1,
     name: "O público que você procura",
-    description: "Alcançar a público que desejamos é a parte mais difícil de qualquer negócio e geralmente custa caro. Aqui você terá novos membros entrando todos os dias por um custo muito mais acessível.",
+    description: "Alcançar a público desejado é a parte mais difícil de qualquer negócio e geralmente custa caro. Aqui você terá novos membros católicos entrando todos os dias por um custo muito mais acessível.",
     icon: <Users className="h-10 w-10 text-white" />
   },
   {
