@@ -7,7 +7,7 @@ const features = [
   {
     id: 1,
     name: "O público que você procura",
-    description: "Connect with over 50,000 active Catholic users who are seeking authentic faith-based connections and content.",
+    description: "Alcançar a público que desejamos é a parte mais difícil de qualquer negócio e geralmente custa caro. Aqui você terá novos membros entrando todos os dias por um custo muito mais acessível.",
     icon: <Users className="h-10 w-10 text-white" />
   },
   {
