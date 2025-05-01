@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Church, Users, Smartphone } from "lucide-react";
+import { Church, Users, Smartphone, ExternalLink } from "lucide-react";
 import { useState } from "react";
 
 const Hero = () => {
@@ -33,16 +33,20 @@ const Hero = () => {
               <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-6 text-lg">
                 Become a Partner
               </Button>
-              <Button variant="outline" className="border-divino-purple text-divino-purple hover:bg-divino-purple/10 px-6 py-6 text-lg">
-                Watch Demo
+              <Button 
+                variant="outline" 
+                className="border-divino-purple text-divino-purple hover:bg-divino-purple/10 px-6 py-6 text-lg"
+                onClick={() => window.open('https://catolicos.online/pages/DivinoAmor', '_blank')}
+              >
+                Acesse a Divino Amor <ExternalLink size={16} className="ml-1" />
               </Button>
             </div>
           </div>
           
           <div className="md:w-1/2 flex justify-center md:justify-end">
             <div className="relative flex items-center space-x-6">
-              {/* First phone mockup (new) */}
-              <div className="relative hidden md:block" style={{ transform: "rotate(-5deg)" }}>
+              {/* First phone mockup (new) - adjusted rotation */}
+              <div className="relative hidden md:block" style={{ transform: "rotate(-2deg)" }}>
                 {/* Phone frame container */}
                 <div className="relative mx-auto" style={{ maxWidth: "220px" }}>
                   {/* Phone frame */}
