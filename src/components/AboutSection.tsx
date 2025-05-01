@@ -1,10 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { Church, Info } from "lucide-react";
-
 const AboutSection = () => {
-  return (
-    <section id="about" className="py-16 md:py-24 overflow-hidden">
+  return <section id="about" className="py-16 md:py-24 overflow-hidden">
       <div className="container">
         <div className="text-center mb-12">
           <div className="flex items-center justify-center space-x-2 bg-divino-purple/10 text-divino-purple rounded-full px-4 py-1 text-sm font-medium mb-4 mx-auto w-fit">
@@ -25,11 +22,7 @@ const AboutSection = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-2/5 relative">
               <div className="absolute inset-0 -m-4 rounded-full bg-divino-purple/20 blur-xl transform -translate-x-4"></div>
-              <img 
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" 
-                alt="Michael Romano" 
-                className="relative rounded-2xl shadow-lg object-cover aspect-square w-full"
-              />
+              <img alt="Michael Romano" className="relative rounded-2xl shadow-lg object-cover aspect-square w-full" src="/lovable-uploads/7ad25f62-6025-4f2a-b78a-f5fc382d5eb4.jpg" />
             </div>
             
             <div className="md:w-3/5 space-y-4">
@@ -71,11 +64,7 @@ const AboutSection = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-2/5 relative">
               <div className="absolute inset-0 -m-4 rounded-full bg-divino-gold/20 blur-xl transform -translate-x-4"></div>
-              <img 
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80" 
-                alt="Maria Gonzalez" 
-                className="relative rounded-2xl shadow-lg object-cover aspect-square w-full"
-              />
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80" alt="Maria Gonzalez" className="relative rounded-2xl shadow-lg object-cover aspect-square w-full" />
             </div>
             
             <div className="md:w-3/5 space-y-4">
@@ -120,8 +109,6 @@ const AboutSection = () => {
           </Button>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;
