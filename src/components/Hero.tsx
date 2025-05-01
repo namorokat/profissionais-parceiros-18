@@ -82,8 +82,8 @@ const Hero = () => {
                   <div className="absolute inset-0 -m-6 rounded-full bg-divino-gold/20 blur-xl -z-10"></div>
                 </div>
 
-                {/* Stats box - moved to the left corner of the first phone */}
-                <div className="absolute -bottom-5 -left-5 bg-white rounded-lg shadow-lg p-4 z-30">
+                {/* Stats box - moved to the left corner of the first phone and pushed down 15px */}
+                <div className="absolute -bottom-20 -left-5 bg-white rounded-lg shadow-lg p-4 z-30">
                   <div className="flex items-center space-x-2">
                     <div className="flex items-center gap-1">
                       <Users size={16} className="text-divino-purple" />
