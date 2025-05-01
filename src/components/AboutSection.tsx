@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Church, Info } from "lucide-react";
 const AboutSection = () => {
@@ -64,7 +65,7 @@ const AboutSection = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-2/5 relative">
               <div className="absolute inset-0 -m-4 rounded-full bg-divino-gold/20 blur-xl transform -translate-x-4"></div>
-              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1976&q=80" alt="Maria Gonzalez" className="relative rounded-2xl shadow-lg object-cover aspect-square w-full" />
+              <img src="/lovable-uploads/fed9cbea-267b-449b-b5a0-96b5b0f370a5.png" alt="Maria Gonzalez" className="relative rounded-2xl shadow-lg object-cover aspect-square w-full" />
             </div>
             
             <div className="md:w-3/5 space-y-4">
