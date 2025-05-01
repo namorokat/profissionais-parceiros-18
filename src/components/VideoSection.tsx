@@ -38,7 +38,7 @@ const VideoSection = () => {
             <img 
               src="/public/lovable-uploads/cdc65ffa-131f-49b8-ae10-8291f62f2b5a.png"
               alt="Sagrada Família - Jesus, Maria e José" 
-              className="w-full h-full object-cover opacity-60"
+              className="w-full h-full object-cover opacity-60 object-top"
             />
           </div>
         </div>
