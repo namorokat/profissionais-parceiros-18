@@ -12,7 +12,7 @@ const features = [
   },
   {
     id: 2,
-    name: "Exclusividade",
+    name: "Construa Fidelidade",
     description: "A sua loja se beneficiará da recorrência de visitas dos membros e a presença da sua loja e de seus produtos irão nutrindo-os para futuras compras. Mais visitas, mais fidelização, mais vendas. 🤩",
     icon: <RefreshCw className="h-10 w-10 text-white" />
   },
