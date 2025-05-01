@@ -53,7 +53,7 @@ const FeaturesSection = () => {
             Um Conceito <span className="text-divino-purple">Único</span> para Parceiros <span className="text-divino-purple">Seletos</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            A sua loja se beneficiará da recorrência de visitas dos membros e a presença da sua loja e de seus produtos irão nutrindo-os para futuras compras. Mais visitas, mais fidelização, mais vendas. 🤩
+            Sabe por que teremos poucos parceiros? Porque só assim podemos acompanhar cada um de perto para obter resultados. Nossa missão é qualidade, não quantidade.
           </p>
         </div>
         
