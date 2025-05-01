@@ -18,7 +18,7 @@ const features = [
   },
   {
     id: 3,
-    name: "Event Management",
+    name: "Exclusividade",
     description: "Promote your events, retreats, and gatherings to a targeted audience of Catholics in your area or globally.",
     icon: <BookOpen className="h-10 w-10 text-white" />
   },
