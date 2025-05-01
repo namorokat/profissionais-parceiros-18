@@ -23,11 +23,11 @@ const AboutSection = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-2/5 relative">
               <div className="absolute inset-0 -m-4 rounded-full bg-divino-purple/20 blur-xl transform -translate-x-4"></div>
-              <img alt="Michael Romano" className="relative rounded-2xl shadow-lg object-cover aspect-square w-full" src="/lovable-uploads/7ad25f62-6025-4f2a-b78a-f5fc382d5eb4.jpg" />
+              <img alt="Jones Lauriano" className="relative rounded-2xl shadow-lg object-cover aspect-square w-full" src="/lovable-uploads/7ad25f62-6025-4f2a-b78a-f5fc382d5eb4.jpg" />
             </div>
             
             <div className="md:w-3/5 space-y-4">
-              <h3 className="text-2xl font-bold text-gray-800">Michael Romano</h3>
+              <h3 className="text-2xl font-bold text-gray-800">Jones Lauriano</h3>
               <p className="text-divino-purple font-medium">Co-Founder & CEO</p>
               
               <div className="divider">
