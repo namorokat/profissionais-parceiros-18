@@ -6,7 +6,7 @@ import { BookOpen, Heart, Handshake, Church, Users } from "lucide-react";
 const features = [
   {
     id: 1,
-    name: "Engaged Catholic Audience",
+    name: "O público que você procura",
     description: "Connect with over 50,000 active Catholic users who are seeking authentic faith-based connections and content.",
     icon: <Users className="h-10 w-10 text-white" />
   },
