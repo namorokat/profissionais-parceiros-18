@@ -48,10 +48,10 @@ const Hero = () => {
           
           <div className="md:w-1/2 flex justify-center md:justify-end">
             <div className="relative flex items-center space-x-6">
-              {/* First phone mockup (new) - adjusted rotation */}
-              <div className="relative hidden md:block" style={{ transform: "rotate(-5deg)" }}>
+              {/* First phone mockup (new) - adjusted rotation and size */}
+              <div className="relative hidden md:block" style={{ transform: "rotate(-10deg)" }}>
                 {/* Phone frame container */}
-                <div className="relative mx-auto" style={{ maxWidth: "220px" }}>
+                <div className="relative mx-auto" style={{ maxWidth: "210px" }}>
                   {/* Phone frame */}
                   <div className="relative z-20 bg-gray-900 rounded-[40px] p-2 shadow-xl border-4 border-gray-800">
                     {/* Status bar */}
