@@ -64,7 +64,7 @@ const AboutSection = () => {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-2/5 relative">
               <div className="absolute inset-0 -m-4 rounded-full bg-divino-gold/20 blur-xl transform -translate-x-4"></div>
-              <img src="/lovable-uploads/8b0aaeac-8e67-4c30-8caf-73f1bcdb1090.png" alt="Jener Lauriano" className="relative rounded-2xl shadow-lg object-cover aspect-square w-full" />
+              <img alt="Jener Lauriano" className="relative rounded-2xl shadow-lg object-cover aspect-square w-full" src="/lovable-uploads/f4de9a39-5ea4-43c5-a9a9-d042a8631587.png" />
             </div>
             
             <div className="md:w-3/5 space-y-4">
