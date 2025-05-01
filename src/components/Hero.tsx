@@ -30,8 +30,11 @@ const Hero = () => {
               A Católicos Online é a mais nova (e única) rede social para católicos. Este é o momento certo para somar com a gente e dar um salto na sua posição digital.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 items-center justify-center md:justify-start">
-              <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-6 text-lg">
-                Become a Partner
+              <Button 
+                className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-6 text-lg"
+                onClick={() => window.open('https://cal.duobro.com.br/joneslauriano', '_blank')}
+              >
+                Marque uma Reunião
               </Button>
               <Button 
                 variant="outline" 
@@ -46,7 +49,7 @@ const Hero = () => {
           <div className="md:w-1/2 flex justify-center md:justify-end">
             <div className="relative flex items-center space-x-6">
               {/* First phone mockup (new) - adjusted rotation */}
-              <div className="relative hidden md:block" style={{ transform: "rotate(-2deg)" }}>
+              <div className="relative hidden md:block" style={{ transform: "rotate(-5deg)" }}>
                 {/* Phone frame container */}
                 <div className="relative mx-auto" style={{ maxWidth: "220px" }}>
                   {/* Phone frame */}
