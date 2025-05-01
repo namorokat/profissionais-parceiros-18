@@ -1,10 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { Video } from "lucide-react";
-
 const VideoSection = () => {
-  return (
-    <section id="video" className="py-16 md:py-24 bg-white">
+  return <section id="video" className="py-16 md:py-24 bg-white">
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
@@ -30,23 +27,15 @@ const VideoSection = () => {
           
           <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-video">
             {/* This would typically be a real embedded video */}
-            <div className="absolute inset-0 bg-gray-800 flex items-center justify-center">
+            <div className="absolute inset-0 flex items-center justify-center bg-[#332004]">
               <Button className="rounded-full h-16 w-16 flex items-center justify-center bg-white/20 backdrop-blur-sm hover:bg-white/30 border-2 border-white">
                 <Video className="h-8 w-8 text-white" />
               </Button>
             </div>
-            <div className="w-full h-full flex items-center justify-center">
-              <img 
-                src="/public/lovable-uploads/88ac475a-b2b7-4861-95ee-a2503c86cb2c.png"
-                alt="Sagrada Família - Jesus, Maria e José" 
-                className="w-[85%] h-[85%] object-contain opacity-80"
-              />
-            </div>
+            <img src="https://images.unsplash.com/photo-1473177104440-ffee2f376098?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2020&q=80" alt="Sagrada Família - Jesus, Maria e José" className="w-full h-full object-cover opacity-60" />
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default VideoSection;
