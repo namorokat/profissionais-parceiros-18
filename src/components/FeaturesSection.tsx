@@ -19,7 +19,7 @@ const features = [
   {
     id: 3,
     name: "Exclusividade",
-    description: "Promote your events, retreats, and gatherings to a targeted audience of Catholics in your area or globally.",
+    description: "A Católicos Online contará com um número limitado de parceiros selecionados. A opção de vender pela rede será privilégio de poucos e só aceitaremos novos parceiros de acordo com a demanda x oferta.",
     icon: <BookOpen className="h-10 w-10 text-white" />
   },
   {
