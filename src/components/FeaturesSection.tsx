@@ -53,7 +53,7 @@ const FeaturesSection = () => {
             Powerful <span className="text-divino-purple">Features</span> for Partners
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Como site de membros, a sua loja se beneficiará da recorrência de visitas dos membros. Eles saberão que aqui encontram o que buscam, e a presença da sua loja e produtos irá nutrindo-os para futuras compras. Mais visitas, mais vendas, mais fidelização.
+            A sua loja se beneficiará da recorrência de visitas dos membros e a presença da sua loja e seus produtos irão nutrindo-os para futuras compras. Mais visitas, mais fidelização, mais vendas.
           </p>
         </div>
         
