@@ -1,7 +1,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { BookOpen, Heart, Handshake, Users, RefreshCw, Crown } from "lucide-react";
+import { BookOpen, Handshake, Users, RefreshCw, Crown, Rocket } from "lucide-react";
 
 const features = [
   {
@@ -26,7 +26,7 @@ const features = [
     id: 4,
     name: "A Hora é Agora",
     description: "Quem tem visão aproveita o começo de uma oportunidade, pois as condições mudam de acordo com o crescimento. Se você está vendo que a oportunidade bateu a porta, aproveite.",
-    icon: <Heart className="h-10 w-10 text-white" />
+    icon: <Rocket className="h-10 w-10 text-white" />
   }
 ];
 
