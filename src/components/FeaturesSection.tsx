@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { BookOpen, Heart, Handshake, Users, RefreshCw } from "lucide-react";
@@ -12,7 +13,7 @@ const features = [
   {
     id: 2,
     name: "Construa Fidelidade",
-    description: "Como site de membros, a sua loja se beneficiará da recorrência de visitas dos membros. Eles saberão que aqui encontram o que buscam, e a presença da sua loja e produtos irá nutrindo-os para futuras compras. Mais visitas, mais vendas, mais fidelização.",
+    description: "A sua loja se beneficiará da recorrência de visitas dos membros e a presença da sua loja e de seus produtos irão nutrindo-os para futuras compras. Mais visitas, mais fidelização, mais vendas. 🤩",
     icon: <RefreshCw className="h-10 w-10 text-white" />
   },
   {
