@@ -65,7 +65,7 @@ const FeaturesSection = () => {
         
         <div className="mt-12 text-center">
           <Button className="bg-divino-gold hover:bg-divino-gold/90 text-white px-6 py-6 text-lg">
-            Explore All Features
+            Aceite o convite dentro do Prazo
           </Button>
         </div>
       </div>
