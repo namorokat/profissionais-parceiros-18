@@ -6,7 +6,7 @@ import { BookOpen, Heart, Handshake, Users, RefreshCw } from "lucide-react";
 const features = [
   {
     id: 1,
-    name: "O público que você procura",
+    name: "Seu Público Está Aqui",
     description: "Alcançar a público desejado é a parte mais difícil de qualquer negócio e geralmente custa caro. Aqui você terá novos membros católicos entrando todos os dias por um custo muito mais acessível.",
     icon: <Users className="h-10 w-10 text-white" />
   },
