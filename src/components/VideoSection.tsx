@@ -18,7 +18,7 @@ const VideoSection = () => {
             </h2>
             
             <p className="text-lg text-gray-600">
-              Our platform helps Catholic organizations create meaningful connections, share faith-based content, and build vibrant communities online. See how our partners are using Communio to enhance their ministries.
+              Provavelmente, você não sabe, pois não é sua área de atuação. Mas, é a nossa. 33 mil buscas é o volume mensal. Mas, isso é só um termo. Temos milhares para trabalhar para atrair um maior fluxo de pessoas através do posicionamento no Google. E, claro, como fazer isso é a outra parte que cabe a nós. Quer um exemplo? Digite "Namoro Católico" no Google. O primeiro resultado é fruto do nosso trabalho.
             </p>
             
             <div className="pt-4">
