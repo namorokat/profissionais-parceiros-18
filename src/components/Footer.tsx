@@ -84,6 +84,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
             &copy; 2025 Católicos Online. Todos os direitos reservados.
+          </p>
           <p className="text-gray-400 text-sm flex items-center mt-2 md:mt-0">
             Built with <Heart className="mx-1 h-4 w-4 text-divino-purple" /> by Lovable
           </p>
