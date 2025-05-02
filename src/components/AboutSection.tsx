@@ -111,9 +111,7 @@ const AboutSection = () => {
         </div>
         
         <div className="text-center mt-12">
-          <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-6">
-            Join Our Mission
-          </Button>
+          <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-6">Conheça a Duobro</Button>
         </div>
       </div>
     </section>;
