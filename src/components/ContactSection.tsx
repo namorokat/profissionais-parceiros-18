@@ -2,7 +2,13 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Book, Church, Handshake, MessageSquare } from "lucide-react";
+import { Book, Church, Handshake, MessageSquare, HelpCircle } from "lucide-react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger
+} from "@/components/ui/accordion";
 
 const ContactSection = () => {
   return (
@@ -63,46 +69,63 @@ const ContactSection = () => {
           </div>
           
           <div className="bg-white rounded-2xl shadow-lg p-8">
-            <h3 className="text-2xl font-semibold text-gray-800 mb-6 font-playfair">Partner Application</h3>
-            <form className="space-y-6">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="space-y-2">
-                  <label htmlFor="name" className="text-sm font-medium text-gray-700">Contact Name</label>
-                  <Input id="name" placeholder="Your name" className="border-gray-300" />
-                </div>
-                <div className="space-y-2">
-                  <label htmlFor="email" className="text-sm font-medium text-gray-700">Email</label>
-                  <Input id="email" type="email" placeholder="you@organization.org" className="border-gray-300" />
-                </div>
-              </div>
+            <div className="flex items-center gap-2 mb-6">
+              <HelpCircle className="h-6 w-6 text-divino-purple" />
+              <h3 className="text-2xl font-semibold text-gray-800 font-playfair">Frequently Asked Questions</h3>
+            </div>
+            
+            <Accordion type="single" collapsible className="w-full">
+              <AccordionItem value="item-1">
+                <AccordionTrigger className="text-left text-base font-medium">
+                  How much does it cost to become a partner?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-600">
+                  We offer different partnership tiers based on your organization's needs and size. Our basic partnership starts at $99/month with premium options available for larger organizations with additional requirements.
+                </AccordionContent>
+              </AccordionItem>
               
-              <div className="space-y-2">
-                <label htmlFor="organization" className="text-sm font-medium text-gray-700">Organization Name</label>
-                <Input id="organization" placeholder="Parish, Ministry or Business Name" className="border-gray-300" />
-              </div>
+              <AccordionItem value="item-2">
+                <AccordionTrigger className="text-left text-base font-medium">
+                  What type of organizations can join as partners?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-600">
+                  We welcome all Catholic organizations including parishes, ministries, schools, religious orders, and Catholic-owned businesses that align with our mission and values.
+                </AccordionContent>
+              </AccordionItem>
               
-              <div className="space-y-2">
-                <label htmlFor="type" className="text-sm font-medium text-gray-700">Organization Type</label>
-                <select id="type" className="w-full rounded-md border border-gray-300 py-2 px-3">
-                  <option value="">Please select...</option>
-                  <option value="parish">Parish</option>
-                  <option value="ministry">Ministry</option>
-                  <option value="school">Catholic School</option>
-                  <option value="religious">Religious Order</option>
-                  <option value="business">Catholic Business</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
+              <AccordionItem value="item-3">
+                <AccordionTrigger className="text-left text-base font-medium">
+                  How long does it take to get my partner page set up?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-600">
+                  Once your application is approved, we can have your partner page set up within 3-5 business days. Our team will work with you to gather all necessary information and content.
+                </AccordionContent>
+              </AccordionItem>
               
-              <div className="space-y-2">
-                <label htmlFor="message" className="text-sm font-medium text-gray-700">How can Communio help you?</label>
-                <Textarea id="message" placeholder="Tell us about your goals and needs" className="border-gray-300 h-32" />
-              </div>
+              <AccordionItem value="item-4">
+                <AccordionTrigger className="text-left text-base font-medium">
+                  Can I sell products directly on the platform?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-600">
+                  Yes! Partners can sell physical or digital products directly through our platform. We handle payment processing and provide you with the tools to manage your inventory and orders.
+                </AccordionContent>
+              </AccordionItem>
               
+              <AccordionItem value="item-5">
+                <AccordionTrigger className="text-left text-base font-medium">
+                  What marketing support do partners receive?
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-600">
+                  Partners receive visibility across our platform, feature opportunities in our newsletter, social media promotion, and access to our marketing toolkit designed specifically for Catholic organizations.
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+            
+            <div className="mt-8">
               <Button className="w-full bg-divino-purple hover:bg-divino-purple/90 text-white">
-                Submit Application
+                Contact Us About Partnership
               </Button>
-            </form>
+            </div>
           </div>
         </div>
       </div>
