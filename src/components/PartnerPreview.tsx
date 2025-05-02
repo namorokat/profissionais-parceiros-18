@@ -33,8 +33,8 @@ const PartnerPreview = () => {
             {/* Additional context about the page preview */}
             <div className="p-6">
               <div className="bg-gray-50 rounded-lg p-4 mb-4">
-                <h3 className="font-medium text-gray-800 mb-2">Benefícios de sua Página</h3>
-                <ul className="space-y-2 text-sm text-gray-600">
+                <h3 className="font-medium text-gray-800 mb-2 text-base">Benefícios de sua Página</h3>
+                <ul className="space-y-2 text-gray-600 text-[14px]">
                   <li className="flex items-center">
                     <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
                       <FilePen size={12} />
