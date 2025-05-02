@@ -14,14 +14,14 @@ const PartnerPreview = () => {
         <div className="text-center mb-12">
           <div className="flex items-center justify-center space-x-2 bg-divino-purple/10 text-divino-purple rounded-full px-4 py-1 text-sm font-medium mb-4 mx-auto w-fit">
             <FileImage size={14} />
-            <span>Partner Page Preview</span>
+            <span>Preview da Página de Parceiros</span>
           </div>
           
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 font-playfair">
             Your <span className="text-divino-purple">Presence</span> on Communio
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto mb-10">
-            See how your organization will appear to our Catholic community members. Our customizable partner pages help you showcase your ministry, events, and content.
+            Veja como sua loja aparecerá na rede.
           </p>
         </div>
         

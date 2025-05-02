@@ -11,7 +11,7 @@ const Footer = () => {
               <h3 className="text-xl font-bold text-white font-playfair">Communio</h3>
             </div>
             <p className="text-gray-300 mb-4">
-              The first social network dedicated to connecting Catholic communities worldwide.
+              A mais nova e exclusiva rede social católica.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white transition-colors">
@@ -83,8 +83,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-700 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            &copy; 2025 Communio. All rights reserved.
-          </p>
+            &copy; 2025 Católicos Online. Todos os direitos reservados.
           <p className="text-gray-400 text-sm flex items-center mt-2 md:mt-0">
             Built with <Heart className="mx-1 h-4 w-4 text-divino-purple" /> by Lovable
           </p>

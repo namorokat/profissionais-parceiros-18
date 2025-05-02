@@ -119,7 +119,7 @@ const UrgencySection = () => {
           <div className="w-full md:w-1/2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 font-playfair leading-tight">
               Limite de <span className="text-divino-purple">30 Parceiros</span>.<br />
-              Reserve o seu.
+              Garanta seu lugar.
             </h2>
             
             <p className="text-lg text-gray-600">
