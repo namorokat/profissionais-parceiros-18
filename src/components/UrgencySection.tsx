@@ -33,13 +33,13 @@ const UrgencySection = () => {
     }
     setWordCloudItems(initialItems);
     
-    // Animation loop for fading words in and out - now 4x faster (250ms instead of 1000ms)
+    // Animation loop for fading words in and out - now 2x faster than original (500ms instead of 1000ms)
     const interval = setInterval(() => {
       setWordCloudItems(prev => {
         // Update existing items (fade in/out)
         const updatedItems = prev.map(item => {
-          // Randomly adjust opacity to create fade effect - increased change amount for faster effect
-          const opacityChange = Math.random() * 0.4 * (Math.random() > 0.5 ? 1 : -1);
+          // Randomly adjust opacity to create fade effect - moderate change amount for balanced effect
+          const opacityChange = Math.random() * 0.2 * (Math.random() > 0.5 ? 1 : -1);
           const newOpacity = Math.max(0.1, Math.min(1, item.opacity + opacityChange));
           
           return {
@@ -48,9 +48,9 @@ const UrgencySection = () => {
           };
         });
         
-        // Occasionally replace items that have low opacity - increased probability for faster turnover
+        // Occasionally replace items that have low opacity - moderate probability for balanced turnover
         const finalItems = updatedItems.map(item => {
-          if (item.opacity < 0.2 && Math.random() > 0.4) {
+          if (item.opacity < 0.2 && Math.random() > 0.6) {
             return createRandomWordCloudItem();
           }
           return item;
@@ -58,7 +58,7 @@ const UrgencySection = () => {
         
         return finalItems;
       });
-    }, 250); // Update every 250ms (4x faster than before)
+    }, 500); // Update every 500ms (2x faster than original, half as fast as previous version)
     
     return () => clearInterval(interval);
   }, []);
@@ -94,14 +94,14 @@ const UrgencySection = () => {
               {wordCloudItems.map((item) => (
                 <div 
                   key={item.id}
-                  className="absolute transform transition-opacity duration-250 ease-in-out"
+                  className="absolute transform transition-opacity duration-500 ease-in-out"
                   style={{
                     left: `${item.position.x}%`,
                     top: `${item.position.y}%`,
                     opacity: item.opacity,
                     transform: `translate(-50%, -50%) scale(${item.size})`,
                     zIndex: Math.floor(item.opacity * 10), // Add z-index based on opacity
-                    transition: "opacity 250ms ease-in-out, transform 250ms ease-in-out" // 4x faster transitions
+                    transition: "opacity 500ms ease-in-out, transform 500ms ease-in-out" // 2x faster than original, half as fast as previous
                   }}
                 >
                   <div className="whitespace-nowrap">
