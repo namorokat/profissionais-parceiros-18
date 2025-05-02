@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -42,7 +43,6 @@ const ContactSection = () => {
                 <div>
                   <h3 className="font-semibold text-gray-800 text-lg">Contato via Email</h3>
                   <p className="text-gray-600">contato@catolicos.online</p>
-                  <p className="text-gray-600">(555) 123-4567</p>
                 </div>
               </div>
               
