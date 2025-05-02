@@ -51,8 +51,8 @@ const ContactSection = () => {
                   <Book className="h-6 w-6 text-divino-purple" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800 text-lg">Partnership Resources</h3>
-                  <p className="text-gray-600">Download our partner guide to learn more about the benefits of joining Communio.</p>
+                  <h3 className="font-semibold text-gray-800 text-lg">Contato via WhatsApp</h3>
+                  <p className="text-gray-600">Converse com a gente:</p>
                 </div>
               </div>
             </div>
