@@ -19,7 +19,7 @@ const ContactSection = () => {
             </div>
             
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 font-playfair">
-              Ready to <span className="text-divino-purple">Partner</span> With Us?
+             Pronto para <span className="text-divino-purple">Parceria</span> de Sucesso?
             </h2>
             
             <p className="text-lg text-gray-600">Não hesite! Obtenha mais informações através de nossos canais.</p>
