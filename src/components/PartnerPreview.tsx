@@ -32,31 +32,30 @@ const PartnerPreview = () => {
             
             {/* Additional context about the page preview */}
             <div className="p-6">
-              <div className="bg-gray-50 rounded-lg p-4 mb-4">
-                <h3 className="font-medium text-gray-800 mb-2 text-base">Benefícios de sua Página</h3>
-                <ul className="space-y-2 text-gray-600 text-[14px]">
+              <div className="bg-gray-50 rounded-lg p-5 mb-4">
+                <h3 className="font-medium text-gray-800 mb-3 text-xl">Benefícios de sua Página</h3>
+                <ul className="space-y-3 text-gray-600 text-base">
                   <li className="flex items-center">
-                    <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
-                      <FilePen size={12} />
+                    <div className="h-7 w-7 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-3">
+                      <FilePen size={16} />
                     </div>
                     Publique seu produtos com facilidade
                   </li>
                   <li className="flex items-center">
-                    <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
-                      <ShoppingCart size={12} />
+                    <div className="h-7 w-7 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-3">
+                      <ShoppingCart size={16} />
                     </div>
                     Os usuários podem comprar sem sair da rede
                   </li>                  
                   <li className="flex items-center">                    
-                    <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
-                      <Users size={12} />
+                    <div className="h-7 w-7 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-3">
+                      <Users size={16} />
                     </div>
                     Tenha um fluxo recorrente de católicos
                   </li>
                   <li className="flex items-center">
-                    
-                    <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
-                      <Medal size={12} />
+                    <div className="h-7 w-7 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-3">
+                      <Medal size={16} />
                     </div>
                     Nós fazemos o trabalho de posicionamento digital
                   </li>                  
