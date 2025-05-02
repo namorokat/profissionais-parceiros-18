@@ -101,9 +101,7 @@ const ContactSection = () => {
             </Accordion>
             
             <div className="mt-8">
-              <Button className="w-full text-white bg-lime-600 hover:bg-lime-500">
-                Contact Us About Partnership
-              </Button>
+              <Button className="w-full text-white bg-lime-600 hover:bg-lime-500">Estamos no WhatsApp</Button>
             </div>
           </div>
         </div>
