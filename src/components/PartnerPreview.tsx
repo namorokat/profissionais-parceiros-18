@@ -1,5 +1,6 @@
+
 import { Button } from "@/components/ui/button";
-import { FileImage, Heart, MessageSquare, Users, Church, Share2 } from "lucide-react";
+import { FileImage, Heart, MessageSquare, Users, Church, Share2, Medal } from "lucide-react";
 
 const PartnerPreview = () => {
   return (
@@ -55,7 +56,7 @@ const PartnerPreview = () => {
                   <li className="flex items-center">
                     
                     <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
-                      <Users size={12} />
+                      <Medal size={12} />
                     </div>
                     Aproveite o engajamento dos membros
                   </li>
