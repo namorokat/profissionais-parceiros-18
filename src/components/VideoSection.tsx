@@ -1,7 +1,5 @@
-
 import { Button } from "@/components/ui/button";
 import { Video } from "lucide-react";
-
 const VideoSection = () => {
   return <section id="video" className="py-16 md:py-24 bg-white">
       <div className="container">
@@ -36,15 +34,10 @@ const VideoSection = () => {
                 <Video className="h-8 w-8 text-white" />
               </Button>
             </div>
-            <img 
-              src="/lovable-uploads/50115187-37c8-4f37-bfeb-9b86362a926d.png" 
-              alt="Sagrada Família - Jesus, Maria e José" 
-              className="w-full h-full object-contain opacity-80" 
-            />
+            <img alt="Sagrada Família - Jesus, Maria e José" className="w-full h-full object-contain opacity-80" src="/lovable-uploads/26bf7da0-2465-4e38-bf16-fda1bcf00f68.png" />
           </div>
         </div>
       </div>
     </section>;
 };
-
 export default VideoSection;
