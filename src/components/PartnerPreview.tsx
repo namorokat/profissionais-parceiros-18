@@ -32,7 +32,7 @@ const PartnerPreview = () => {
             {/* Additional context about the page preview */}
             <div className="p-6">
               <div className="bg-gray-50 rounded-lg p-4 mb-4">
-                <h5 className="font-medium text-gray-800 mb-2">Features Available on Your Page</h5>
+                <h3 className="font-medium text-gray-800 mb-2">Benefícios de sua Página</h3>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-center">
                     <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
@@ -40,6 +40,12 @@ const PartnerPreview = () => {
                     </div>
                     Publique seu produtos com facilidade
                   </li>
+                  <li className="flex items-center">
+                    <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
+                      <Share2 size={12} />
+                    </div>
+                    Os usuários podem comprar sem sair da rede
+                  </li>                  
                   <li className="flex items-center">                    
                     <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
                       <Users size={12} />
