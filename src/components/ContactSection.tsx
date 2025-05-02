@@ -15,7 +15,7 @@ const ContactSection = () => {
           <div className="space-y-6">
             <div className="flex items-center space-x-2 bg-divino-purple/10 text-divino-purple rounded-full px-4 py-1 text-sm font-medium mb-4 w-fit">
               <Handshake size={14} />
-              <span>Partnership Inquiries</span>
+              <span>Parceiros para escalar</span>
             </div>
             
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 font-playfair">
