@@ -52,13 +52,7 @@ const PartnerPreview = () => {
                       <Medal size={12} />
                     </div>
                     Nós fazemos o trabalho de posicionamento digital
-                  </li>
-                  <li className="flex items-center">
-                    <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
-                      <FileImage size={12} />
-                    </div>
-                    Aproveite o engajamento dos membros
-                  </li>
+                  </li>                  
                 </ul>
               </div>
               
