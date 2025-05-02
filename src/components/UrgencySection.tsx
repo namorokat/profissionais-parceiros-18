@@ -114,14 +114,6 @@ const UrgencySection = () => {
           </div>
         </div>
       </div>
-      
-      {/* Add animation keyframes */}
-      <style jsx>{`
-        @keyframes partner-rise {
-          0% { top: 100%; }
-          100% { top: 0%; }
-        }
-      `}</style>
     </section>
   );
 };
