@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -61,50 +60,40 @@ const ContactSection = () => {
           <div className="bg-white rounded-2xl shadow-lg p-8">
             <div className="flex items-center gap-2 mb-6">
               <HelpCircle className="h-6 w-6 text-divino-purple" />
-              <h3 className="text-2xl font-semibold text-gray-800 font-playfair">Frequently Asked Questions</h3>
+              <h3 className="text-2xl font-semibold text-gray-800 font-playfair">Perguntas que podem surgir...</h3>
             </div>
             
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">
-                <AccordionTrigger className="text-left text-base font-medium">
-                  How much does it cost to become a partner?
-                </AccordionTrigger>
+                <AccordionTrigger className="text-left text-base font-medium">Qual o investimento para ser parceiro?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
                   We offer different partnership tiers based on your organization's needs and size. Our basic partnership starts at $99/month with premium options available for larger organizations with additional requirements.
                 </AccordionContent>
               </AccordionItem>
               
               <AccordionItem value="item-2">
-                <AccordionTrigger className="text-left text-base font-medium">
-                  What type of organizations can join as partners?
-                </AccordionTrigger>
+                <AccordionTrigger className="text-left text-base font-medium">Como receberei os valores das minhas vendas?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
                   We welcome all Catholic organizations including parishes, ministries, schools, religious orders, and Catholic-owned businesses that align with our mission and values.
                 </AccordionContent>
               </AccordionItem>
               
               <AccordionItem value="item-3">
-                <AccordionTrigger className="text-left text-base font-medium">
-                  How long does it take to get my partner page set up?
-                </AccordionTrigger>
+                <AccordionTrigger className="text-left text-base font-medium">Quando será o lançamento?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
                   Once your application is approved, we can have your partner page set up within 3-5 business days. Our team will work with you to gather all necessary information and content.
                 </AccordionContent>
               </AccordionItem>
               
               <AccordionItem value="item-4">
-                <AccordionTrigger className="text-left text-base font-medium">
-                  Can I sell products directly on the platform?
-                </AccordionTrigger>
+                <AccordionTrigger className="text-left text-base font-medium">Tem contrato de fidelidade?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
                   Yes! Partners can sell physical or digital products directly through our platform. We handle payment processing and provide you with the tools to manage your inventory and orders.
                 </AccordionContent>
               </AccordionItem>
               
               <AccordionItem value="item-5">
-                <AccordionTrigger className="text-left text-base font-medium">
-                  What marketing support do partners receive?
-                </AccordionTrigger>
+                <AccordionTrigger className="text-left text-base font-medium">Tem apps?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
                   Partners receive visibility across our platform, feature opportunities in our newsletter, social media promotion, and access to our marketing toolkit designed specifically for Catholic organizations.
                 </AccordionContent>
