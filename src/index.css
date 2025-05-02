@@ -118,3 +118,25 @@
   padding: 0 1rem;
   color: theme('colors.divino.gold');
 }
+
+/* Partner animation styles */
+@keyframes partner-rise {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+.partner-animation {
+  animation: partner-rise 15s linear infinite;
+}

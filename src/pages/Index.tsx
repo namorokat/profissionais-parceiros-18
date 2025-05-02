@@ -2,6 +2,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import FeaturesSection from "@/components/FeaturesSection"; 
+import UrgencySection from "@/components/UrgencySection";
 import VideoSection from "@/components/VideoSection";
 import PartnerPreview from "@/components/PartnerPreview";
 import AboutSection from "@/components/AboutSection";
@@ -15,6 +16,7 @@ const Index = () => {
       <main className="flex-grow pt-16">
         <Hero />
         <FeaturesSection />
+        <UrgencySection />
         <VideoSection />
         <PartnerPreview />
         <AboutSection />
