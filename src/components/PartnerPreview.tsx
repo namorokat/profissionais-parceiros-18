@@ -1,6 +1,5 @@
-
 import { Button } from "@/components/ui/button";
-import { FileImage, Heart, MessageSquare, Users, Church } from "lucide-react";
+import { FileImage, Heart, MessageSquare, Users, Church, Share2 } from "lucide-react";
 
 const PartnerPreview = () => {
   return (
@@ -43,7 +42,7 @@ const PartnerPreview = () => {
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-center">
                     <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
-                      <MessageSquare size={12} />
+                      <Share2 size={12} />
                     </div>
                     Publique seu produtos com facilidade
                   </li>
