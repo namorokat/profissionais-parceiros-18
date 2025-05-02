@@ -22,9 +22,7 @@ const ContactSection = () => {
               Ready to <span className="text-divino-purple">Partner</span> With Us?
             </h2>
             
-            <p className="text-lg text-gray-600">
-              Join our growing network of Catholic organizations. Fill out the form and our partnership team will contact you to discuss how we can help you connect with the Catholic community.
-            </p>
+            <p className="text-lg text-gray-600">Não hesite! Obtenha mais informações através de nossos canais.</p>
             
             <div className="space-y-6 pt-4">
               <div className="flex gap-4 items-start">
@@ -32,8 +30,8 @@ const ContactSection = () => {
                   <Church className="h-6 w-6 text-divino-purple" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800 text-lg">Partner Types</h3>
-                  <p className="text-gray-600">Parishes, Ministries, Catholic Schools, Religious Orders, Catholic Businesses</p>
+                  <h3 className="font-semibold text-gray-800 text-lg">Parceiros</h3>
+                  <p className="text-gray-600">Lojas, Profissionais, Paróquias, Congregações e pessoas com boas ideias! </p>
                 </div>
               </div>
               
@@ -42,8 +40,8 @@ const ContactSection = () => {
                   <MessageSquare className="h-6 w-6 text-divino-purple" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800 text-lg">Direct Contact</h3>
-                  <p className="text-gray-600">partners@communio.network</p>
+                  <h3 className="font-semibold text-gray-800 text-lg">Contato via Email</h3>
+                  <p className="text-gray-600">contato@catolicos.online</p>
                   <p className="text-gray-600">(555) 123-4567</p>
                 </div>
               </div>
