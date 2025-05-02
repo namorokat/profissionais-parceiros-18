@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 
-// Sample list of partner names for the animation
+// Sample list of partner names for the word cloud
 const partnerNames = [
   "Divino Amor", "Santa María", "São Bento", "Terço Especial",
   "Sagrada Família", "Mãe Rainha", "Cruz Sagrada", "Santo Anjo",
@@ -11,39 +11,71 @@ const partnerNames = [
   "Nossa Senhora", "Santíssimo", "São Miguel", "Divina Providência"
 ];
 
+interface WordCloudItem {
+  name: string;
+  id: number;
+  opacity: number;
+  size: number;
+  position: {
+    x: number;
+    y: number;
+  };
+}
+
 const UrgencySection = () => {
-  // Create multiple columns of names with different animation speeds
-  const [visiblePartners, setVisiblePartners] = useState<{ name: string; id: number; offset: number }[]>([]);
+  const [wordCloudItems, setWordCloudItems] = useState<WordCloudItem[]>([]);
   
   useEffect(() => {
-    // Initialize with some partners
-    const initialPartners = [];
-    for (let i = 0; i < 10; i++) {
-      initialPartners.push({
-        name: partnerNames[Math.floor(Math.random() * partnerNames.length)],
-        id: i,
-        offset: Math.random() * 100 // Random vertical offset for staggered effect
-      });
+    // Initialize word cloud with initial items
+    const initialItems: WordCloudItem[] = [];
+    for (let i = 0; i < 15; i++) {
+      initialItems.push(createRandomWordCloudItem());
     }
-    setVisiblePartners(initialPartners);
+    setWordCloudItems(initialItems);
     
-    // Continuously add new partners and remove old ones
+    // Animation loop for fading words in and out
     const interval = setInterval(() => {
-      setVisiblePartners(prev => {
-        // Remove one partner from the top
-        const filtered = prev.filter((_, index) => index !== 0);
+      setWordCloudItems(prev => {
+        // Update existing items (fade in/out)
+        const updatedItems = prev.map(item => {
+          // Randomly adjust opacity to create fade effect
+          const opacityChange = Math.random() * 0.1 * (Math.random() > 0.5 ? 1 : -1);
+          const newOpacity = Math.max(0.1, Math.min(1, item.opacity + opacityChange));
+          
+          return {
+            ...item,
+            opacity: newOpacity
+          };
+        });
         
-        // Add a new partner at the bottom
-        return [...filtered, {
-          name: partnerNames[Math.floor(Math.random() * partnerNames.length)],
-          id: Date.now(), // unique id
-          offset: 0 // start at the bottom
-        }];
+        // Occasionally replace items that have low opacity
+        const finalItems = updatedItems.map(item => {
+          if (item.opacity < 0.2 && Math.random() > 0.7) {
+            return createRandomWordCloudItem();
+          }
+          return item;
+        });
+        
+        return finalItems;
       });
-    }, 2000); // Add new partner every 2 seconds
+    }, 1000); // Update every second
     
     return () => clearInterval(interval);
   }, []);
+  
+  // Helper function to create a random word cloud item
+  const createRandomWordCloudItem = (): WordCloudItem => {
+    return {
+      name: partnerNames[Math.floor(Math.random() * partnerNames.length)],
+      id: Math.random() * 10000,
+      opacity: Math.random() * 0.5 + 0.3, // Start with opacity between 0.3-0.8
+      size: Math.random() * 1.5 + 0.8, // Random size multiplier between 0.8-2.3
+      position: {
+        x: Math.random() * 80 + 10, // Position between 10-90% of container width
+        y: Math.random() * 80 + 10  // Position between 10-90% of container height
+      }
+    };
+  };
 
   return (
     <section className="py-16 bg-white relative overflow-hidden">
@@ -54,30 +86,26 @@ const UrgencySection = () => {
       
       <div className="container relative z-10">
         <div className="flex flex-col md:flex-row items-center gap-12">
-          {/* Left column - Animated partner list */}
+          {/* Left column - Word cloud */}
           <div className="w-full md:w-1/2 h-[450px] relative overflow-hidden rounded-lg bg-gradient-to-b from-divino-purple/5 to-divino-gold/5 border border-divino-cream">
-            {/* Top fade effect */}
-            <div className="absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-white to-transparent z-10"></div>
-            
-            {/* Bottom fade effect */}
-            <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white to-transparent z-10"></div>
-            
-            {/* Partner names container */}
-            <div className="relative h-full px-8 py-10">
-              {visiblePartners.map((partner) => (
+            {/* Word cloud container */}
+            <div className="relative w-full h-full">
+              {wordCloudItems.map((item) => (
                 <div 
-                  key={partner.id}
-                  className="absolute w-full left-0 px-8 flex"
+                  key={item.id}
+                  className="absolute transform transition-all duration-1000 ease-in-out"
                   style={{
-                    top: `${partner.offset}%`,
-                    transform: 'translateY(-50%)',
-                    animation: 'partner-rise 20s linear forwards',
-                    opacity: partner.offset > 80 ? (100 - partner.offset) * 0.05 : partner.offset < 20 ? partner.offset * 0.05 : 1
+                    left: `${item.position.x}%`,
+                    top: `${item.position.y}%`,
+                    opacity: item.opacity,
+                    transform: `translate(-50%, -50%) scale(${item.size})`,
                   }}
                 >
-                  <div className="border-l-4 border-divino-purple pl-4 py-2">
-                    <p className="text-xl font-medium text-gray-800">{partner.name}</p>
-                    <p className="text-sm text-gray-500">Parceiro Confirmado</p>
+                  <div className="whitespace-nowrap">
+                    <p className="text-xl font-medium text-divino-purple">
+                      {item.name}
+                    </p>
+                    <p className="text-xs text-gray-500 text-center">Parceiro</p>
                   </div>
                 </div>
               ))}
