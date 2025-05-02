@@ -10,10 +10,12 @@ const AboutSection = () => {
           </div>
           
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 font-playfair">
-            The <span className="text-divino-purple">Fundadores</span> Behind Communio
+            Os <span className="text-divino-purple">Fundadores</span> da Católicos Online
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Meet the passionate team who created the first social network dedicated to connecting Catholic communities worldwide.
+            Com quase de 20 anos de experiência no setor de tecnologia, os irmãos e sócios Jones e Jener alcançaram o ponto alto de suas trajetórias com o lançamento da Duobro, 
+            empresa pela qual desenvolveram aplicações que movimentaram mais de 250 milhões de reais nos últimos anos. 
+            Movidos pelo amor às coisas de Deus, agora se dedicam a um novo desafio: criar um projeto inovador voltado para o e-commerce católico.
           </p>
         </div>
         
@@ -36,7 +38,9 @@ const AboutSection = () => {
               </div>
               
               <p className="text-gray-600">
-                With over 15 years of experience in Catholic ministry and technology, Michael saw the need for a dedicated space where Catholic communities could connect online while maintaining shared values and beliefs. His vision drives Communio's mission to build bridges between faith communities worldwide.
+               Com ampla experiência na área de tecnologia e passagem pelo setor de Telefonia VoIP, Jones atuou recentemente como gestor em uma startup de tecnologia focada em gestão de frotas. Nesse papel,
+                liderou iniciativas de inovação e otimização de processos, contribuindo diretamente para o aumento do faturamento da empresa.
+          
               </p>
               
               <div className="flex space-x-3 pt-2">
@@ -69,7 +73,7 @@ const AboutSection = () => {
             
             <div className="md:w-3/5 space-y-4">
               <h3 className="text-2xl font-bold text-gray-800">Jener Lauriano</h3>
-              <p className="text-divino-purple font-medium">Co-Founder & CTO</p>
+              <p className="text-divino-purple font-medium">Co-Founder & Product Owner</p>
               
               <div className="divider">
                 <span className="divider-icon">
@@ -78,7 +82,10 @@ const AboutSection = () => {
               </div>
               
               <p className="text-gray-600">
-                Maria combines her deep Catholic faith with technical expertise gained from years working with major tech platforms. She leads Communio's development team in creating tools that honor Catholic traditions while embracing modern connectivity, ensuring the platform remains both faithful and accessible.
+                 Com 18 anos de experiência e autodidata por natureza, Jener aprendeu na prática,
+                enfrentando desafios em uma época em que o acesso à informação ainda era limitado.
+                Nos últimos anos, atuou na Duobro, firmando parcerias com empresas e desenvolvedores
+                internacionais para a realização de projetos no Brasil.
               </p>
               
               <div className="flex space-x-3 pt-2">
