@@ -16,7 +16,7 @@ const Hero = () => {
             <div className="mb-6 inline-block">
               <div className="flex items-center space-x-2 bg-divino-purple/10 text-divino-purple rounded-full px-4 py-1 text-sm font-medium mb-4">
                 <Church size={14} />
-                <span>Catholic Social Network Platform</span>
+                <span>Um Hub Social Católico Premium</span>
               </div>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight font-playfair">
