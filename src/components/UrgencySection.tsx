@@ -33,13 +33,13 @@ const UrgencySection = () => {
     }
     setWordCloudItems(initialItems);
     
-    // Animation loop for fading words in and out
+    // Animation loop for fading words in and out - now 4x faster (250ms instead of 1000ms)
     const interval = setInterval(() => {
       setWordCloudItems(prev => {
         // Update existing items (fade in/out)
         const updatedItems = prev.map(item => {
-          // Randomly adjust opacity to create fade effect
-          const opacityChange = Math.random() * 0.1 * (Math.random() > 0.5 ? 1 : -1);
+          // Randomly adjust opacity to create fade effect - increased change amount for faster effect
+          const opacityChange = Math.random() * 0.4 * (Math.random() > 0.5 ? 1 : -1);
           const newOpacity = Math.max(0.1, Math.min(1, item.opacity + opacityChange));
           
           return {
@@ -48,9 +48,9 @@ const UrgencySection = () => {
           };
         });
         
-        // Occasionally replace items that have low opacity
+        // Occasionally replace items that have low opacity - increased probability for faster turnover
         const finalItems = updatedItems.map(item => {
-          if (item.opacity < 0.2 && Math.random() > 0.7) {
+          if (item.opacity < 0.2 && Math.random() > 0.4) {
             return createRandomWordCloudItem();
           }
           return item;
@@ -58,21 +58,22 @@ const UrgencySection = () => {
         
         return finalItems;
       });
-    }, 1000); // Update every second
+    }, 250); // Update every 250ms (4x faster than before)
     
     return () => clearInterval(interval);
   }, []);
   
-  // Helper function to create a random word cloud item
+  // Helper function to create a random word cloud item with better distribution
   const createRandomWordCloudItem = (): WordCloudItem => {
+    // Better distribution - wider spread of positions (5-95% instead of 10-90%)
     return {
       name: partnerNames[Math.floor(Math.random() * partnerNames.length)],
       id: Math.random() * 10000,
       opacity: Math.random() * 0.5 + 0.3, // Start with opacity between 0.3-0.8
       size: Math.random() * 1.5 + 0.8, // Random size multiplier between 0.8-2.3
       position: {
-        x: Math.random() * 80 + 10, // Position between 10-90% of container width
-        y: Math.random() * 80 + 10  // Position between 10-90% of container height
+        x: Math.random() * 90 + 5, // Position between 5-95% of container width
+        y: Math.random() * 90 + 5  // Position between 5-95% of container height
       }
     };
   };
@@ -93,12 +94,14 @@ const UrgencySection = () => {
               {wordCloudItems.map((item) => (
                 <div 
                   key={item.id}
-                  className="absolute transform transition-all duration-1000 ease-in-out"
+                  className="absolute transform transition-opacity duration-250 ease-in-out"
                   style={{
                     left: `${item.position.x}%`,
                     top: `${item.position.y}%`,
                     opacity: item.opacity,
                     transform: `translate(-50%, -50%) scale(${item.size})`,
+                    zIndex: Math.floor(item.opacity * 10), // Add z-index based on opacity
+                    transition: "opacity 250ms ease-in-out, transform 250ms ease-in-out" // 4x faster transitions
                   }}
                 >
                   <div className="whitespace-nowrap">
