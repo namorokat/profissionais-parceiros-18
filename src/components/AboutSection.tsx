@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Church, Info } from "lucide-react";
+import { Info, Rocket } from "lucide-react";
 const AboutSection = () => {
   return <section id="about" className="py-16 md:py-24 overflow-hidden">
       <div className="container">
@@ -33,7 +33,7 @@ const AboutSection = () => {
               
               <div className="divider">
                 <span className="divider-icon">
-                  <Church size={16} />
+                  <Rocket size={16} />
                 </span>
               </div>
               
@@ -77,7 +77,7 @@ const AboutSection = () => {
               
               <div className="divider">
                 <span className="divider-icon">
-                  <Church size={16} />
+                  <Rocket size={16} />
                 </span>
               </div>
               
