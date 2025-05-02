@@ -1,10 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { FileImage, Heart, MessageSquare, Users, Church, Share2, Medal } from "lucide-react";
-
 const PartnerPreview = () => {
-  return (
-    <section id="partner-preview" className="py-16 md:py-24 bg-divino-light/30 relative overflow-hidden">
+  return <section id="partner-preview" className="py-16 md:py-24 bg-divino-light/30 relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden opacity-5">
         <div className="absolute left-0 top-0 h-96 w-96 rounded-full bg-divino-purple blur-3xl"></div>
         <div className="absolute right-0 bottom-0 h-96 w-96 rounded-full bg-divino-gold blur-3xl"></div>
@@ -30,11 +27,7 @@ const PartnerPreview = () => {
           
           <div className="relative bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
             {/* Partner Page Header - Full mockup image */}
-            <img 
-              src="/lovable-uploads/f040c28a-be06-490b-beb9-dd8a5e2a89c9.png" 
-              alt="Espaço Católico Divino Amor Partner Page"
-              className="w-full h-auto object-contain"
-            />
+            <img src="/lovable-uploads/f040c28a-be06-490b-beb9-dd8a5e2a89c9.png" alt="Espaço Católico Divino Amor Partner Page" className="w-full h-auto object-contain" />
             
             {/* Additional context about the page preview */}
             <div className="p-6">
@@ -77,13 +70,9 @@ const PartnerPreview = () => {
         </div>
         
         <div className="mt-12 text-center">
-          <Button className="bg-divino-gold hover:bg-divino-gold/90 text-white px-6 py-6 text-lg">
-            Create Your Partner Page
-          </Button>
+          <Button className="bg-divino-gold hover:bg-divino-gold/90 text-white px-6 py-6 text-lg">Converse com a gente</Button>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default PartnerPreview;

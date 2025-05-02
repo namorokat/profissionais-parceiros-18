@@ -6,11 +6,11 @@ const AboutSection = () => {
         <div className="text-center mb-12">
           <div className="flex items-center justify-center space-x-2 bg-divino-purple/10 text-divino-purple rounded-full px-4 py-1 text-sm font-medium mb-4 mx-auto w-fit">
             <Info size={14} />
-            <span>About Us</span>
+            <span>Quem Somos</span>
           </div>
           
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 font-playfair">
-            The <span className="text-divino-purple">Founders</span> Behind Communio
+            The <span className="text-divino-purple">Fundadores</span> Behind Communio
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Meet the passionate team who created the first social network dedicated to connecting Catholic communities worldwide.
