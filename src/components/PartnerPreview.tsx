@@ -18,7 +18,7 @@ const PartnerPreview = () => {
           </div>
           
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 font-playfair">
-            Your <span className="text-divino-purple">Presence</span> on Communio
+            Sua<span className="text-divino-purple">Presença</span> na Católicos Online
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto mb-10">
             Veja como sua loja aparecerá na rede.
@@ -51,20 +51,20 @@ const PartnerPreview = () => {
                     <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
                       <Users size={12} />
                     </div>
-                    Aproveite o engajamento dos membros
+                    Tenha um fluxo recorrente de católicos
                   </li>
                   <li className="flex items-center">
                     
                     <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
                       <Medal size={12} />
                     </div>
-                    Aproveite o engajamento dos membros
+                    Nós fazemos o trabalho de posicionamento digital
                   </li>
                   <li className="flex items-center">
                     <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
                       <FileImage size={12} />
                     </div>
-                    Share products, resources and services
+                    Aproveite o engajamento dos membros
                   </li>
                 </ul>
               </div>
