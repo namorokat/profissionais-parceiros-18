@@ -1,5 +1,6 @@
+
 import { Button } from "@/components/ui/button";
-import { FileImage, Heart, MessageSquare, Users, Church, Share2, Medal } from "lucide-react";
+import { FileImage, Heart, MessageSquare, Users, Church, ShoppingCart, Medal } from "lucide-react";
 const PartnerPreview = () => {
   return <section id="partner-preview" className="py-16 md:py-24 bg-divino-light/30 relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden opacity-5">
@@ -36,13 +37,13 @@ const PartnerPreview = () => {
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-center">
                     <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
-                      <Share2 size={12} />
+                      <ShoppingCart size={12} />
                     </div>
                     Publique seu produtos com facilidade
                   </li>
                   <li className="flex items-center">
                     <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
-                      <Share2 size={12} />
+                      <ShoppingCart size={12} />
                     </div>
                     Os usuários podem comprar sem sair da rede
                   </li>                  
