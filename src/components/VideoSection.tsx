@@ -13,11 +13,13 @@ const VideoSection = () => {
             </div>
             
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 font-playfair">
-              Você sabe quantas pessoas buscam por <span className="text-divino-purple">Imagem da Sagrada Família</span> no Google todos os meses?
+              Deixa a captação de <span className="text-divino-purple"> Fluxo</span> com a gente!
             </h2>
             
             <p className="text-lg text-gray-600">
-              Provavelmente, você não sabe, pois não é sua área de atuação. Mas, é a nossa. 33 mil buscas é o volume mensal. Mas, isso é só um termo. Temos milhares para trabalhar para atrair um maior fluxo de pessoas através do posicionamento no Google. E, claro, como fazer isso é a outra parte que cabe a nós. Quer um exemplo? Digite "Namoro Católico" no Google. O primeiro resultado é fruto do nosso trabalho.
+              Digite "Namoro Católico" no Google. O primeiro resultado é fruto do trabalho de nossa agência. O mesmo estamos fazendo pela Católicos Online,
+              onde mapeamos centenas (senão milhares) de palavras-foco para ranquear no topo do Google e atrair as pessoas certas. Mesmo que este trabalho precise de tempo,
+              nós já temos o fluxo imediato e diário do Namoro Católico, que já filtra e carrega a autoridade do nome e domínio.
             </p>
             
             <div className="pt-4">
