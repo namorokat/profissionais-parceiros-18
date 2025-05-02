@@ -11,7 +11,7 @@ const VideoSection = () => {
             </div>
             
             <h2 className="text-3xl md:text-4xl font-bold text-gray-800 font-playfair">
-              Deixa a captação de <span className="text-divino-purple"> Fluxo</span> com a gente!
+              Deixe a captação de <span className="text-divino-purple"> Fluxo</span> com a gente!
             </h2>
             
             <p className="text-lg text-gray-600">
