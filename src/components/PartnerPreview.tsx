@@ -45,13 +45,20 @@ const PartnerPreview = () => {
                     <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
                       <MessageSquare size={12} />
                     </div>
-                    Post updates and religious content
+                    Publique seu produtos com facilidade
                   </li>
-                  <li className="flex items-center">
+                  <li className="flex items-center">                    
                     <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
                       <Users size={12} />
                     </div>
-                    Build your Catholic community following
+                    Aproveite o engajamento dos membros
+                  </li>
+                  <li className="flex items-center">
+                    
+                    <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
+                      <Users size={12} />
+                    </div>
+                    Aproveite o engajamento dos membros
                   </li>
                   <li className="flex items-center">
                     <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-2">
@@ -63,7 +70,7 @@ const PartnerPreview = () => {
               </div>
               
               <div className="text-sm text-gray-500 italic">
-                <p>This is how your page will appear to Catholics using the Católicos Online platform. Your complete profile includes timeline, photos, videos, and more.</p>
+                <p> Este é apenas um exemplo de loja e que pode ser visto no site como demonstração.</p>
               </div>
             </div>
           </div>
