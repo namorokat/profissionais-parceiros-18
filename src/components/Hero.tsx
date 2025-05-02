@@ -20,11 +20,9 @@ const Hero = () => {
               </div>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight font-playfair">
-              Conecte a <span className="text-divino-purple">Divino Amor</span> a um fluxo católico e constante.
+              Conecte a <span className="text-divino-purple">Sua Loja</span> a um fluxo católico e constante.
             </h1>
-            <p className="text-lg md:text-xl text-gray-600 max-w-lg">
-              A Católicos Online é a mais nova (e única) rede social para católicos. Este é o momento certo para somar com a gente e dar um salto na sua posição digital.
-            </p>
+            <p className="text-lg md:text-xl text-gray-600 max-w-lg">A Católicos Online é a mais nova (e única) rede social para católicos. Mas, apesar de haver milhares de lojas online, nós só temos espaço para 50 parceiros. Se você recebeu o convite, aproveite o momento. </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 items-center justify-center md:justify-start">
               <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-6 text-lg" onClick={() => window.open('https://cal.duobro.com.br/joneslauriano', '_blank')}>
                 Marque uma Reunião
