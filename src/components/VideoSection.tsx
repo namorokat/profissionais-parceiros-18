@@ -34,7 +34,7 @@ const VideoSection = () => {
                 <Video className="h-8 w-8 text-white" />
               </Button>
             </div>
-            <img alt="Sagrada Família - Jesus, Maria e José" className="w-full h-full object-contain opacity-80" src="/lovable-uploads/26bf7da0-2465-4e38-bf16-fda1bcf00f68.png" />
+            <img alt="Sagrada Família - Jesus, Maria e José" src="/lovable-uploads/26bf7da0-2465-4e38-bf16-fda1bcf00f68.png" className="w-full h-full object-contain opacity-90" />
           </div>
         </div>
       </div>
