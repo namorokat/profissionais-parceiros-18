@@ -29,10 +29,7 @@ const VideoSection = () => {
           
           <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-video">
             {/* Using the new Holy Family image */}
-            <div className="absolute inset-0 flex items-center justify-center bg-[#332004]">
-              <Button className="rounded-full h-16 w-16 flex items-center justify-center bg-white/20 backdrop-blur-sm hover:bg-white/30 border-2 border-white">
-                <Video className="h-8 w-8 text-white" />
-              </Button>
+            <div className="absolute inset-0 flex items-center justify-center bg-[#332004]">        
             </div>
             <img alt="Sagrada Família - Jesus, Maria e José" src="/lovable-uploads/26bf7da0-2465-4e38-bf16-fda1bcf00f68.png" className="w-full h-full object-contain opacity-90" />
           </div>
