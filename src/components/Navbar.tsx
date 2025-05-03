@@ -45,16 +45,16 @@ const Navbar = () => {
             Benefícios
           </a>
           <a href="#video" className="text-white hover:text-divino-purple transition-colors">
-            Demo
+            Alcance
           </a>
           <a href="#partner-preview" className="text-white hover:text-divino-purple transition-colors">
-            Partner Pages
+            Exemplo
           </a>
           <a href="#about" className="text-white hover:text-divino-purple transition-colors">
-            About Us
+            Quem Somos
           </a>
           <a href="#contact" className="text-white hover:text-divino-purple transition-colors">
-            Contact
+            Contato
           </a>
         </nav>
 
@@ -109,28 +109,28 @@ const Navbar = () => {
               className="text-white hover:text-divino-purple py-2 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Demo
+              Alcance
             </a>
             <a
               href="#partner-preview"
               className="text-white hover:text-divino-purple py-2 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Partner Pages
+              Exemplo
             </a>
             <a
               href="#about"
               className="text-white hover:text-divino-purple py-2 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              About Us
+              Quem Somos
             </a>
             <a
               href="#contact"
               className="text-white hover:text-divino-purple py-2 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Contact
+              Contato
             </a>
             <Button className="bg-[#362B51] hover:bg-[#473B61] text-white border border-white/20 w-full mt-2">
               Become a Partner
