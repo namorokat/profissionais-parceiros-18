@@ -21,7 +21,7 @@ const VideoSection = () => {
           {/* Image - shows below title on mobile, to the right on desktop */}
           <div className="md:hidden relative rounded-2xl overflow-hidden shadow-xl aspect-video">
             <div className="absolute inset-0 flex items-center justify-center bg-[#332004]"></div>
-            <img alt="Sagrada Família - Jesus, Maria e José" src="/lovable-uploads/26bf7da0-2465-4e38-bf16-fda1bcf00f68.png" className="w-full h-full object-contain opacity-90" />
+            <img alt="Sagrada Família - Jesus, Maria e José" src="/lovable-uploads/336d62ea-22aa-46a1-9a12-7c6748232b7e.png" className="w-full h-full object-contain opacity-90" />
           </div>
           
           {/* Text and image container for desktop */}
@@ -44,7 +44,7 @@ const VideoSection = () => {
             {/* Image - only shown on desktop */}
             <div className="hidden md:block relative rounded-2xl overflow-hidden shadow-xl aspect-video">
               <div className="absolute inset-0 flex items-center justify-center bg-[#332004]"></div>
-              <img alt="Posicionamento Google" src="/lovable-uploads/26bf7da0-2465-4e38-bf16-fda1bcf00f68.png" className="w-full h-full object-contain opacity-100" />
+              <img alt="Posicionamento Google" src="/lovable-uploads/336d62ea-22aa-46a1-9a12-7c6748232b7e.png" className="w-full h-full object-contain opacity-100" />
             </div>
           </div>
         </div>
