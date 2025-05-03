@@ -1,5 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
+import { CSSProperties } from 'react';
 
 interface PartnerTextCarouselProps {
   partners: string[];
@@ -42,7 +43,7 @@ const PartnerTextCarousel: React.FC<PartnerTextCarouselProps> = ({
   }, [partners, interval]);
 
   // Calculate position and styling for each partner
-  const getPartnerStyle = (partner: string, index: number) => {
+  const getPartnerStyle = (partner: string, index: number): CSSProperties => {
     // Use index to determine base position in the cloud
     const baseX = (index % 3) * 33 + Math.random() * 10;
     const baseY = Math.floor(index / 3) * 30 + Math.random() * 10;
@@ -59,7 +60,7 @@ const PartnerTextCarousel: React.FC<PartnerTextCarouselProps> = ({
       fontSize: `${fontSize}px`,
       opacity: isActive ? 1 : 0.3,
       transform: isActive ? 'scale(1.1)' : 'scale(1)',
-      position: 'absolute',
+      position: 'absolute' as const, // Type assertion to fix the Position type error
       transition: 'all 0.5s ease-in-out'
     };
   };
