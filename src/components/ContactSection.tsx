@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Book, Church, Handshake, MessageSquare, HelpCircle } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+
 const ContactSection = () => {
   return <section id="contact" className="py-16 md:py-24 bg-divino-light/30 relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden opacity-10">
@@ -75,7 +76,7 @@ const ContactSection = () => {
               <AccordionItem value="item-2">
                 <AccordionTrigger className="text-left text-base font-medium">Como receberei os valores das minhas vendas?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  We welcome all Catholic organizations including parishes, ministries, schools, religious orders, and Catholic-owned businesses that align with our mission and values.
+                  Assim que atingir uma valor mínimo em vendas, você poderá solicitar um saque pela plataforma que será feito em 24hs.
                 </AccordionContent>
               </AccordionItem>
               
