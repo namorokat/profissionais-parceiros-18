@@ -1,6 +1,11 @@
 
 import React from 'react';
 import PartnerTextCarousel from './PartnerTextCarousel';
+import { 
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel";
 
 const UrgencySection = () => {
   // List of Catholic partner organizations
