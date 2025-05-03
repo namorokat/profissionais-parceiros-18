@@ -1,28 +1,50 @@
 
-import React from 'react';
+import { Button } from "@/components/ui/button";
+import { Video } from "lucide-react";
 
 const VideoSection = () => {
   return (
-    <section id="video" className="py-16 bg-gray-50">
-      <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">See Communio in Action</h2>
-          <p className="text-lg text-gray-600 mb-8">
-            Watch how our platform connects Catholic communities and creates meaningful engagement opportunities.
-          </p>
-          <div className="relative rounded-lg shadow-xl overflow-hidden aspect-video">
-            <iframe
-              className="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-              title="Communio Platform Demo"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+    <section id="video" className="py-16 md:py-24 bg-white">
+      <div className="container">
+        <div className="space-y-8">
+          {/* Title section - always at the top */}
+          <div className="space-y-4">
+            <div className="flex items-center space-x-2 bg-divino-purple/10 text-divino-purple rounded-full px-4 py-1 text-sm font-medium w-fit">
+              <Video size={14} />
+              <span>Posicionamento no Google</span>
+            </div>
+            
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 font-playfair">
+              Deixe a captação de <span className="text-divino-purple"> Fluxo</span> com a gente!
+            </h2>
           </div>
-          <div className="mt-8">
-            <p className="text-sm text-gray-500">
-              Ready to see more? <a href="#contact" className="text-purple-600 hover:underline">Contact us</a> for a personalized demo.
-            </p>
+          
+          {/* Image - shows below title on mobile, to the right on desktop */}
+          <div className="md:hidden relative rounded-2xl overflow-hidden shadow-xl aspect-video">
+            <img alt="Posicionamento Google" src="/lovable-uploads/336d62ea-22aa-46a1-9a12-7c6748232b7e.png" className="w-full h-full object-contain" />
+          </div>
+          
+          {/* Text and image container for desktop */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            {/* Text content */}
+            <div className="space-y-6">
+              <p className="text-lg text-gray-600">
+                Digite "Namoro Católico" no Google. O primeiro resultado é fruto do trabalho de nossa agência. O mesmo estamos fazendo pela Católicos Online,
+                onde mapeamos centenas (senão milhares) de palavras-foco para ranquear no topo do Google e atrair as pessoas certas. Mesmo que este trabalho precise de tempo,
+                nós já temos o fluxo imediato e diário do Namoro Católico, que já filtra e carrega a autoridade do nome e domínio.
+              </p>
+              
+              <div className="pt-4">
+                <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-2">
+                  Garanta um dos 30 lugares
+                </Button>
+              </div>
+            </div>
+            
+            {/* Image - only shown on desktop */}
+            <div className="hidden md:block relative rounded-2xl overflow-hidden shadow-xl aspect-video">
+              <img alt="Posicionamento Google" src="/lovable-uploads/336d62ea-22aa-46a1-9a12-7c6748232b7e.png" className="w-full h-full object-contain" />
+            </div>
           </div>
         </div>
       </div>
