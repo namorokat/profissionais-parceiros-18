@@ -97,7 +97,7 @@ const ContactSection = () => {
               <AccordionItem value="item-5">
                 <AccordionTrigger className="text-left text-base font-medium">Tem apps?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  Partners receive visibility across our platform, feature opportunities in our newsletter, social media promotion, and access to our marketing toolkit designed specifically for Catholic organizations.
+                  A plataforma está bem adaptada para smartphones, com uma interface que simula um app. Apps oficiais já estão em desenvolvimento.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
