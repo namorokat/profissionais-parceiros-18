@@ -42,7 +42,7 @@ const Navbar = () => {
             Home
           </a>
           <a href="#features" className="text-white hover:text-divino-purple transition-colors">
-            Features
+            Benefícios
           </a>
           <a href="#video" className="text-white hover:text-divino-purple transition-colors">
             Demo
@@ -102,7 +102,7 @@ const Navbar = () => {
               className="text-white hover:text-divino-purple py-2 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              Features
+              Benefícios
             </a>
             <a
               href="#video"
