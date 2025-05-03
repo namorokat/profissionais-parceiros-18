@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -83,7 +82,7 @@ const ContactSection = () => {
               <AccordionItem value="item-3">
                 <AccordionTrigger className="text-left text-base font-medium">Quando será o lançamento?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  Once your application is approved, we can have your partner page set up within 3-5 business days. Our team will work with you to gather all necessary information and content.
+                  A Rede entrará em fase beta em breve, quando já receberá novos membros. Durante esta fase haverá ajustes ou correções de acordo com feedback dos usuários e parceiros. Nossa previsão de lançamento oficial está para o dia 12 de Outubro.
                 </AccordionContent>
               </AccordionItem>
               
