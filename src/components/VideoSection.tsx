@@ -44,7 +44,7 @@ const VideoSection = () => {
             {/* Image - only shown on desktop */}
             <div className="hidden md:block relative rounded-2xl overflow-hidden shadow-xl aspect-video">
               <div className="absolute inset-0 flex items-center justify-center bg-[#332004]"></div>
-              <img alt="Posicionamento Google" src="/lovable-uploads/336d62ea-22aa-46a1-9a12-7c6748232b7e.png" className="w-full h-full object-contain opacity-20" />
+              <img alt="Posicionamento Google" src="/lovable-uploads/336d62ea-22aa-46a1-9a12-7c6748232b7e.png" className="w-full h-full object-contain opacity-10" />
             </div>
           </div>
         </div>
