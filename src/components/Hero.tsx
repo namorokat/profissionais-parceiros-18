@@ -2,9 +2,13 @@
 import { Button } from "@/components/ui/button";
 import { Church, Users, Smartphone, ExternalLink } from "lucide-react";
 import { useState } from "react";
+import { useIsMobile } from "@/hooks/use-mobile";
+
 const Hero = () => {
   // We don't need carousel and auto-slide functionality anymore since we're showing a single image
   const [currentSlide, setCurrentSlide] = useState(0);
+  const isMobile = useIsMobile();
+  
   return <section className="relative overflow-hidden bg-gradient-to-br from-divino-cream to-white py-16 md:py-24">
       <div className="absolute inset-0 overflow-hidden opacity-10">
         <div className="absolute left-0 top-0 h-96 w-96 rounded-full bg-divino-purple blur-3xl"></div>
@@ -13,7 +17,7 @@ const Hero = () => {
       
       <div className="container relative z-10">
         <div className="flex flex-col-reverse md:flex-row items-center">
-          <div className="md:w-1/2 space-y-6 text-center md:text-left pt-8 md:pt-0">
+          <div className="w-full md:w-1/2 space-y-6 text-center md:text-left pt-8 md:pt-0">
             <div className="mb-6 inline-block">
               <div className="flex items-center space-x-2 bg-divino-purple/10 text-divino-purple rounded-full px-4 py-1 text-sm font-medium mb-4">
                 <Church size={14} />
@@ -34,10 +38,11 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="md:w-1/2 flex justify-center md:justify-end">
+          {/* Phone mockups - only show on md screens and above */}
+          <div className="hidden md:flex md:w-1/2 justify-center md:justify-end">
             <div className="relative flex items-center space-x-6">
               {/* First phone mockup (new) - adjusted rotation and size */}
-              <div className="relative hidden md:block" style={{
+              <div className="relative" style={{
               transform: "rotate(-10deg)"
             }}>
                 {/* Phone frame container */}
