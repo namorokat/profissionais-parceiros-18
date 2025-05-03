@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -67,7 +68,7 @@ const ContactSection = () => {
               <AccordionItem value="item-1">
                 <AccordionTrigger className="text-left text-base font-medium">Qual o investimento para ser parceiro?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  We offer different partnership tiers based on your organization's needs and size. Our basic partnership starts at $99/month with premium options available for larger organizations with additional requirements.
+                  Cada parceiro recebe uma proposta específica, pois cada qual tem um perfil diferente com potencial diferente. Para receber uma proposta, você deve fazer contato o quanto antes, dado o limite no número de parceiros.
                 </AccordionContent>
               </AccordionItem>
               
