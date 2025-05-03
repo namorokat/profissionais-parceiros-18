@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -89,7 +90,7 @@ const ContactSection = () => {
               <AccordionItem value="item-4">
                 <AccordionTrigger className="text-left text-base font-medium">Tem contrato de fidelidade?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  Yes! Partners can sell physical or digital products directly through our platform. We handle payment processing and provide you with the tools to manage your inventory and orders.
+                  Não, pois acreditamos que retemos parceiros pelos resultados e não por contratos.  O contrato é apenas para esclarecimento dos termos e segurança entre as partes.
                 </AccordionContent>
               </AccordionItem>
               
