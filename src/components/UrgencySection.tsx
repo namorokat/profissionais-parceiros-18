@@ -126,7 +126,7 @@ const UrgencySection = () => {
               São milhares de lojas, mas só iremos trabalhar com 30 parceiros. Novos parceiros dependerão 
               de demanda x oferta e ainda assim não será fácil entrar, pois o nosso conceito é de 
               qualidade e não quantidade. Queremos obter resultados para os nossos parceiros e, para isso, 
-              é essencial que tenhamos um limite e assim poder acompanhar cada parceiro em seus resultados.
+              é essencial que tenhamos um limite para poder acompanhar cada parceiro em seus resultados.
             </p>
             
             <div className="flex items-center space-x-4 pt-4">
