@@ -32,15 +32,9 @@ const UrgencySection = () => {
               Garanta seu lugar.
             </h3>
             
-            <p className="text-lg mb-6 text-gray-700">
-              São milhares de lojas, mas só iremos trabalhar com 30 parceiros. Novos parceiros 
-              dependerão de demanda x oferta e ainda assim não será fácil entrar, pois o nosso
-              conceito é de qualidade e não quantidade.
-            </p>
-            
             <p className="text-lg mb-8 text-gray-700">
-              Queremos obter resultados para os nossos parceiros e, para isso, é essencial que tenhamos 
-              um limite para poder acompanhar cada parceiro em seus resultados.
+              Cada parceiro recebe uma proposta específica, pois cada qual tem um perfil diferente com potencial diferente. 
+              Para receber uma proposta, você deve fazer contato o quanto antes, dado o limite no número de parceiros.
             </p>
             
             <div className="flex items-center mb-10">
