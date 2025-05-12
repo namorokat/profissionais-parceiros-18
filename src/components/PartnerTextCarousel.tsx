@@ -74,7 +74,7 @@ const PartnerTextCarousel: React.FC<PartnerTextCarouselProps> = ({
           className="text-primary font-medium transition-all duration-500"
         >
           <span className="block">{partner}</span>
-          <span className="text-sm text-gray-500 block">Parceiro</span>
+          <span className="text-sm text-gray-500 block">Católicos</span>
         </div>
       ))}
     </div>
