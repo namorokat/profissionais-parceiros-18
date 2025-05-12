@@ -5,15 +5,15 @@ import PartnerTextCarousel from './PartnerTextCarousel';
 const UrgencySection = () => {
   // List of Catholic partner organizations
   const partners = [
-    "São Bento",
-    "Santa Clara",
-    "Sagrada Família",
-    "Dom Bosco",
-    "Ave Maria",
-    "Nossa Senhora",
-    "Divina Providência",
-    "Cruz Sagrada",
-    "Santo Anjo"
+    "Psicólogos",
+    "Advogados",
+    "Nutricionistas",
+    "Pediatras",
+    "Ginecologistas",
+    "Fonoaudiológos",
+    "Contadores",
+    "Terapeutas",
+    "Psiquiatras"
   ];
 
   return (
@@ -26,36 +26,26 @@ const UrgencySection = () => {
           
           <div className="text-left">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary font-serif">
-              Limite de <span className="text-purple-400">30 Parceiros</span>.
-            </h2>
-            <h3 className="text-3xl md:text-4xl font-bold mb-8 text-gray-800">
-              Garanta seu lugar.
-            </h3>
+              Limite de <span className="text-purple-400">20 Parceiros</span>.
+            </h2>    
             
             <p className="text-lg mb-6 text-gray-700">
-              São milhares de lojas, mas só iremos trabalhar com 30 parceiros. Novos parceiros 
-              dependerão de demanda x oferta e ainda assim não será fácil entrar, pois o nosso
-              conceito é de qualidade e não quantidade.
+              São milhares de profissionais católicos pelo Brasil, mas não queremos ser um diretório com milhares de 
+              profissionais que não terão retorno exceto se pagarem alto para aparecer com propagandas. 
+              
             </p>
             
             <p className="text-lg mb-8 text-gray-700">
-              Queremos obter resultados para os nossos parceiros e, para isso, é essencial que tenhamos 
-              um limite para poder acompanhar cada parceiro em seus resultados.
+             Quem estiver na rede saberá que temos uma lista de parceiros premium católicos, que não tem medo de mostrar e defender a 
+              fé católica através de suas profissões.
             </p>
             
             <div className="flex items-center mb-10">
               <div className="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mr-4">
-                <span className="text-3xl font-bold text-purple-500">30</span>
+                <span className="text-3xl font-bold text-purple-500">20</span>
               </div>
-              <span className="text-xl font-medium text-gray-700">Parceiros Total</span>
-            </div>
-            
-            <a
-              href="#contact"
-              className="inline-block bg-primary hover:bg-primary/90 text-white font-semibold py-3 px-8 rounded-full transition-colors duration-300 shadow-md hover:shadow-lg"
-            >
-              Garanta sua Vaga Agora
-            </a>
+              <span className="text-xl font-medium text-gray-700">Parceiros por Categoria </span>
+            </div>                     
           </div>
         </div>
       </div>
