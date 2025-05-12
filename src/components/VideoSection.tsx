@@ -30,13 +30,12 @@ const VideoSection = () => {
             <div className="space-y-4">
               <p className="text-lg text-gray-600">
                 Digite "Namoro Católico" no Google. O primeiro resultado é fruto do trabalho de nossa agência. O mesmo estamos fazendo pela Católicos Online,
-                onde mapeamos centenas (senão milhares) de palavras-foco para ranquear no topo do Google e atrair as pessoas certas. Mesmo que este trabalho precise de tempo,
-                nós já temos o fluxo imediato e diário do Namoro Católico, que já filtra e carrega a autoridade do nome e domínio.
+                onde mapeamos centenas (senão milhares) de palavras-foco para ranquear no topo do Google e atrair as pessoas certas. Em alguns meses já começaremos a ver os resultados, sem contar que, de imediato, nós já temos o fluxo e a autoridade do Namoro Católico para direcionar pessoas para a rede.
               </p>
               
               <div>
                 <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-2">
-                  Garanta um dos 30 lugares
+                  Não hesite, estamos no WhatsApp!
                 </Button>
               </div>
             </div>
