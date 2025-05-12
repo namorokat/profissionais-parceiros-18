@@ -23,13 +23,14 @@ const Hero = () => {
             <div className="mb-6 inline-block">
               <div className="flex items-center space-x-2 bg-divino-purple/10 text-divino-purple rounded-full px-4 py-1 text-sm font-medium mb-4">
                 <Church size={14} />
-                <span>Um Hub Social Católico Premium</span>
+                <span>Um Hub Social Católico com Diretório Premium</span>
               </div>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight font-playfair">
-              Conecte a <span className="text-divino-purple">Sua Loja</span> a um fluxo católico e constante.
+              Conecte o seu <span className="text-divino-purple">Negócio</span> a um fluxo católico e constante.
             </h1>
-            <p className="text-lg md:text-xl text-gray-600 max-w-lg">A Católicos Online é a mais nova (e única) rede social para católicos. Mas, apesar de haver milhares de lojas online, nós só temos espaço para 50 parceiros. Se você recebeu o convite, aproveite o momento. </p>
+            <p className="text-lg md:text-xl text-gray-600 max-w-lg">A Católicos Online é a mais nova (e única) rede social para católicos e que conta com um hub para
+              promover profissionais católicos. Faça sua adesão para aproveitar os benefícios de ser um embaixador! </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 items-center justify-center md:justify-start">
               <Button 
                 className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-6 text-lg flex items-center gap-1" 
@@ -39,7 +40,7 @@ const Hero = () => {
                 <ExternalLink size={16} />
               </Button>
               <Button variant="outline" className="border-divino-purple text-divino-purple hover:bg-divino-purple/10 px-6 py-6 text-lg" onClick={() => window.open('https://catolicos.online/pages/DivinoAmor/products', '_blank')}>
-                Veja uma loja-demo <ExternalLink size={16} className="ml-1" />
+                Veja uma página-exemplo <ExternalLink size={16} className="ml-1" />
               </Button>
             </div>
           </div>
