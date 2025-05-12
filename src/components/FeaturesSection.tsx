@@ -6,26 +6,26 @@ import { BookOpen, Handshake, Users, RefreshCw, Crown, Rocket } from "lucide-rea
 const features = [
   {
     id: 1,
-    name: "Seu Público Está Aqui",
-    description: "Alcançar a público desejado é a parte mais difícil de qualquer negócio e geralmente custa caro. Aqui você terá novos membros católicos entrando todos os dias por um custo muito mais acessível.",
+    name: "Exclusividade",
+    description: "Faça sua adesão agora para estar no seleto grupo de parceiros-embaixadores. Além do valor acessível e da exclusividade, você aindá usará de graça a partir de Julho de 2027.",
     icon: <Users className="h-10 w-10 text-white" />
   },
   {
     id: 2,
     name: "Construa Fidelidade",
-    description: "A sua loja se beneficiará da recorrência de visitas dos membros e a presença da sua loja e de seus produtos irão nutrindo-os para futuras compras. Mais visitas, mais fidelização, mais vendas. 🤩",
+    description: "A sua Página estará em um espaço dedicado e se beneficiará da recorrência das visitas dos membros. Quem não gosta de encontrar tudo em um lugar só?  Mais visitas, mais fidelização, mais negócios. 🤩",
     icon: <RefreshCw className="h-10 w-10 text-white" />
   },
   {
     id: 3,
     name: "Exclusividade",
-    description: "A Católicos Online contará com um número limitado de parceiros selecionados. A opção de vender pela rede será privilégio de poucos e só aceitaremos novos parceiros de acordo com a demanda x oferta.",
+    description: "Parceiros-Embaixadores terão 2 anos de exclusividade. Queremos valorizar quem consegue ver o valor da rede desde o começo. E, mesmo depois, novos parceiros dependerão do equilíbrio entre oferta x demanda.",
     icon: <Crown className="h-10 w-10 text-white" />
   },
   {
     id: 4,
-    name: "A Hora é Agora",
-    description: "Quem tem visão aproveita o começo de uma oportunidade, pois as condições mudam de acordo com o crescimento. Se você está vendo que a oportunidade bateu a porta, aproveite.",
+    name: "Mensalidade Zero",
+    description: "Se não bastasse a exclusividade, que tal ainda zerar sua mensalidade a partir de Julho de 2027? Voe ainda mais alto aproveitando o fluxo de católicos sem maiores investimentos.",
     icon: <Rocket className="h-10 w-10 text-white" />
   }
 ];
@@ -53,7 +53,7 @@ const FeaturesSection = () => {
             Um Conceito <span className="text-divino-purple">Único</span> para Parceiros <span className="text-divino-purple">Seletos</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Sabe por que teremos poucos parceiros? Porque só assim podemos acompanhar cada um de perto para obter resultados. Nossa missão é qualidade, não quantidade.
+            Queremos qualidade, não quantidade. Conheça os benefícios de aderir agora. 
           </p>
         </div>
         
@@ -65,7 +65,7 @@ const FeaturesSection = () => {
         
         <div className="mt-12 text-center">
           <Button className="bg-divino-gold hover:bg-divino-gold/90 text-white px-6 py-6 text-lg">
-            Aceite o convite dentro do Prazo
+            Tire suas Dúvidas pelo WhatsApp
           </Button>
         </div>
       </div>
