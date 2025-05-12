@@ -19,7 +19,7 @@ const PartnerPreview = () => {
             Sua<span className="text-divino-purple">Presença</span> na Católicos Online
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto mb-10">
-            Veja como sua loja aparecerá na rede.
+            Veja abaixo uma Página Profissional de exemplo.
           </p>
         </div>
         
@@ -39,13 +39,13 @@ const PartnerPreview = () => {
                     <div className="h-7 w-7 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-3">
                       <FilePen size={16} />
                     </div>
-                    Publique seu produtos com facilidade
+                    Publique seu posts em sua páginas 
                   </li>
                   <li className="flex items-center">
                     <div className="h-7 w-7 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-3">
                       <ShoppingCart size={16} />
                     </div>
-                    Os usuários podem comprar sem sair da rede
+                    Coloque informações e links de seus canais e serviços 
                   </li>                  
                   <li className="flex items-center">                    
                     <div className="h-7 w-7 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-3">
@@ -63,7 +63,7 @@ const PartnerPreview = () => {
               </div>
               
               <div className="text-sm text-gray-500 italic">
-                <p> Este é apenas um exemplo de loja e que pode ser visto no site como demonstração.</p>
+                <p> Este é apenas um exemplo de página e que pode ser visto no site como demonstração.</p>
               </div>
             </div>
           </div>
