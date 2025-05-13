@@ -48,8 +48,8 @@ const UrgencySection = () => {
             </p>
             
             <p className="text-lg mb-8 text-gray-700">
-             Os membros da rede saberão que temos parceiros católicos, que não tem medo de mostrar e defender a 
-              fé católica através de suas profissões. Temos a certeza de que darão preferência a você.
+             Os membros da rede saberão que temos parceiros católicos que não tem medo de mostrar e defender a 
+              fé católica através de suas profissões. POr isso, temos a certeza de que darão preferência a você.
             </p>
             
             <div className="flex items-center mb-10">
