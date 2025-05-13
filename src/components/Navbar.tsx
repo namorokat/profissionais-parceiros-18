@@ -21,7 +21,7 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const whatsappLink = "https://api.whatsapp.com/send/?phone=5511966499963&text&type=phone_number&app_absent=0";
+  const whatsappLink = "http://wa.me/5501152866640";
 
   return (
     <header className={`fixed top-0 left-0 right-0 w-full py-4 z-50 transition-all duration-300 ${
