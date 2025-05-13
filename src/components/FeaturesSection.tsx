@@ -25,7 +25,7 @@ const features = [
   {
     id: 4,
     name: "Mensalidade Zero",
-    description: "Se não bastasse a exclusividade, que tal ainda zerar sua mensalidade a partir de Julho de 2027? Voe ainda mais alto aproveitando o fluxo de católicos sem maiores investimentos.",
+    description: "Se não bastasse a exclusividade, que tal ainda zerar sua mensalidade a partir de Julho de 2027? Voe ainda mais alto aproveitando o fluxo de católicos sem maiores investimentos. Sua fidelidade recompensada!",
     icon: <Rocket className="h-10 w-10 text-white" />
   }
 ];
