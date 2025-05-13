@@ -1,8 +1,11 @@
 
 import React from 'react';
 import PartnerTextCarousel from './PartnerTextCarousel';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 const UrgencySection = () => {
+  const isMobile = useIsMobile();
+  
   // List of Catholic partner organizations
   const partners = [
     "Psicólogos",
@@ -20,14 +23,24 @@ const UrgencySection = () => {
     <div className="w-full py-16 md:py-20 lg:py-24 bg-white">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="bg-gray-50 rounded-xl p-6 shadow-sm border border-gray-100">
-            <PartnerTextCarousel partners={partners} interval={2500} />
-          </div>
+          {/* For desktop: carousel on the left side */}
+          {!isMobile && (
+            <div className="bg-gray-50 rounded-xl p-6 shadow-sm border border-gray-100">
+              <PartnerTextCarousel partners={partners} interval={2500} />
+            </div>
+          )}
           
           <div className="text-left">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary font-serif">
               Limite de <span className="text-purple-400">20 Parceiros</span>.
             </h2>    
+            
+            {/* For mobile: carousel after the title */}
+            {isMobile && (
+              <div className="bg-gray-50 rounded-xl p-6 shadow-sm border border-gray-100 mb-6">
+                <PartnerTextCarousel partners={partners} interval={2500} />
+              </div>
+            )}
             
             <p className="text-lg mb-6 text-gray-700">
               São milhares de profissionais católicos pelo Brasil, mas não queremos ser um diretório com milhares de 
