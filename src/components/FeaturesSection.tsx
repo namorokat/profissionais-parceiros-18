@@ -7,25 +7,25 @@ const features = [
   {
     id: 1,
     name: "Conexão Natural",
-    description: "Ao prover um espaço para diferentes tipos de interações, a rede atrai uma ampla gama de católicos que irá se deparar com a sua página e seu conteúdo de forma mais natural, como deve ser o marketing moderno.",
+    description: "Ao oferecer um espaço para múltiplas interações, a rede atrai diversos católicos que encontrarão sua página e conteúdo de forma mais orgânica — como pede o marketing moderno.",
     icon: <Users className="h-10 w-10 text-white" />
   },
   {
     id: 2,
     name: "Construa Fidelidade",
-    description: "A sua Página estará em um espaço dedicado e se beneficiará da recorrência das visitas dos membros. Quem não gosta de encontrar tudo em um lugar só?  Mais visitas, mais fidelização, mais negócios. 🤩",
+    description: "Sua Página ficará em um espaço exclusivo e aproveitará a frequência das visitas dos membros. Afinal, quem não gosta de achar tudo num só lugar? Mais visitas, mais fidelização, mais negócios. 🤩",
     icon: <RefreshCw className="h-10 w-10 text-white" />
   },
   {
     id: 3,
     name: "Exclusividade",
-    description: "Parceiros-Embaixadores terão 2 anos de exclusividade. Queremos valorizar quem consegue ver o valor da rede desde o começo. E, mesmo depois, novos parceiros dependerão do equilíbrio entre oferta x demanda.",
+    description: "Parceiros-Embaixadores terão 2 anos de exclusividade. Valorizamos quem reconhece o potencial da rede desde o início. Após isso, novos parceiros dependerão do equilíbrio entre oferta e demanda.",
     icon: <Crown className="h-10 w-10 text-white" />
   },
   {
     id: 4,
     name: "Mensalidade Zero",
-    description: "Se não bastasse a exclusividade, que tal ainda zerar sua mensalidade a partir de Julho de 2027? Voe ainda mais alto aproveitando o fluxo de católicos sem maiores investimentos. Sua fidelidade recompensada!",
+    description: "Se já não bastasse a exclusividade, que tal ainda zerar sua mensalidade a partir de Julho de 2027? Voe ainda mais alto aproveitando o fluxo de católicos sem maiores investimentos. Sua fidelidade recompensada!",
     icon: <Rocket className="h-10 w-10 text-white" />
   }
 ];
