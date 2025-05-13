@@ -1,10 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-
 const PricingSection = () => {
-  return (
-    <section id="pricing" className="py-16 md:py-24 bg-white relative overflow-hidden">
+  return <section id="pricing" className="py-16 md:py-24 bg-white relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden opacity-5">
         <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-divino-gold blur-3xl"></div>
         <div className="absolute left-0 bottom-0 h-96 w-96 rounded-full bg-divino-purple blur-3xl"></div>
@@ -15,9 +12,7 @@ const PricingSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 font-playfair">
             <span className="text-divino-gold">Preços</span> Promocionais
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto mb-10">
-            Aproveite nossas condições especiais por tempo limitado
-          </p>
+          <p className="text-gray-600 max-w-2xl mx-auto mb-10">Espaço para apenas 20 Profissionais!</p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -90,9 +85,7 @@ const PricingSection = () => {
             </div>
             <CardHeader className="bg-gradient-to-b from-divino-cream to-white text-center">
               <CardTitle className="text-2xl font-playfair">Plano Premium</CardTitle>
-              <CardDescription>
-                Este será o único plano disponibilizado após expirar as vagas promocionais.
-              </CardDescription>
+              <CardDescription>Este plano será disponibilizado após expirar as vagas promocionais.</CardDescription>
             </CardHeader>
             <CardContent className="pt-6">
               <div className="text-center space-y-4">
@@ -155,18 +148,11 @@ const PricingSection = () => {
         </div>
         
         <div className="mt-12 text-center">
-          <Button 
-            asChild
-            className="bg-divino-gold hover:bg-divino-gold/90 text-white px-6 py-6 text-lg"
-          >
-            <a href="http://wa.me/5511933921777" target="_blank" rel="noopener noreferrer">
-              Garanta seu Lugar
-            </a>
+          <Button asChild className="bg-divino-gold hover:bg-divino-gold/90 text-white px-6 py-6 text-lg">
+            <a href="http://wa.me/5511933921777" target="_blank" rel="noopener noreferrer">Quero uma Vaga!</a>
           </Button>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default PricingSection;
