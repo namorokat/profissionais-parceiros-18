@@ -47,7 +47,7 @@ const PricingSection = () => {
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
                       </div>
-                      Sua página na plataforma
+                      Sua página na rede
                     </li>
                     <li className="flex items-center">
                       <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-3">
@@ -55,15 +55,23 @@ const PricingSection = () => {
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
                       </div>
-                      Suporte prioritário
+                      Suporte contínuo
                     </li>
                     <li className="flex items-center">
                       <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-3">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
-                      </div>
-                      Público-alvo direcionado
+                      </div>                      
+                      Sem contrato de fidelidade
+                    </li>
+                    <li className="flex items-center">
+                      <div className="h-5 w-5 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                        </svg>
+                      </div>                      
+                      Mensalidade Zero após 2 anos
                     </li>
                   </ul>
                 </div>
@@ -72,7 +80,7 @@ const PricingSection = () => {
             <CardFooter className="flex justify-center pb-6">
               <div className="text-center">
                 <div className="text-xs text-divino-purple font-medium mb-3">
-                  Aproveite esta oferta por tempo limitado!
+                  Aproveite, são poucas vagas!
                 </div>
               </div>
             </CardFooter>
@@ -107,7 +115,7 @@ const PricingSection = () => {
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
                       </div>
-                      Sua página na plataforma
+                      Sua página na rede
                     </li>
                     <li className="flex items-center">
                       <div className="h-5 w-5 rounded-full bg-divino-gold/10 text-divino-gold flex items-center justify-center mr-3">
@@ -115,7 +123,7 @@ const PricingSection = () => {
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
                       </div>
-                      Suporte VIP
+                      Suporte contínuo
                     </li>
                     <li className="flex items-center">
                       <div className="h-5 w-5 rounded-full bg-divino-gold/10 text-divino-gold flex items-center justify-center mr-3">
@@ -123,7 +131,7 @@ const PricingSection = () => {
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
                       </div>
-                      Destaque na plataforma
+                      Sem contrato de fidelidade
                     </li>
                     <li className="flex items-center">
                       <div className="h-5 w-5 rounded-full bg-divino-gold/10 text-divino-gold flex items-center justify-center mr-3">
@@ -131,7 +139,7 @@ const PricingSection = () => {
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
                       </div>
-                      Recursos exclusivos
+                      Mensalidade zero após 2 anos
                     </li>
                   </ul>
                 </div>
