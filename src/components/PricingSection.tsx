@@ -19,7 +19,7 @@ const PricingSection = () => {
           {/* Left Column - Basic Plan */}
           <Card className="relative border-divino-purple/20 shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
             <div className="absolute top-0 right-0 bg-divino-purple/10 text-divino-purple text-sm py-1 px-3 rounded-bl-lg font-medium">
-              10 vagas disponíveis
+              <b>10 vagas</b> disponíveis
             </div>
             <CardHeader className="bg-gradient-to-b from-divino-light to-white text-center">
               <CardTitle className="text-2xl font-playfair">LOTE I</CardTitle>
@@ -90,7 +90,7 @@ const PricingSection = () => {
           {/* Right Column - Premium Plan */}
           <Card className="relative border-divino-gold/30 shadow-lg hover:shadow-xl transition-shadow overflow-hidden">
             <div className="absolute top-0 right-0 bg-divino-gold/10 text-divino-gold text-sm py-1 px-3 rounded-bl-lg font-medium">
-              10 vagas disponíveis
+              <b>10 vagas</b> disponíveis
             </div>
             <CardHeader className="bg-gradient-to-b from-divino-cream to-white text-center">
               <CardTitle className="text-2xl font-playfair">Lote II</CardTitle>
@@ -148,9 +148,7 @@ const PricingSection = () => {
               </div>
             </CardContent>
             <CardFooter className="flex justify-center pb-6">
-              <div className="text-center">
-                <div className="text-xs text-divino-gold font-medium mb-3">
-                  Garanta seu lugar antes que as vagas acabem!
+              <div Você jamais viu uma proposta com estes benefícios!
                 </div>
               </div>
             </CardFooter>
