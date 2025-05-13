@@ -69,23 +69,25 @@ const ContactSection = () => {
             
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">
-                <AccordionTrigger className="text-left text-base font-medium">Qual o investimento para ser parceiro?</AccordionTrigger>
+                <AccordionTrigger className="text-left text-base font-medium">Por que eu deveria aderir agora?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  Cada parceiro recebe uma proposta específica, pois cada qual tem um perfil diferente com potencial diferente. Para receber uma proposta, você deve fazer contato o quanto antes, dado o limite no número de parceiros.
+                  O número de parceiros que teremos inicialmente é muito pequeno e não abriremos novas vagas até Julho de 2027.
                 </AccordionContent>
               </AccordionItem>
               
               <AccordionItem value="item-2">
-                <AccordionTrigger className="text-left text-base font-medium">Como receberei os valores das minhas vendas?</AccordionTrigger>
+                <AccordionTrigger className="text-left text-base font-medium">Como os membros poderão fazer contato comigo?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  Assim que atingir uma valor mínimo em vendas, você poderá solicitar um saque pela plataforma que será feito em 24hs.
+                  Você poderá linkar para o seu perfil pessoal dentro da rede, que permite chat em tempo real. Poderá ainda listar os links para os seus outros
+                  canais fora da rede e, futuramente, os membros poderão também contactar você diretamente pelo chat em sua página. Ah, e claro, eles podem intereagir com você em seus posts! 
                 </AccordionContent>
               </AccordionItem>
               
               <AccordionItem value="item-3">
-                <AccordionTrigger className="text-left text-base font-medium">Quando será o lançamento?</AccordionTrigger>
+                <AccordionTrigger className="text-left text-base font-medium">O que é a fase beta?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  A Rede entrará em fase beta em breve, quando já receberá novos membros. Durante esta fase haverá ajustes ou correções de acordo com feedback dos usuários e parceiros. Nossa previsão de lançamento oficial está para o dia 12 de Outubro.
+                  Apesar de estar pronta para uso, a rede ainda tem ajustes finos e precisará passar por testes reais com muitos usuários para que possamos validar tudo 100%. Esta fase será
+                  essencial para colhermos feedback e planejar as próximas melhorias e funções.
                 </AccordionContent>
               </AccordionItem>
               
@@ -97,11 +99,23 @@ const ContactSection = () => {
               </AccordionItem>
               
               <AccordionItem value="item-5">
-                <AccordionTrigger className="text-left text-base font-medium">Tem apps?</AccordionTrigger>
+                <AccordionTrigger className="text-left text-base font-medium">Teremos Apps?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  A plataforma está bem adaptada para smartphones, com uma interface que simula um app. Apps oficiais já estão em desenvolvimento.
+                  A plataforma está bem adaptada para smartphones e com uma interface que simula um app. Mas sim, planejamos desenvolver apps nativos também.
                 </AccordionContent>
               </AccordionItem>
+
+              <AccordionItem value="item-6">
+                <AccordionTrigger className="text-left text-base font-medium">Qual deve ser a minha expectativa?</AccordionTrigger>
+                <AccordionContent className="text-gray-600">
+                 Como todo projeto recém-lançado, a rede também terá uma curva antes de obter mais tração. Nós já temos um fluxo que será transferido para a rede, 
+                  mas um volume maior de tráfego virá de nossos trabalhos técnicos de SEO (Search Engine Optimization), que deverá levar em torno de 6 meses para os seus
+                  primeiros efeitos. Como a expectiva difere entre pessoas e profissões, sugerimos que só entre se estiver disposto a crescer com a rede e não ter expectiva de 
+                  resultados imediatos.
+              
+                </AccordionContent>
+              </AccordionItem>
+              
             </Accordion>
             
             <div className="mt-8">
