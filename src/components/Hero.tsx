@@ -46,13 +46,13 @@ const Hero = () => {
                         </div>
                       </div>
                       
-                      {/* Phone screen with uploaded image */}
+                      {/* Phone screen with uploaded image - changed to new image and full length */}
                       <div className="relative overflow-hidden rounded-b-2xl bg-white">
                         <div className="relative w-full" style={{
-                          aspectRatio: "1/1"
+                          aspectRatio: "9/19"
                         }}>
                           <img 
-                            src="/lovable-uploads/8b7aaba1-6265-412f-8eeb-6ce49d615585.png" 
+                            src="/lovable-uploads/fb0eb305-a6dd-4deb-abd2-ae1c3fe1eabf.png" 
                             alt="Católicos Online profile example" 
                             className="w-full h-full object-cover" 
                           />
