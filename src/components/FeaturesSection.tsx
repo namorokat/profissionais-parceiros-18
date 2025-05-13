@@ -53,7 +53,7 @@ const FeaturesSection = () => {
             Um Conceito <span className="text-divino-purple">Único</span> para Parceiros <span className="text-divino-purple">Seletos</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Queremos qualidade, não quantidade. Conheça os benefícios de aderir agora. 
+            A Católicos Online irá facilitar a busca de profissionais católicos. Ao prover um espaço para diferentes tipos de interações, vamos atrair uma ampla gama de católicos que irá se deparar naturalmente com a sua página e seu conteúdo, de forma mais natural, como deve ser o marketing moderno.
           </p>
         </div>
         
