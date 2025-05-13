@@ -62,7 +62,7 @@ const Hero = () => {
                 </div>
               </div>}
             
-            <p className="text-lg md:text-xl text-gray-600 max-w-lg text-left">A Católicos Online é a mais nova (e única) rede social para católicos e que conta com um hub para promover profissionais católicos. Faça sua adesão para aproveitar os benefícios de ser um dos poucos parceiros da rede!</p>
+            <p className="text-lg md:text-xl text-gray-600 max-w-lg text-left">A Católicos Online é a mais nova — e única — rede social feita para católicos, com um hub exclusivo para promover profissionais que vivem a fé. Garanta sua adesão e aproveite os benefícios de ser um dos seletos parceiros da rede.</p>
             <div className="flex flex-col sm:flex-row gap-4 pt-2 md:pt-4 items-center justify-center md:justify-start">
               <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-6 text-lg flex items-center gap-1" onClick={() => window.open(whatsappLink, '_blank')}>
                 Garanta seu Lugar
