@@ -78,7 +78,7 @@ const ContactSection = () => {
                 <AccordionItem value="item-5">
                 <AccordionTrigger className="text-left text-base font-medium">Quem se qualifica?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  Qualquer profissional católico, sem necessidade ser pessoa jurídica, mas que possa comprovar sua capacidade e qualificações de acordo com os
+                  Qualquer profissional católico, sem necessidade de ser pessoa jurídica, mas que possa comprovar sua capacidade e qualificações de acordo com os
                   serviços que oferece.
                 </AccordionContent>
               </AccordionItem>
@@ -94,8 +94,7 @@ const ContactSection = () => {
               <AccordionItem value="item-3">
                 <AccordionTrigger className="text-left text-base font-medium">O que é a fase beta?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  Apesar de estar pronta para uso, a rede ainda tem ajustes finos e precisará passar por testes reais com muitos usuários para que possamos validar tudo 100%. Esta fase será
-                  essencial para colhermos feedback e planejar as próximas melhorias e funções.
+                  Embora já esteja pronta para uso, a rede ainda passará por ajustes finos e testes reais com muitos usuários para validarmos tudo com 100% de segurança. Essa fase será crucial para coletar feedbacks e planejar melhorias e novas funções.
                 </AccordionContent>
               </AccordionItem>
               
@@ -109,10 +108,8 @@ const ContactSection = () => {
               <AccordionItem value="item-6">
                 <AccordionTrigger className="text-left text-base font-medium">Qual deve ser a minha expectativa?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                 Como todo projeto recém-lançado, a rede também terá uma curva antes de obter mais tração. Nós já temos um fluxo que será transferido para a rede, 
-                  mas um volume maior de tráfego virá de nossos trabalhos técnicos de SEO (Search Engine Optimization), que deverá levar em torno de 6 meses para os seus
-                  primeiros efeitos. Como a expectiva difere entre pessoas e profissões, sugerimos que só entre se estiver disposto a crescer com a rede e não ter expectiva de 
-                  resultados imediatos.
+                 Como todo projeto recém-lançado, a rede terá uma curva natural até ganhar tração. Já contamos com um fluxo inicial que será direcionado (3000 visitas/mês), mas o tráfego mais robusto virá do nosso trabalho técnico de SEO (Search Engine Optimization), com efeitos visíveis em cerca de 6 meses. 
+                  Como as expectativas variam entre pessoas e profissões, sugerimos participar apenas se estiver disposto a crescer junto com a rede, sem esperar resultados imediatos.
               
                 </AccordionContent>
               </AccordionItem>
