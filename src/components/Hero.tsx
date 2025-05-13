@@ -68,7 +68,7 @@ const Hero = () => {
                 Garanta seu Lugar
                 <ExternalLink size={16} />
               </Button>
-              <Button variant="outline" className="border-divino-purple text-divino-purple hover:bg-divino-purple/10 px-6 py-6 text-lg" onClick={() => window.open('https://catolicos.online/pages/DivinoAmor/products', '_blank')}>
+              <Button variant="outline" className="border-divino-purple text-divino-purple hover:bg-divino-purple/10 px-6 py-6 text-lg" onClick={() => window.open('https://catolicos.online/pages/DrFranchesco', '_blank')}>
                 Veja uma página-exemplo <ExternalLink size={16} className="ml-1" />
               </Button>
             </div>
