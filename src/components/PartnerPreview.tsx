@@ -72,7 +72,7 @@ const PartnerPreview = () => {
         
         <div className="mt-12 text-center">
           <Button 
-            className="bg-divino-gold hover:bg-divino-gold/90 text-white px-6 py-6 text-lg flex items-center gap-2"
+            className="bg-divino-gold hover:bg-divino-gold/90 text-white px-6 py-6 text-lg static items-center gap-2"
             onClick={() => window.open(whatsappLink, '_blank')}
           >
             Converse com a gente
