@@ -50,7 +50,7 @@ const UrgencySection = () => {
             </p>
             
             <p className="text-lg mb-8 text-gray-700">
-             Na rede, os membros saberão que temos parceiros que vivem e defendem sua fé também no trabalho. Por isso, temos convicção de que escolherão você em primeiro. lugar
+             Na rede, os membros saberão que temos parceiros que vivem e defendem sua fé também no trabalho. Por isso, temos convicção de que escolherão você em primeiro lugar
             </p>
             
             <div className="flex items-center mb-10">
