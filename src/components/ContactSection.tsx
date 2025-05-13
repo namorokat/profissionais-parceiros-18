@@ -54,8 +54,8 @@ const ContactSection = () => {
                   <Book className="h-6 w-6 text-divino-purple" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800 text-lg">Contato via WhatsApp</h3>
-                  <p className="text-gray-600">Converse com a gente:</p>
+                  <h3 className="font-semibold text-gray-800 text-lg">Contato via WhatsApp</h3>  
+                  <p className="text-gray-600">Converse com a gente: (11)5286-6640  </p>
                 </div>
               </div>
             </div>
