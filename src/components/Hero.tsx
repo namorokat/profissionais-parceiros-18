@@ -118,11 +118,10 @@ const Hero = () => {
                   <div className="flex items-center space-x-2">
                     <div className="flex items-center gap-1">
                       <Users size={16} className="text-divino-purple" />
-                      <span className="text-divino-purple font-medium">30K+</span>
-                    </div>
-                    <span className="font-medium text-gray-800">Membros</span>
+                      <span className="text-divino-purple font-medium">Membros recorrentes</span>
+                    </div>                    
                   </div>
-                  <p className="text-sm text-gray-600 mt-1">Expectativa p/ 12 meses</p>
+                  <p className="text-sm text-gray-600 mt-1">Fortaleça a sua marca!</p>
                 </div>
               </div>
               
