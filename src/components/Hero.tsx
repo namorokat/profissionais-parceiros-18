@@ -16,12 +16,12 @@ const Hero = () => {
         <div className="absolute right-0 bottom-0 h-96 w-96 rounded-full bg-divino-gold blur-3xl"></div>
       </div>
       
-      <div className="container relative z-10">
+      <div className="container relative z-6">
         <div className="flex flex-col-reverse md:flex-row items-center">
           <div className="w-full md:w-1/2 space-y-6 text-center md:text-left pt-8 md:pt-0">
             <div className="mb-6 inline-block">
               <div className="flex items-center space-x-2 bg-divino-purple/10 text-divino-purple rounded-full px-4 py-1 text-sm font-medium mb-4">
-                <Church size={14} />
+                <Church size={17} />
                 <span>Um Hub Social Católico com Diretório Premium</span>
               </div>
             </div>
