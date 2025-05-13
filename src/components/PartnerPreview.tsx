@@ -28,7 +28,7 @@ const PartnerPreview = () => {
           
           <div className="relative bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
             {/* Partner Page Header - Full mockup image */}
-            <img src="/lovable-uploads/f040c28a-be06-490b-beb9-dd8a5e2a89c9.png" alt="Espaço Católico Divino Amor Partner Page" className="w-full h-auto object-contain" />
+            <img src="/lovable-uploads/5373a6ce-ff12-4f02-b807-596dab273d2a.png" alt="Dr. Franchesco Lisboa Partner Page" className="w-full h-auto object-contain" />
             
             {/* Additional context about the page preview */}
             <div className="p-6">
