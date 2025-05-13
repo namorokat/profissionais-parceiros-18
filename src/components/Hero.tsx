@@ -8,7 +8,7 @@ const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const isMobile = useIsMobile();
   const whatsappLink = "https://api.whatsapp.com/send/?phone=5511966499963&text&type=phone_number&app_absent=0";
-  return <section className="relative overflow-hidden bg-gradient-to-br from-divino-cream to-white py-16 md:py-24">
+  return <section className="relative overflow-hidden bg-gradient-to-br from-divino-cream to-white py-8 md:py-24">
       <div className="absolute inset-0 overflow-hidden opacity-10">
         <div className="absolute left-0 top-0 h-96 w-96 rounded-full bg-divino-purple blur-3xl"></div>
         <div className="absolute right-0 bottom-0 h-96 w-96 rounded-full bg-divino-gold blur-3xl"></div>
@@ -16,9 +16,9 @@ const Hero = () => {
       
       <div className="container relative z-10">
         <div className="flex flex-col-reverse md:flex-row items-center">
-          <div className="w-full md:w-1/2 space-y-6 text-left pt-8 md:pt-0">
-            <div className="mb-6 inline-block">
-              <div className="flex items-center space-x-2 bg-divino-purple/10 text-divino-purple rounded-full px-4 py-1 text-sm font-medium mb-4">
+          <div className="w-full md:w-1/2 space-y-3 md:space-y-6 text-left pt-4 md:pt-0">
+            <div className="mb-2 md:mb-6 inline-block">
+              <div className="flex items-center space-x-2 bg-divino-purple/10 text-divino-purple rounded-full px-4 py-1 text-sm font-medium mb-2 md:mb-4">
                 <Church size={14} />
                 <span className="">Um Hub Social Católico com Diretório Premium</span>
               </div>
@@ -28,7 +28,7 @@ const Hero = () => {
             </h1>
             
             {/* Mobile Phone Mockup - only visible on mobile */}
-            {isMobile && <div className="mx-auto max-w-[250px] my-6">
+            {isMobile && <div className="mx-auto max-w-[250px] my-4">
                 <div className="relative">
                   {/* Phone frame container */}
                   <div className="relative mx-auto">
@@ -63,7 +63,7 @@ const Hero = () => {
               </div>}
             
             <p className="text-lg md:text-xl text-gray-600 max-w-lg text-left">A Católicos Online é a mais nova (e única) rede social para católicos e que conta com um hub para promover profissionais católicos. Faça sua adesão para aproveitar os benefícios de ser um dos poucos parceiros da rede!</p>
-            <div className="flex flex-col sm:flex-row gap-4 pt-4 items-center justify-center md:justify-start">
+            <div className="flex flex-col sm:flex-row gap-4 pt-2 md:pt-4 items-center justify-center md:justify-start">
               <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-6 text-lg flex items-center gap-1" onClick={() => window.open(whatsappLink, '_blank')}>
                 Garanta seu Lugar
                 <ExternalLink size={16} />
