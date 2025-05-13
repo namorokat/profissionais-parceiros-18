@@ -6,8 +6,8 @@ import { BookOpen, Handshake, Users, RefreshCw, Crown, Rocket } from "lucide-rea
 const features = [
   {
     id: 1,
-    name: "Exclusividade",
-    description: "A Católicos Online irá facilitar a busca de profissionais católicos. Ao prover um espaço para diferentes tipos de interações, vamos atrair uma ampla gama de católicos que irá se deparar naturalmente com a sua página e seu conteúdo, de forma mais natural, como deve ser o marketing moderno.",
+    name: "Conexão Natural",
+    description: "Ao prover um espaço para diferentes tipos de interações, a rede atrai uma ampla gama de católicos que irá se deparar com a sua página e seu conteúdo de forma mais natural, como deve ser o marketing moderno.",
     icon: <Users className="h-10 w-10 text-white" />
   },
   {
