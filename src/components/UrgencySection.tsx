@@ -46,13 +46,11 @@ const UrgencySection = () => {
             )}
             
             <p className="text-lg mb-6 text-gray-700">
-              São milhares de profissionais católicos pelo Brasil, mas não queremos ser um diretório com milhares de 
-              profissionais que não terão retorno exceto se pagarem alto para aparecer com propagandas.              
+              Existem milhares de profissionais católicos no Brasil, mas não queremos ser apenas um diretório onde só aparece quem paga caro por propaganda.              
             </p>
             
             <p className="text-lg mb-8 text-gray-700">
-             Os membros da rede saberão que temos parceiros católicos que não tem medo de mostrar e defender a 
-              fé católica através de suas profissões. POr isso, temos a certeza de que darão preferência a você.
+             Na rede, os membros saberão que temos parceiros que vivem e defendem sua fé também no trabalho. Por isso, temos convicção de que escolherão você em primeiro. lugar
             </p>
             
             <div className="flex items-center mb-10">
