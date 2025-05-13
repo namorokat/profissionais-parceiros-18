@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { FileImage, Heart, MessageSquare, Users, Church, ShoppingCart, Medal, Share } from "lucide-react";
+import { FileImage, Heart, MessageSquare, Users, Church, Post, Medal, Share } from "lucide-react";
 const PartnerPreview = () => {
   return <section id="partner-preview" className="py-16 md:py-24 bg-divino-light/30 relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden opacity-5">
@@ -43,7 +43,7 @@ const PartnerPreview = () => {
                   </li>
                   <li className="flex items-center">
                     <div className="h-7 w-7 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-3">
-                      <ShoppingCart size={16} />
+                      <Post size={16} />
                     </div>
                     Coloque informações e links de seus canais e serviços 
                   </li>                  
