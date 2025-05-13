@@ -22,7 +22,7 @@ const PricingSection = () => {
               10 vagas disponíveis
             </div>
             <CardHeader className="bg-gradient-to-b from-divino-light to-white text-center">
-              <CardTitle className="text-2xl font-playfair">Plano Básico</CardTitle>
+              <CardTitle className="text-2xl font-playfair">LOTE I</CardTitle>
               <CardDescription>
                 Garanta um dos 10 lugares com o valor reduzido!
               </CardDescription>
@@ -37,7 +37,7 @@ const PricingSection = () => {
                   </div>
                 </div>
                 <div className="text-gray-500 text-sm mt-2">
-                  <p>Após o período promocional: <span className="font-semibold">R$150/mês</span></p>
+                  <p>No lançamento oficial, em 2026: <span className="font-semibold">R$150/mês</span></p>
                 </div>
                 <div className="pt-4 border-t border-gray-100 mt-6">
                   <ul className="space-y-3 text-gray-600">
@@ -92,7 +92,7 @@ const PricingSection = () => {
               10 vagas disponíveis
             </div>
             <CardHeader className="bg-gradient-to-b from-divino-cream to-white text-center">
-              <CardTitle className="text-2xl font-playfair">Plano Premium</CardTitle>
+              <CardTitle className="text-2xl font-playfair">Lote II</CardTitle>
               <CardDescription>Este plano será disponibilizado após expirar as vagas promocionais.</CardDescription>
             </CardHeader>
             <CardContent className="pt-6">
@@ -105,7 +105,7 @@ const PricingSection = () => {
                   </div>
                 </div>
                 <div className="text-gray-500 text-sm mt-2">
-                  <p>Após o período promocional: <span className="font-semibold">R$190/mês</span></p>
+                  <p>No lançamento oficial, em 2026: <span className="font-semibold">R$190/mês</span></p>
                 </div>
                 <div className="pt-4 border-t border-gray-100 mt-6">
                   <ul className="space-y-3 text-gray-600">
