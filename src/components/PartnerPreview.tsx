@@ -1,7 +1,5 @@
-
 import { Button } from "@/components/ui/button";
 import { FileImage, Heart, MessageSquare, Users, Church, FileText, Medal, Share } from "lucide-react";
-
 const PartnerPreview = () => {
   return <section id="partner-preview" className="py-16 md:py-24 bg-divino-light/30 relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden opacity-5">
@@ -19,9 +17,7 @@ const PartnerPreview = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 font-playfair">
             Sua<span className="text-divino-purple">Presença</span> na Católicos Online
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto mb-10">
-            Veja abaixo uma Página Profissional de exemplo.
-          </p>
+          <p className="text-gray-600 max-w-2xl mx-auto mb-10">Veja abaixo uma Página Profissional de exemplo na versão desktop.</p>
         </div>
         
         <div className="relative max-w-4xl mx-auto">
