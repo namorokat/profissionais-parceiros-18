@@ -119,7 +119,7 @@ const Hero = () => {
                       <div className="relative w-full" style={{
                       aspectRatio: "9/19"
                     }}>
-                        <img src="/lovable-uploads/59588c71-07a3-4924-82d6-4cb79580099c.png" alt="Católicos Online app interface" className="w-full h-full object-cover" />
+                        <img src="/lovable-uploads/6eba3824-b559-4f2a-9a18-09b5fd4f7dfd.png" alt="Católicos Online app interface" className="w-full h-full object-cover" />
                       </div>
                     </div>
                     
