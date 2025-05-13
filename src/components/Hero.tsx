@@ -25,7 +25,7 @@ const Hero = () => {
                 <span>Um Hub Social Católico com Diretório Premium</span>
               </div>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight font-playfair">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight font-playfair mx-auto md:mx-0 text-justify md:text-left w-[105%] md:w-full">
               Conecte o seu <span className="text-divino-purple">Negócio</span> a um fluxo católico e constante.
             </h1>
             
