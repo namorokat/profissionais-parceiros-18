@@ -19,7 +19,7 @@ const PartnerPreview = () => {
           </div>
           
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 font-playfair">
-            Sua<span className="text-divino-purple">Presença</span> na Católicos Online
+            Sua <span className="text-divino-purple">Presença</span> na Católicos Online
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto mb-10">Veja abaixo uma Página Profissional de exemplo na versão desktop.</p>
         </div>
@@ -40,13 +40,13 @@ const PartnerPreview = () => {
                     <div className="h-7 w-7 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-3">
                       <Share size={16} />
                     </div>
-                    Publique seu posts em sua páginas 
+                    Direcione o público para seus canais de contato 
                   </li>
                   <li className="flex items-center">
                     <div className="h-7 w-7 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-3">
                       <FileText size={16} />
                     </div>
-                    Coloque informações e links de seus canais e serviços 
+                    Apareça entre um grupo seleto de parceiros  
                   </li>                  
                   <li className="flex items-center">                    
                     <div className="h-7 w-7 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-3">
