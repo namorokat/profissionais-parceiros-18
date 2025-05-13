@@ -10,7 +10,7 @@ const PricingSection = () => {
       <div className="container relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 font-playfair">
-            <span className="text-divino-gold">Preços</span> Promocionais
+            A Hora é <span className="text-divino-gold">Agora.</span>
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto mb-10">Espaço para apenas 20 Profissionais!</p>
         </div>
