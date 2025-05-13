@@ -7,7 +7,7 @@ const Hero = () => {
   // We don't need carousel and auto-slide functionality anymore since we're showing a single image
   const [currentSlide, setCurrentSlide] = useState(0);
   const isMobile = useIsMobile();
-  const whatsappLink = "https://api.whatsapp.com/send/?phone=5511966499963&text&type=phone_number&app_absent=0";
+  const whatsappLink = "http://wa.me/5501152866640";
   return <section className="relative overflow-hidden bg-gradient-to-br from-divino-cream to-white py-8 md:py-24">
       <div className="absolute inset-0 overflow-hidden opacity-10">
         <div className="absolute left-0 top-0 h-96 w-96 rounded-full bg-divino-purple blur-3xl"></div>
