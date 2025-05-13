@@ -1,6 +1,10 @@
+
 import { Button } from "@/components/ui/button";
-import { FileImage, Heart, MessageSquare, Users, Church, FileText, Medal, Share } from "lucide-react";
+import { FileImage, Heart, MessageSquare, Users, Church, FileText, Medal, Share, ExternalLink } from "lucide-react";
+
 const PartnerPreview = () => {
+  const whatsappLink = "http://wa.me/5501152866640";
+  
   return <section id="partner-preview" className="py-16 md:py-24 bg-divino-light/30 relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden opacity-5">
         <div className="absolute left-0 top-0 h-96 w-96 rounded-full bg-divino-purple blur-3xl"></div>
@@ -67,9 +71,16 @@ const PartnerPreview = () => {
         </div>
         
         <div className="mt-12 text-center">
-          <Button className="bg-divino-gold hover:bg-divino-gold/90 text-white px-6 py-6 text-lg">Converse com a gente</Button>
+          <Button 
+            className="bg-divino-gold hover:bg-divino-gold/90 text-white px-6 py-6 text-lg flex items-center gap-2"
+            onClick={() => window.open(whatsappLink, '_blank')}
+          >
+            Converse com a gente
+            <ExternalLink size={16} />
+          </Button>
         </div>
       </div>
     </section>;
 };
+
 export default PartnerPreview;

@@ -1,7 +1,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { BookOpen, Handshake, Users, RefreshCw, Crown, Rocket } from "lucide-react";
+import { BookOpen, Handshake, Users, RefreshCw, Crown, Rocket, ExternalLink } from "lucide-react";
 
 const features = [
   {
@@ -45,6 +45,8 @@ const FeatureCard = ({ feature }: { feature: typeof features[0] }) => {
 };
 
 const FeaturesSection = () => {
+  const whatsappLink = "http://wa.me/5501152866640";
+  
   return (
     <section id="features" className="py-16 bg-gray-50">
       <div className="container">
@@ -64,8 +66,12 @@ const FeaturesSection = () => {
         </div>
         
         <div className="mt-12 text-center">
-          <Button className="bg-divino-gold hover:bg-divino-gold/90 text-white px-6 py-6 text-lg">
+          <Button 
+            className="bg-divino-gold hover:bg-divino-gold/90 text-white px-6 py-6 text-lg flex items-center gap-2"
+            onClick={() => window.open(whatsappLink, '_blank')}
+          >
             Tire suas Dúvidas pelo WhatsApp
+            <ExternalLink size={16} />
           </Button>
         </div>
       </div>

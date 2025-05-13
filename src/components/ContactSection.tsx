@@ -2,10 +2,12 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Book, Church, Handshake, MessageSquare, HelpCircle } from "lucide-react";
+import { Book, Church, Handshake, MessageSquare, HelpCircle, ExternalLink } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const ContactSection = () => {
+  const whatsappLink = "http://wa.me/5501152866640";
+  
   return <section id="contact" className="py-16 md:py-24 bg-divino-light/30 relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden opacity-10">
         <div className="absolute left-0 top-0 h-96 w-96 rounded-full bg-divino-purple blur-3xl"></div>
@@ -103,11 +105,18 @@ const ContactSection = () => {
             </Accordion>
             
             <div className="mt-8">
-              <Button className="w-full text-white bg-lime-600 hover:bg-lime-500">Estamos no WhatsApp</Button>
+              <Button 
+                className="w-full text-white bg-lime-600 hover:bg-lime-500 flex items-center justify-center gap-2"
+                onClick={() => window.open(whatsappLink, '_blank')}
+              >
+                Estamos no WhatsApp
+                <ExternalLink size={16} />
+              </Button>
             </div>
           </div>
         </div>
       </div>
     </section>;
 };
+
 export default ContactSection;

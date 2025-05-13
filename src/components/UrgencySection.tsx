@@ -2,9 +2,12 @@
 import React from 'react';
 import PartnerTextCarousel from './PartnerTextCarousel';
 import { useIsMobile } from '@/hooks/use-mobile';
+import { Button } from "@/components/ui/button";
+import { ExternalLink } from "lucide-react";
 
 const UrgencySection = () => {
   const isMobile = useIsMobile();
+  const whatsappLink = "http://wa.me/5501152866640";
   
   // List of Catholic partner organizations
   const partners = [
@@ -57,7 +60,15 @@ const UrgencySection = () => {
                 <span className="text-3xl font-bold text-purple-500">20</span>
               </div>
               <span className="text-xl font-medium text-gray-700">Parceiros por Categoria </span>
-            </div>                     
+            </div>
+            
+            <Button 
+              className="bg-purple-500 hover:bg-purple-600 text-white px-6 py-6 text-lg flex items-center gap-2"
+              onClick={() => window.open(whatsappLink, '_blank')}
+            >
+              Garanta sua Vaga
+              <ExternalLink size={16} />
+            </Button>                   
           </div>
         </div>
       </div>
