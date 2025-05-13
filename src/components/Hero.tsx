@@ -1,3 +1,4 @@
+
 import { Button } from "@/components/ui/button";
 import { Church, Users, Smartphone, ExternalLink } from "lucide-react";
 import { useState } from "react";
@@ -15,7 +16,7 @@ const Hero = () => {
       
       <div className="container relative z-6">
         <div className="flex flex-col-reverse md:flex-row items-center">
-          <div className="w-full md:w-1/2 space-y-6 text-center md:text-left pt-8 md:pt-0">
+          <div className="w-full md:w-1/2 space-y-6 text-left pt-8 md:pt-0">
             <div className="mb-6 inline-block">
               <div className="flex items-center space-x-2 bg-divino-purple/10 text-divino-purple rounded-full px-4 py-1 text-sm font-medium mb-4">
                 <Church size={17} />
@@ -61,7 +62,7 @@ const Hero = () => {
                 </div>
               </div>}
             
-            <p className="text-lg md:text-xl text-gray-600 max-w-lg">A Católicos Online é a mais nova (e única) rede social para católicos e que conta com um hub para promover profissionais católicos. Faça sua adesão para aproveitar os benefícios de ser um dos poucos parceiros da rede!</p>
+            <p className="text-lg md:text-xl text-gray-600 max-w-lg text-left">A Católicos Online é a mais nova (e única) rede social para católicos e que conta com um hub para promover profissionais católicos. Faça sua adesão para aproveitar os benefícios de ser um dos poucos parceiros da rede!</p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 items-center justify-center md:justify-start">
               <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-6 text-lg flex items-center gap-1" onClick={() => window.open(whatsappLink, '_blank')}>
                 Garanta seu Lugar
