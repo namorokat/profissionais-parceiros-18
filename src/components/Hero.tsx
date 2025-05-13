@@ -1,15 +1,12 @@
-
 import { Button } from "@/components/ui/button";
 import { Church, Users, Smartphone, ExternalLink } from "lucide-react";
 import { useState } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
-
 const Hero = () => {
   // We don't need carousel and auto-slide functionality anymore since we're showing a single image
   const [currentSlide, setCurrentSlide] = useState(0);
   const isMobile = useIsMobile();
   const whatsappLink = "https://api.whatsapp.com/send/?phone=5511966499963&text&type=phone_number&app_absent=0";
-  
   return <section className="relative overflow-hidden bg-gradient-to-br from-divino-cream to-white py-16 md:py-24">
       <div className="absolute inset-0 overflow-hidden opacity-10">
         <div className="absolute left-0 top-0 h-96 w-96 rounded-full bg-divino-purple blur-3xl"></div>
@@ -22,7 +19,7 @@ const Hero = () => {
             <div className="mb-6 inline-block">
               <div className="flex items-center space-x-2 bg-divino-purple/10 text-divino-purple rounded-full px-4 py-1 text-sm font-medium mb-4">
                 <Church size={17} />
-                <span>Um Hub Social Católico com Diretório Premium</span>
+                <span className="">Um Hub Social Católico com Diretório Premium</span>
               </div>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight font-playfair mx-auto md:mx-0 text-left w-[105%] md:w-full">
@@ -30,8 +27,7 @@ const Hero = () => {
             </h1>
             
             {/* Mobile Phone Mockup - only visible on mobile */}
-            {isMobile && (
-              <div className="mx-auto max-w-[250px] my-6">
+            {isMobile && <div className="mx-auto max-w-[250px] my-6">
                 <div className="relative">
                   {/* Phone frame container */}
                   <div className="relative mx-auto">
@@ -49,13 +45,9 @@ const Hero = () => {
                       {/* Phone screen with uploaded image - changed to new image and full length */}
                       <div className="relative overflow-hidden rounded-b-2xl bg-white">
                         <div className="relative w-full" style={{
-                          aspectRatio: "9/19"
-                        }}>
-                          <img 
-                            src="/lovable-uploads/fb0eb305-a6dd-4deb-abd2-ae1c3fe1eabf.png" 
-                            alt="Católicos Online profile example" 
-                            className="w-full h-full object-cover" 
-                          />
+                      aspectRatio: "9/19"
+                    }}>
+                          <img src="/lovable-uploads/fb0eb305-a6dd-4deb-abd2-ae1c3fe1eabf.png" alt="Católicos Online profile example" className="w-full h-full object-cover" />
                         </div>
                       </div>
                       
@@ -67,8 +59,7 @@ const Hero = () => {
                     <div className="absolute inset-0 -m-6 rounded-full bg-divino-purple/20 blur-xl -z-10"></div>
                   </div>
                 </div>
-              </div>
-            )}
+              </div>}
             
             <p className="text-lg md:text-xl text-gray-600 max-w-lg">A Católicos Online é a mais nova (e única) rede social para católicos e que conta com um hub para promover profissionais católicos. Faça sua adesão para aproveitar os benefícios de ser um dos poucos parceiros da rede!</p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4 items-center justify-center md:justify-start">
