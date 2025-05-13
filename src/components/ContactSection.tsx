@@ -78,8 +78,8 @@ const ContactSection = () => {
                 <AccordionItem value="item-5">
                 <AccordionTrigger className="text-left text-base font-medium">Quem se qualifica?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  Qualquer profissional católico, sem necessidade de ser pessoa jurídica, mas que possa comprovar sua capacidade e qualificações de acordo com os
-                  serviços que oferece.
+                  Empresas e profissionais católicos, sem necessidade de ser pessoa jurídica, mas que possa comprovar sua capacidade e qualificações de acordo com os
+                  serviços que oferece. Nos reservamos o direito de analisar cada candidado segundo nossos critérios internos.
                 </AccordionContent>
               </AccordionItem>
               
