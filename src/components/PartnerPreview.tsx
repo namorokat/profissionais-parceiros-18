@@ -46,7 +46,7 @@ const PartnerPreview = () => {
                     <div className="h-7 w-7 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-3">
                       <FileText size={16} />
                     </div>
-                    Apareça entre um grupo seleto de parceiros  
+                    Destaque-se em um grupo seleto de parceiros  
                   </li>                  
                   <li className="flex items-center">                    
                     <div className="h-7 w-7 rounded-full bg-divino-purple/10 text-divino-purple flex items-center justify-center mr-3">
