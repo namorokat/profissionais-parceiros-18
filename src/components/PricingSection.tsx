@@ -37,7 +37,8 @@ const PricingSection = () => {
                   </div>
                 </div>
                 <div className="text-gray-500 text-sm mt-2">
-                  <p>No lançamento oficial, em 2026: <span className="font-semibold">R$150/mês</span></p>
+                  <p>Após lançamento oficial em 2026: <span className="font-semibold">R$150/mês</span></p>
+                   <p>Taxa de Adesão e Suporte Inicial: <span className="font-semibold">R$99</span></p>
                 </div>
                 <div className="pt-4 border-t border-gray-100 mt-6">
                   <ul className="space-y-3 text-gray-600">
@@ -105,7 +106,8 @@ const PricingSection = () => {
                   </div>
                 </div>
                 <div className="text-gray-500 text-sm mt-2">
-                  <p>No lançamento oficial, em 2026: <span className="font-semibold">R$190/mês</span></p>
+                   <p>Após lançamento oficial em 2026: <span className="font-semibold">R$190/mês</span></p>
+                   <p>Taxa de Adesão e Suporte Inicial: <span className="font-semibold">R$99</span></p>
                 </div>
                 <div className="pt-4 border-t border-gray-100 mt-6">
                   <ul className="space-y-3 text-gray-600">
