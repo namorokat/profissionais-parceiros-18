@@ -74,6 +74,14 @@ const ContactSection = () => {
                   O número de parceiros que teremos inicialmente é muito pequeno e não abriremos novas vagas até Julho de 2027.
                 </AccordionContent>
               </AccordionItem>
+
+                <AccordionItem value="item-5">
+                <AccordionTrigger className="text-left text-base font-medium">Quem se qualifica?</AccordionTrigger>
+                <AccordionContent className="text-gray-600">
+                  Qualquer profissional católico, sem necessidade ser pessoa jurídica, mas que possa comprovar sua capacidade e qualificações de acordo com os
+                  serviços que oferece.
+                </AccordionContent>
+              </AccordionItem>
               
               <AccordionItem value="item-2">
                 <AccordionTrigger className="text-left text-base font-medium">Como os membros poderão fazer contato comigo?</AccordionTrigger>
@@ -96,14 +104,7 @@ const ContactSection = () => {
                 <AccordionContent className="text-gray-600">
                   Não, pois acreditamos que retemos parceiros pelos resultados e não por contratos.  O contrato é apenas para esclarecimento dos termos e segurança entre as partes.
                 </AccordionContent>
-              </AccordionItem>
-              
-              <AccordionItem value="item-5">
-                <AccordionTrigger className="text-left text-base font-medium">Teremos Apps?</AccordionTrigger>
-                <AccordionContent className="text-gray-600">
-                  A plataforma está bem adaptada para smartphones e com uma interface que simula um app. Mas sim, planejamos desenvolver apps nativos também.
-                </AccordionContent>
-              </AccordionItem>
+              </AccordionItem>            
 
               <AccordionItem value="item-6">
                 <AccordionTrigger className="text-left text-base font-medium">Qual deve ser a minha expectativa?</AccordionTrigger>
