@@ -61,7 +61,7 @@ const UrgencySection = () => {
             </div>
             
             <Button 
-              className="bg-purple-500 hover:bg-purple-600 text-white px-6 py-6 text-lg flex items-center gap-2"
+              className="bg-purple-900 hover:bg-purple-600 text-white px-6 py-6 text-lg flex items-center gap-2"
               onClick={() => window.open(whatsappLink, '_blank')}
             >
               Garanta sua Vaga
