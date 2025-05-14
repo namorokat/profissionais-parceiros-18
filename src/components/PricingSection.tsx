@@ -75,7 +75,15 @@ const PricingSection = () => {
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
                       </div>                      
-                      Mensalidade Zero após 2 anos
+                      Grupo seleto de parceiros
+                    </li>
+                     <li className="flex items-center">
+                      <div className="h-5 w-5 rounded-full bg-divino-gold/10 text-divino-gold flex items-center justify-center mr-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                        </svg>
+                      </div>
+                       Consultoria bônus
                     </li>
                   </ul>
                 </div>
@@ -144,8 +152,16 @@ const PricingSection = () => {
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
                       </div>
-                      Mensalidade zero após 2 anos
+                       Grupo seleto de parceiros
                     </li>
+                    <li className="flex items-center">
+                      <div className="h-5 w-5 rounded-full bg-divino-gold/10 text-divino-gold flex items-center justify-center mr-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3" viewBox="0 0 20 20" fill="currentColor">
+                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                        </svg>
+                      </div>
+                       Consultoria bônus
+                    </li>                    
                   </ul>
                 </div>
               </div>
