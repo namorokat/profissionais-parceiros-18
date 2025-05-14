@@ -7,13 +7,13 @@ const features = [
   {
     id: 1,
     name: "Conexão Natural",
-    description: "Ao oferecer um espaço para múltiplas interações, a rede atrai diversos católicos que encontrarão sua página e conteúdo de forma mais orgânica — como pede o marketing moderno. Isso fortalece o engajamento e amplia o alcance de suas ações.",
+    description: "Ao oferecer um espaço para múltiplas interações, a rede atrai diversos católicos que encontrarão sua página e conteúdo de forma mais orgânica — como pede o marketing moderno. Isso estimula o engajamento, fortalecendo a sua marca e o alcance de suas ações.",
     icon: <Users className="h-10 w-10 text-white" />
   },
   {
     id: 2,
     name: "Construa Fidelidade",
-    description: "Sua Página ficará em um espaço exclusivo e aproveitará a frequência das visitas dos membros. Afinal, quem não gosta de achar tudo de bom e católico num só lugar? Nós estaremos ao seu lado para ter mais acessos, mais fidelização, e mais negócios. 🤩",
+    description: "Sua Página ficará em um espaço exclusivo e aproveitará a frequência das visitas dos membros. Afinal, quem não gosta de achar tudo de bom e católico num só lugar? Nós estaremos ao seu lado para que a sua página tenha mais acessos, mais fidelização, e mais negócios. 🤩",
     icon: <RefreshCw className="h-10 w-10 text-white" />
   },
   {
