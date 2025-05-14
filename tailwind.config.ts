@@ -30,7 +30,7 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				divino: {
-					purple: '#9b87f5',
+					purple: '#7E69AB',  // Changed to darker purple
 					gold: '#d4af37',
 					cream: '#f8f4e3',
 					burgundy: '#800020',

@@ -72,12 +72,9 @@ const Hero = () => {
             
             <p className="text-lg md:text-xl text-gray-600 max-w-lg text-left">A Católicos Online é a mais nova — e única — rede social feita para católicos, com um hub exclusivo para promover profissionais que vivem a fé. Garanta sua adesão e aproveite os benefícios de ser um dos seletos parceiros da rede.</p>
             <div className="flex flex-col sm:flex-row gap-4 pt-2 md:pt-4 items-center justify-center md:justify-start">
-              <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-6 text-lg flex items-center gap-1" onClick={scrollToPricing}>
+              <Button className="bg-divino-gold hover:bg-divino-gold/90 text-white px-6 py-6 text-lg flex items-center gap-1" onClick={scrollToPricing}>
                 Garanta seu Lugar
                 <ExternalLink size={16} />
-              </Button>
-              <Button variant="outline" className="border-divino-purple text-divino-purple hover:bg-divino-purple/10 px-6 py-6 text-lg" onClick={() => window.open('https://catolicos.online/pages/DrFranchesco', '_blank')}>
-                Veja uma página-exemplo <ExternalLink size={16} className="ml-1" />
               </Button>
             </div>
           </div>

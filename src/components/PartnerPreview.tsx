@@ -70,12 +70,21 @@ const PartnerPreview = () => {
           </div>
         </div>
         
-        <div className="mt-12 text-center">
+        <div className="mt-12 text-center flex flex-col md:flex-row gap-4 justify-center">
           <Button 
             className="bg-divino-gold hover:bg-divino-gold/90 text-white px-6 py-6 text-lg static items-center gap-2"
             onClick={() => window.open(whatsappLink, '_blank')}
           >
             Converse com a gente
+            <ExternalLink size={16} />
+          </Button>
+          
+          <Button 
+            variant="outline" 
+            className="border-divino-purple text-divino-purple hover:bg-divino-purple/10 px-6 py-6 text-lg" 
+            onClick={() => window.open('https://catolicos.online/pages/DrFranchesco', '_blank')}
+          >
+            Veja uma página-exemplo 
             <ExternalLink size={16} />
           </Button>
         </div>
