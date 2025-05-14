@@ -19,13 +19,15 @@ const features = [
   {
     id: 3,
     name: "Exclusividade",
-    description: "Parceiros-Embaixadores terão 2 anos de exclusividade. Valorizamos quem reconhece o potencial da rede desde o início. Após isso, novos parceiros dependerão do equilíbrio entre oferta e demanda.",
+    description: "Com um número limitado de apenas 20 parceiros, você garante exclusividade até que a rede atinja 30 mil membros. 
+      Após esse marco, novas parcerias serão avaliadas com base no equilíbrio entre oferta e demanda, preservando o potencial de retorno para todos.",
     icon: <Crown className="h-10 w-10 text-white" />
   },
   {
     id: 4,
-    name: "Mensalidade Zero",
-    description: "Se já não bastasse a exclusividade, que tal ainda zerar sua mensalidade a partir de Julho de 2027? Voe ainda mais alto aproveitando o fluxo de católicos sem maiores investimentos. Sua fidelidade recompensada!",
+    name: "Mais Benefícios",
+    description: "Ao se tornar nosso parceiro, você recebe uma análise do seu posicionamento digital e do potencial de mercado do seu segmento, 
+      com ações práticas para crescer no Google. Ao contratar nossa agência, ainda conta com descontos e condições especiais.",
     icon: <Rocket className="h-10 w-10 text-white" />
   }
 ];
