@@ -19,15 +19,13 @@ const features = [
   {
     id: 3,
     name: "Exclusividade",
-    description: "Com um número limitado de apenas 20 parceiros, você garante exclusividade até que a rede atinja 30 mil membros. 
-      Após esse marco, novas parcerias serão avaliadas com base no equilíbrio entre oferta e demanda, preservando o potencial de retorno para todos.",
+    description: "Com um número limitado de apenas 20 parceiros, você garante exclusividade até que a rede atinja 30 mil membros. Após esse marco, novas parcerias serão avaliadas com base no equilíbrio entre oferta e demanda, preservando o potencial de retorno para todos.",
     icon: <Crown className="h-10 w-10 text-white" />
   },
   {
     id: 4,
     name: "Mais Benefícios",
-    description: "Ao se tornar nosso parceiro, você recebe uma análise do seu posicionamento digital e do potencial de mercado do seu segmento, 
-      com ações práticas para crescer no Google. Ao contratar nossa agência, ainda conta com descontos e condições especiais.",
+    description: "Ao se tornar nosso parceiro, você recebe uma análise do seu posicionamento digital e do potencial de mercado do seu segmento, com ações práticas para crescer no Google. Ao contratar nossa agência, ainda conta com descontos e condições especiais.",
     icon: <Rocket className="h-10 w-10 text-white" />
   }
 ];
