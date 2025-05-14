@@ -46,7 +46,7 @@ const UrgencySection = () => {
             )}
             
             <p className="text-lg mb-6 text-gray-700">
-              Existem milhares de profissionais católicos no Brasil, mas não queremos ser um espoaço onde só aparece quem paga caro por propaganda.              
+              Existem milhares de profissionais católicos no Brasil, mas não queremos ser um espaço onde só aparece quem paga caro por propaganda.              
             </p>
             
             <p className="text-lg mb-8 text-gray-700">
