@@ -20,7 +20,7 @@ const Hero = () => {
             <div className="mb-2 md:mb-6 inline-block">
               <div className="flex items-center space-x-2 bg-divino-purple/10 text-divino-purple rounded-full px-4 py-1 text-sm font-medium mb-2 md:mb-4">
                 <Church size={14} />
-                <span className="">Dedicamos a Católicos Online a Nossa Senhora de Fátima! </span>
+                <span className=""> A rede Católicos Online é dedicada a Nossa Senhora de Fátima! Salve a Rainha! </span>
               </div>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight font-playfair mx-auto md:mx-0 text-left w-[105%] md:w-full">
