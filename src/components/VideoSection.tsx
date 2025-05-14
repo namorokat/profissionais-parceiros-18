@@ -1,10 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { Video } from "lucide-react";
-
 const VideoSection = () => {
-  return (
-    <section id="video" className="py-16 md:py-24 bg-white">
+  return <section id="video" className="py-16 md:py-24 bg-white">
       <div className="container">
         <div className="space-y-4">
           {/* Title section - always at the top */}
@@ -50,8 +47,6 @@ const VideoSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default VideoSection;
