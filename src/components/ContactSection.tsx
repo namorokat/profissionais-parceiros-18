@@ -71,7 +71,7 @@ const ContactSection = () => {
               <AccordionItem value="item-1">
                 <AccordionTrigger className="text-left text-base font-medium">Por que eu deveria aderir agora?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  O número de parceiros que teremos inicialmente é muito pequeno e não abriremos novas vagas até Julho de 2027.
+                  O número de parceiros que teremos inicialmente é muito pequeno e não abriremos novas vagas até a rede alcançar 30 mil membros. E, ainda assim, não será garantia de ter espaço na rede, pois não temos preocupação com quantidade, mas com os resultados.
                 </AccordionContent>
               </AccordionItem>
 
