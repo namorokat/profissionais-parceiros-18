@@ -105,7 +105,7 @@ const PricingSection = () => {
             </div>
             <CardHeader className="bg-gradient-to-b from-divino-cream to-white text-center">
               <CardTitle className="text-2xl font-playfair">Lote II</CardTitle>
-              <CardDescription>Este plano será disponibilizado após expirar as vagas promocionais.</CardDescription>
+              <CardDescription>Este plano será disponibilizado após expirar as vagas do lote I.</CardDescription>
             </CardHeader>
             <CardContent className="pt-6">
               <div className="text-center space-y-4">
