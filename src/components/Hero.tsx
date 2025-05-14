@@ -8,6 +8,14 @@ const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const isMobile = useIsMobile();
   const whatsappLink = "http://wa.me/5501152866640";
+  
+  const scrollToPricing = () => {
+    const pricingSection = document.getElementById('pricing');
+    if (pricingSection) {
+      pricingSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return <section className="relative overflow-hidden bg-gradient-to-br from-divino-cream to-white py-8 md:py-24">
       <div className="absolute inset-0 overflow-hidden opacity-10">
         <div className="absolute left-0 top-0 h-96 w-96 rounded-full bg-divino-purple blur-3xl"></div>
@@ -64,7 +72,7 @@ const Hero = () => {
             
             <p className="text-lg md:text-xl text-gray-600 max-w-lg text-left">A Católicos Online é a mais nova — e única — rede social feita para católicos, com um hub exclusivo para promover profissionais que vivem a fé. Garanta sua adesão e aproveite os benefícios de ser um dos seletos parceiros da rede.</p>
             <div className="flex flex-col sm:flex-row gap-4 pt-2 md:pt-4 items-center justify-center md:justify-start">
-              <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-6 text-lg flex items-center gap-1" onClick={() => window.open(whatsappLink, '_blank')}>
+              <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-6 text-lg flex items-center gap-1" onClick={scrollToPricing}>
                 Garanta seu Lugar
                 <ExternalLink size={16} />
               </Button>
