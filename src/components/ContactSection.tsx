@@ -78,16 +78,14 @@ const ContactSection = () => {
                 <AccordionItem value="item-5">
                 <AccordionTrigger className="text-left text-base font-medium">Quem se qualifica?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  Empresas e profissionais católicos, sem necessidade de ser pessoa jurídica, mas que possa comprovar sua capacidade e qualificações de acordo com os
-                  serviços que oferece. Nos reservamos o direito de analisar cada candidado segundo nossos critérios internos.
+                  Empresas e profissionais católicos, sem necessidade de serem pessoas jurídicas, mas que possam comprovar sua capacidade e qualificações de acordo com os serviços que oferecem. Reservamo-nos o direito de analisar cada candidato segundo nossos critérios internos.
                 </AccordionContent>
               </AccordionItem>
               
               <AccordionItem value="item-2">
                 <AccordionTrigger className="text-left text-base font-medium">Como os membros poderão fazer contato comigo?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  Você poderá linkar para o seu perfil pessoal dentro da rede, que permite chat em tempo real. Poderá ainda listar os links para os seus outros
-                  canais fora da rede e, futuramente, os membros poderão também contactar você diretamente pelo chat em sua página. Ah, e claro, eles podem intereagir com você em seus posts! 
+                  Você poderá adicionar um link para o seu perfil pessoal na rede, que conta com chat em tempo real. Também será possível listar seus outros canais externos. Em breve, os membros poderão entrar em contato diretamente com você pelo chat na sua própria página. 
                 </AccordionContent>
               </AccordionItem>
               
