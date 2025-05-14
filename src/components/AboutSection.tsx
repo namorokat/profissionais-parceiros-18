@@ -15,7 +15,7 @@ const AboutSection = () => {
             Os <span className="text-divino-purple">Fundadores</span> da Católicos Online
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-left">
-            Com quase de 20 anos de experiência no setor de tecnologia, os irmãos e sócios Jones e Jener alcançaram o ponto alto de suas trajetórias com o lançamento da Duobro, 
+            Com quase 20 anos de experiência no setor de tecnologia, os irmãos e sócios Jones e Jener alcançaram o ponto alto de suas trajetórias com o lançamento da Duobro, 
             empresa pela qual desenvolveram aplicações que movimentaram mais de 250 milhões de reais nos últimos anos. 
             Movidos pelo amor às coisas de Deus, agora se dedicam a um novo desafio: criar um projeto inovador voltado para o e-commerce católico.
           </p>
