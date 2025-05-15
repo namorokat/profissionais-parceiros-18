@@ -61,18 +61,13 @@ const UrgencySection = () => {
             </div>
             
             <Button 
-              className="bg-purple-900 hover:bg-purple-600 text-white px-6 py-6 text-lg flex items-center gap-2"
+              className="bg-purple-200 hover:bg-purple-600 text-white px-6 py-6 text-lg flex items-center gap-2"
               onClick={() => window.open(whatsappLink, '_blank')}
             >
               Garanta sua Vaga
               <ExternalLink size={16} />
             </Button>                  
-          </div>
-           <div className="mt-5">
-                <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-2">
-                  Não hesite, estamos no WhatsApp!
-                </Button>
-              </div>
+          </div>          
         </div>
       </div>
     </div>
