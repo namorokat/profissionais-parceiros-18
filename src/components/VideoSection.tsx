@@ -30,14 +30,12 @@ const VideoSection = () => {
                 Digite "Namoro Católico" no Google. O primeiro resultado é fruto do trabalho da nossa agência. O mesmo estamos aplicando na Católicos Online, com centenas (ou milhares) de palavras-chave mapeadas para ranquear no topo e atrair o público certo.</p>
               <p className="text-lg text-gray-600">
               Em poucos meses, os resultados já começarão a aparecer. E desde já, contamos com o tráfego e a autoridade do Namoro Católico para impulsionar acessos à nova rede.
-
-
               </p>
               
               <div className="mt-5">
-                <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-2">
-                  Não hesite, estamos no WhatsApp!
-                </Button>
+               <Button className="bg-purple-900 hover:bg-purple-800 text-white px-6 py-4 text-base rounded-lg">
+  Não hesite, estamos no WhatsApp!
+</Button>
               </div>
             </div>
             
