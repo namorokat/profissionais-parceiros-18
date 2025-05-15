@@ -66,7 +66,7 @@ const UrgencySection = () => {
             >
               Garanta sua Vaga
               <ExternalLink size={16} />
-            </Button                  
+            </Button>                  
           </div>
         </div>
       </div>
