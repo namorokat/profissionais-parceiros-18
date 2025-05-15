@@ -85,7 +85,7 @@ const ContactSection = () => {
               <AccordionItem value="item-2">
                 <AccordionTrigger className="text-left text-base font-medium">Como os membros poderão fazer contato comigo?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                  Você poderá adicionar um link para o seu perfil pessoal na rede, que conta com chat em tempo real. Também será possível listar seus outros canais externos. Em breve, os membros poderão entrar em contato diretamente com você pelo chat na sua própria página. 
+                  Você poderá adicionar um link para o seu perfil pessoal na rede, que conta com chat em tempo real. Também será possível listar seus outros canais externos. Já está em nossa lista de desenvolvimento a opção de contato direto com a página do parceiro dentro da rede. 
                 </AccordionContent>
               </AccordionItem>
               
