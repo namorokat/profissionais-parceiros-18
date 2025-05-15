@@ -68,6 +68,11 @@ const UrgencySection = () => {
               <ExternalLink size={16} />
             </Button>                  
           </div>
+           <div className="mt-5">
+                <Button className="bg-divino-purple hover:bg-divino-purple/90 text-white px-6 py-2">
+                  Não hesite, estamos no WhatsApp!
+                </Button>
+              </div>
         </div>
       </div>
     </div>
