@@ -6,7 +6,7 @@ import { Book, Church, Handshake, MessageSquare, HelpCircle, ExternalLink } from
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const ContactSection = () => {
-  const whatsappLink = "http://wa.me/5501152866640";
+  const whatsappLink = "https://2ly.link/27Dwz";
   
   return <section id="contact" className="py-16 md:py-24 bg-divino-light/30 relative overflow-hidden">
       <div className="absolute inset-0 overflow-hidden opacity-10">
