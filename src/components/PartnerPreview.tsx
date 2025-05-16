@@ -76,7 +76,7 @@ const PartnerPreview = () => {
             className="border-divino-purple text-divino-purple hover:bg-divino-purple/10 px-6 py-6 text-lg" 
             onClick={() => window.open('https://2ly.link/27Dkt', '_blank')}
           >
-            Veja uma página-exemplo 
+            Veja esta página na rede 
             <ExternalLink size={16} />
           </Button>
         </div>
