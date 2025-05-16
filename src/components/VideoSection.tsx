@@ -17,8 +17,13 @@ const VideoSection = () => {
             </h2>
           </div>
           
-          {/* Image - shows below title on mobile, to the right on desktop */}
+          {/* Mobile view images - stacked */}
           <div className="md:hidden relative rounded-2xl overflow-hidden shadow-xl aspect-video">
+            {/* Google SEO logo on top */}
+            <div className="absolute top-0 left-0 w-full z-10 p-4 bg-white bg-opacity-80">
+              <img alt="Google SEO" src="/lovable-uploads/8ac20702-bfd5-4647-bb59-35e5a772ec78.png" className="h-12 object-contain mx-auto" />
+            </div>
+            {/* Original image below */}
             <img alt="Posicionamento Google" src="/lovable-uploads/336d62ea-22aa-46a1-9a12-7c6748232b7e.png" className="w-full h-full object-contain" />
           </div>
           
@@ -39,8 +44,13 @@ const VideoSection = () => {
               </div>
             </div>
             
-            {/* Image - only shown on desktop */}
+            {/* Desktop view - image with SEO logo overlay */}
             <div className="hidden md:block relative rounded-2xl overflow-hidden shadow-xl aspect-video">
+              {/* Google SEO logo on top */}
+              <div className="absolute top-0 left-0 w-full z-10 p-6 bg-white bg-opacity-70">
+                <img alt="Google SEO" src="/lovable-uploads/8ac20702-bfd5-4647-bb59-35e5a772ec78.png" className="h-16 object-contain mx-auto" />
+              </div>
+              {/* Original image below */}
               <img alt="Posicionamento Google" src="/lovable-uploads/336d62ea-22aa-46a1-9a12-7c6748232b7e.png" className="w-full h-full object-contain" />
             </div>
           </div>
