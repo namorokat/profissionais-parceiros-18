@@ -21,6 +21,7 @@ export default {
 		extend: {
 			fontFamily: {
 				'playfair': ['"Playfair Display"', 'serif'],
+				'roboto': ['Roboto', 'sans-serif'],
 				'lato': ['Lato', 'sans-serif'],
 			},
 			colors: {
