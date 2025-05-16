@@ -106,7 +106,7 @@ const ContactSection = () => {
               <AccordionItem value="item-6">
                 <AccordionTrigger className="text-left text-base font-medium">Qual deve ser a minha expectativa?</AccordionTrigger>
                 <AccordionContent className="text-gray-600">
-                 Como todo projeto recém-lançado, a rede terá uma curva natural até ganhar tração. Já contamos com um fluxo inicial que será direcionado (3000 visitas/mês), mas o tráfego mais robusto virá do nosso trabalho técnico de SEO (Search Engine Optimization), com efeitos visíveis em cerca de 6 meses. 
+                 Como todo projeto recém-lançado, a rede terá uma curva natural até ganhar tração. Já contamos com um fluxo inicial que será direcionado (5000 visitas/mês), mas o tráfego mais robusto virá do nosso trabalho técnico de SEO (Search Engine Optimization), com efeitos visíveis em cerca de 6 meses. 
                   Como as expectativas variam entre pessoas e profissões, sugerimos participar apenas se estiver disposto a crescer junto com a rede, sem esperar resultados imediatos.
               
                 </AccordionContent>
